@@ -1,0 +1,209 @@
+<!--
+Authors: Reha Sreekumar, Srisha Satish Kanna and Ramaguru Radhakrishnan
+Description: Anokha TechFair & Exhibitions 2026 – Individual Team Page
+Created Date: 01st January 2026
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ATFE26-ST42 | Anokha TechFair 2026</title>
+
+  <style>
+    :root {
+      --accent1: #6b8cff;
+      --accent2: #8b5cf6;
+      --text-dark: #27374d;
+      --text-main: #1f2937;
+      --border: #e5e7eb;
+      --card-bg: #ffffff;
+    }
+
+    body {
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background: linear-gradient(135deg, #eef2ff, #f8fafc);
+      margin: 0;
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .site-header {
+      text-align: center;
+      padding: 40px 20px;
+      background: white;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      margin-bottom: 35px;
+    }
+
+    .site-header h1 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      margin: 0;
+      background: linear-gradient(to right, var(--text-dark), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .tagline {
+      margin-top: 10px;
+      font-size: 1rem;
+      opacity: 0.7;
+      font-weight: 500;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      padding-bottom: 60px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 24px 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 6px 28px rgba(0, 0, 0, 0.06);
+    }
+
+    .card h3 {
+      margin: 0 0 12px;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--text-dark);
+    }
+
+    .card p,
+    .card li {
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 5px 12px;
+      border-radius: 12px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: #eef2ff;
+      color: var(--accent2);
+      margin-right: 6px;
+    }
+
+    .link-btn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 8px 16px;
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      color: white;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      margin-right: 10px;
+      margin-top: 6px;
+      transition: 0.3s ease;
+    }
+
+    .link-btn:hover {
+      filter: brightness(1.1);
+      transform: translateY(-2px);
+    }
+
+    footer.footer {
+      text-align: center;
+      padding: 20px;
+      background: white;
+      border-top: 2px solid rgba(0, 0, 0, 0.05);
+      font-size: 0.85rem;
+      font-weight: 500;
+      opacity: 0.8;
+      margin-top: auto;
+    }
+
+    @media (max-width: 600px) {
+      .site-header h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <h1>ATFE26-ST42 – Smart Traffic Control System</h1>
+    <p class="tagline">Department of Computer Science & Engineering</p>
+  </header>
+
+  <main class="container">
+
+    <section class="card">
+      <h3>Team Information</h3>
+      <div class="info-grid">
+        <p><strong>Team Name:</strong> IntelliFlow</p>
+        <p><strong>Stall Number:</strong> S01</p>
+        <p><strong>Faculty Mentor:</strong> Dr. ABC XYZ</p>
+        <p><strong>Department:</strong> CSE</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Project Description</h3>
+      <p>
+        This project proposes an AI-driven smart traffic control system that dynamically
+        adjusts traffic signals based on real-time congestion data using computer vision
+        and IoT sensors to reduce waiting time and emissions.
+      </p>
+    </section>
+
+    <section class="card">
+      <h3>Team Mates</h3>
+      <ul>
+        <li>Student 1 – CSE</li>
+        <li>Student 2 – CSE</li>
+        <li>Student 3 – CSE</li>
+        <li>Student 4 – CSE</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Innovation & Maturity Levels</h3>
+      <p>
+        <span class="badge">SDG 9</span>
+        <span class="badge">SDG 11</span>
+      </p>
+      <p style="margin-top:10px;">
+        <strong>TRL:</strong> 5 &nbsp;&nbsp;
+        <strong>IRL:</strong> 4 &nbsp;&nbsp;
+        <strong>MRL:</strong> 3
+      </p>
+    </section>
+
+    <section class="card">
+      <h3>Resources & Links</h3>
+      <a href="#" class="link-btn">📄 Poster</a>
+      <a href="#" class="link-btn">💻 GitHub</a>
+      <a href="#" class="link-btn">🌐 Social Media</a>
+      <a href="#" class="link-btn">📝 Feedback</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    © 2026 Institution's Innovation Council (IIC) & Anokha TechFair & Exhibitions. All Rights Reserved.
+  </footer>
+
+</body>
+
+</html>
