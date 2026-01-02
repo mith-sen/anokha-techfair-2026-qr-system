@@ -1,7 +1,8 @@
 <!--
 Authors: Reha Sreekumar, Srisha Satish Kanna and Ramaguru Radhakrishnan
-Description: Anokha TechFair & Exhibitions 2026 – Individual Team Page
+Description: Anokha TechFair & Exhibitions 2026 – Individual Team Page with Firestore Feedback
 Created Date: 01st January 2026
+Modified: Added star rating and email uniqueness validation
 -->
 
 <!DOCTYPE html>
@@ -10,9 +11,7 @@ Created Date: 01st January 2026
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>>ATFE26-HT02 | Anokha TechFair 2026</title>
-
+  <title>ATFE26-HT02| Anokha TechFair 2026</title>
 
   <style>
     :root {
@@ -122,6 +121,126 @@ Created Date: 01st January 2026
       transform: translateY(-2px);
     }
 
+    .feedback-form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group label {
+      font-weight: 600;
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+      color: var(--text-dark);
+    }
+
+    .form-group input,
+    .form-group textarea {
+      padding: 12px;
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-family: inherit;
+      transition: border-color 0.3s;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--accent1);
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+
+    /* Star Rating Styles */
+    .star-rating {
+      display: flex;
+      gap: 8px;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      font-size: 2rem;
+    }
+
+    .star-rating input {
+      display: none;
+    }
+
+    .star-rating label {
+      cursor: pointer;
+      color: #d1d5db;
+      transition: color 0.2s ease;
+    }
+
+    .star-rating label:hover,
+    .star-rating label:hover~label {
+      color: #fbbf24;
+    }
+
+    .star-rating input:checked~label {
+      color: #fbbf24;
+    }
+
+    .rating-value {
+      margin-top: 8px;
+      font-size: 0.85rem;
+      color: var(--accent2);
+      font-weight: 600;
+    }
+
+    .submit-btn {
+      padding: 12px 24px;
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      color: white;
+      border: none;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .submit-btn:hover:not(:disabled) {
+      filter: brightness(1.1);
+      transform: translateY(-2px);
+    }
+
+    .submit-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .message {
+      padding: 12px 16px;
+      border-radius: 10px;
+      margin-bottom: 16px;
+      font-weight: 500;
+      display: none;
+    }
+
+    .message.success {
+      background: #d1fae5;
+      color: #065f46;
+      border: 2px solid #10b981;
+    }
+
+    .message.error {
+      background: #fee2e2;
+      color: #991b1b;
+      border: 2px solid #ef4444;
+    }
+
+    .message.show {
+      display: block;
+    }
+
     footer.footer {
       text-align: center;
       padding: 20px;
@@ -144,7 +263,7 @@ Created Date: 01st January 2026
 <body>
 
   <header class="site-header">
-    <h1>ATFE26-HT02 – Smart Traffic Control System</h1>
+    <h1>ATFE26-HT02– Smart Traffic Control System</h1>
     <p class="tagline">Department of Computer Science & Engineering</p>
   </header>
 
@@ -197,7 +316,41 @@ Created Date: 01st January 2026
       <a href="#" class="link-btn">📄 Poster</a>
       <a href="#" class="link-btn">💻 GitHub</a>
       <a href="#" class="link-btn">🌐 Social Media</a>
-      <a href="#" class="link-btn">📝 Feedback</a>
+    </section>
+
+    <section class="card">
+      <h3>📝 Share Your Feedback</h3>
+      <div id="message" class="message"></div>
+      <form id="feedbackForm" class="feedback-form">
+        <div class="form-group">
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+        </div>
+
+        <div class="form-group">
+          <label>Rating *</label>
+          <div class="star-rating">
+            <input type="radio" id="star5" name="rating" value="5" required />
+            <label for="star5">★</label>
+            <input type="radio" id="star4" name="rating" value="4" />
+            <label for="star4">★</label>
+            <input type="radio" id="star3" name="rating" value="3" />
+            <label for="star3">★</label>
+            <input type="radio" id="star2" name="rating" value="2" />
+            <label for="star2">★</label>
+            <input type="radio" id="star1" name="rating" value="1" />
+            <label for="star1">★</label>
+          </div>
+          <div class="rating-value" id="ratingValue"></div>
+        </div>
+
+        <div class="form-group">
+          <label for="feedback">Feedback *</label>
+          <textarea id="feedback" name="feedback" required
+            placeholder="Share your thoughts about this project..."></textarea>
+        </div>
+        <button type="submit" class="submit-btn" id="submitBtn">Submit Feedback</button>
+      </form>
     </section>
 
   </main>
@@ -205,6 +358,121 @@ Created Date: 01st January 2026
   <footer class="footer">
     © 2026 Institution's Innovation Council (IIC) & Anokha TechFair & Exhibitions. All Rights Reserved.
   </footer>
+
+  <!-- Firebase SDK -->
+  <script type="module">
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+    import { getFirestore, collection, addDoc, query, where, getDocs, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+
+    // Firebase config
+    const firebaseConfig = {
+      apiKey: "AIzaSyCOaBiBOWhxuhalFXqTVwZgMD7ScyM342E",
+      authDomain: "anokha-techfair-2026-qr.firebaseapp.com",
+      projectId: "anokha-techfair-2026-qr",
+      storageBucket: "anokha-techfair-2026-qr.firebasestorage.app",
+      messagingSenderId: "223357261790",
+      appId: "1:223357261790:web:b43b76b11a9b0984416f4f"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+
+    // Unique identifier for this page
+    const PAGE_ID = "ATFE26-HT02";
+
+    // Get form elements
+    const form = document.getElementById('feedbackForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const messageDiv = document.getElementById('message');
+    const ratingInputs = document.querySelectorAll('input[name="rating"]');
+    const ratingValueDiv = document.getElementById('ratingValue');
+
+    // Show rating value when selected
+    ratingInputs.forEach(input => {
+      input.addEventListener('change', (e) => {
+        const value = e.target.value;
+        ratingValueDiv.textContent = `You selected ${value} star${value > 1 ? 's' : ''}`;
+      });
+    });
+
+    // Show message function
+    function showMessage(text, type) {
+      messageDiv.textContent = text;
+      messageDiv.className = `message ${type} show`;
+      setTimeout(() => {
+        messageDiv.classList.remove('show');
+      }, 5000);
+    }
+
+    // Check if email already exists
+    async function checkEmailExists(email) {
+      const feedbackRef = collection(db, 'websites', PAGE_ID, 'feedback');
+      const q = query(feedbackRef, where('email', '==', email));
+      const querySnapshot = await getDocs(q);
+      return !querySnapshot.empty;
+    }
+
+    // Handle form submission
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      // Disable submit button
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Submitting...';
+
+      // Get form data
+      const email = document.getElementById('email').value.trim().toLowerCase();
+      const rating = document.querySelector('input[name="rating"]:checked')?.value;
+      const feedback = document.getElementById('feedback').value.trim();
+
+      // Validate rating
+      if (!rating) {
+        showMessage('⚠️ Please select a rating before submitting.', 'error');
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Feedback';
+        return;
+      }
+
+      try {
+        // Check if email already exists
+        const emailExists = await checkEmailExists(email);
+
+        if (emailExists) {
+          showMessage('⚠️ This email has already submitted feedback for this project.', 'error');
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Submit Feedback';
+          return;
+        }
+
+        // Prepare data
+        const formData = {
+          pageId: PAGE_ID,
+          email: email,
+          rating: parseInt(rating),
+          feedback: feedback,
+          timestamp: serverTimestamp()
+        };
+
+        // Add document to Firestore
+        await addDoc(collection(db, 'websites', PAGE_ID, 'feedback'), formData);
+
+        // Show success message
+        showMessage('✅ Thank you! Your feedback has been submitted successfully.', 'success');
+
+        // Reset form
+        form.reset();
+        ratingValueDiv.textContent = '';
+      } catch (error) {
+        console.error('Error submitting feedback:', error);
+        showMessage('❌ Sorry, there was an error submitting your feedback. Please try again.', 'error');
+      } finally {
+        // Re-enable submit button
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Feedback';
+      }
+    });
+  </script>
 
 </body>
 
