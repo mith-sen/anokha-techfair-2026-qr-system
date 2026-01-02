@@ -362,7 +362,7 @@ Modified: Added star rating and email uniqueness validation
   <!-- Firebase SDK -->
   <script type="module">
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
-    import { getFirestore, collection, addDoc, query, where, getDocs, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+    import { getFirestore, doc, setDoc, getDoc, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
 
     // Firebase config
     const firebaseConfig = {
@@ -407,10 +407,9 @@ Modified: Added star rating and email uniqueness validation
 
     // Check if email already exists
     async function checkEmailExists(email) {
-      const feedbackRef = collection(db, 'websites', PAGE_ID, 'feedback');
-      const q = query(feedbackRef, where('email', '==', email));
-      const querySnapshot = await getDocs(q);
-      return !querySnapshot.empty;
+      const feedbackDocRef = doc(db, 'websites', PAGE_ID, 'feedback', email);
+      const docSnap = await getDoc(feedbackDocRef);
+      return docSnap.exists();
     }
 
     // Handle form submission
@@ -454,8 +453,9 @@ Modified: Added star rating and email uniqueness validation
           timestamp: serverTimestamp()
         };
 
-        // Add document to Firestore
-        await addDoc(collection(db, 'websites', PAGE_ID, 'feedback'), formData);
+        // Create document with email as the ID
+        const feedbackDocRef = doc(db, 'websites', PAGE_ID, 'feedback', email);
+        await setDoc(feedbackDocRef, formData);
 
         // Show success message
         showMessage('✅ Thank you! Your feedback has been submitted successfully.', 'success');
