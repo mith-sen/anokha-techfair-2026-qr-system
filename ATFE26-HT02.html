@@ -2,7 +2,7 @@
 Authors: Reha Sreekumar, Srisha Satish Kanna and Ramaguru Radhakrishnan
 Description: Anokha TechFair & Exhibitions 2026 – Individual Team Page with Firestore Feedback
 Created Date: 01st January 2026
-Modified: Added star rating and email uniqueness validation
+Modified: Added collapsible feedback button with star rating
 -->
 
 <!DOCTYPE html>
@@ -121,6 +121,55 @@ Modified: Added star rating and email uniqueness validation
       transform: translateY(-2px);
     }
 
+    /* Feedback Button Styles */
+    .feedback-toggle-btn {
+      width: 100%;
+      padding: 16px 24px;
+      background: linear-gradient(135deg, var(--accent1), var(--accent2));
+      color: white;
+      border: none;
+      border-radius: 16px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 6px 28px rgba(107, 140, 255, 0.3);
+    }
+
+    .feedback-toggle-btn:hover {
+      filter: brightness(1.1);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(107, 140, 255, 0.4);
+    }
+
+    .feedback-toggle-btn .arrow {
+      transition: transform 0.3s ease;
+      font-size: 1.2rem;
+    }
+
+    .feedback-toggle-btn.active .arrow {
+      transform: rotate(180deg);
+    }
+
+    /* Collapsible Feedback Form */
+    .feedback-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease;
+    }
+
+    .feedback-content.active {
+      max-height: 800px;
+    }
+
+    .feedback-inner {
+      padding-top: 24px;
+    }
+
     .feedback-form {
       display: flex;
       flex-direction: column;
@@ -163,10 +212,10 @@ Modified: Added star rating and email uniqueness validation
     /* Star Rating Styles */
     .star-rating {
       display: flex;
-      gap: 8px;
+      gap: 12px;
       flex-direction: row-reverse;
       justify-content: flex-end;
-      font-size: 2rem;
+      font-size: 3rem;
     }
 
     .star-rating input {
@@ -269,6 +318,50 @@ Modified: Added star rating and email uniqueness validation
 
   <main class="container">
 
+    <!-- Feedback Button Section -->
+    <section class="card">
+      <button class="feedback-toggle-btn" id="feedbackToggle">
+        Share Your Feedback
+        <span class="arrow">▼</span>
+      </button>
+
+      <div class="feedback-content" id="feedbackContent">
+        <div class="feedback-inner">
+          <div id="message" class="message"></div>
+          <form id="feedbackForm" class="feedback-form">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+            </div>
+
+            <div class="form-group">
+              <label>Rating *</label>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" required />
+                <label for="star5">★</label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4">★</label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3">★</label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2">★</label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1">★</label>
+              </div>
+              <div class="rating-value" id="ratingValue"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="feedback">Feedback</label>
+              <textarea id="feedback" name="feedback"
+                placeholder="Share your thoughts about this project..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn" id="submitBtn">Submit Feedback</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
     <section class="card">
       <h3>Team Information</h3>
       <div class="info-grid">
@@ -318,41 +411,6 @@ Modified: Added star rating and email uniqueness validation
       <a href="#" class="link-btn">🌐 Social Media</a>
     </section>
 
-    <section class="card">
-      <h3>📝 Share Your Feedback</h3>
-      <div id="message" class="message"></div>
-      <form id="feedbackForm" class="feedback-form">
-        <div class="form-group">
-          <label for="email">Email *</label>
-          <input type="email" id="email" name="email" required placeholder="your.email@example.com">
-        </div>
-
-        <div class="form-group">
-          <label>Rating *</label>
-          <div class="star-rating">
-            <input type="radio" id="star5" name="rating" value="5" required />
-            <label for="star5">★</label>
-            <input type="radio" id="star4" name="rating" value="4" />
-            <label for="star4">★</label>
-            <input type="radio" id="star3" name="rating" value="3" />
-            <label for="star3">★</label>
-            <input type="radio" id="star2" name="rating" value="2" />
-            <label for="star2">★</label>
-            <input type="radio" id="star1" name="rating" value="1" />
-            <label for="star1">★</label>
-          </div>
-          <div class="rating-value" id="ratingValue"></div>
-        </div>
-
-        <div class="form-group">
-          <label for="feedback">Feedback *</label>
-          <textarea id="feedback" name="feedback" required
-            placeholder="Share your thoughts about this project..."></textarea>
-        </div>
-        <button type="submit" class="submit-btn" id="submitBtn">Submit Feedback</button>
-      </form>
-    </section>
-
   </main>
 
   <footer class="footer">
@@ -387,6 +445,14 @@ Modified: Added star rating and email uniqueness validation
     const messageDiv = document.getElementById('message');
     const ratingInputs = document.querySelectorAll('input[name="rating"]');
     const ratingValueDiv = document.getElementById('ratingValue');
+    const feedbackToggle = document.getElementById('feedbackToggle');
+    const feedbackContent = document.getElementById('feedbackContent');
+
+    // Toggle feedback form
+    feedbackToggle.addEventListener('click', () => {
+      feedbackToggle.classList.toggle('active');
+      feedbackContent.classList.toggle('active');
+    });
 
     // Show rating value when selected
     ratingInputs.forEach(input => {
