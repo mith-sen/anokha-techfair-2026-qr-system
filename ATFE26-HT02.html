@@ -612,7 +612,40 @@ Modified: Added popup modal for feedback with larger stars
       }, 5000);
     }
 
-    // Check if email already exists
+    // Validate email domain
+    function isValidEmailDomain(email) {
+      // List of common valid email domains
+      const validDomains = [
+        'gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com',
+        'icloud.com', 'mail.com', 'protonmail.com', 'zoho.com',
+        'aol.com', 'yandex.com', 'gmx.com', 'live.com',
+        'msn.com', 'rediffmail.com', 'fastmail.com'
+      ];
+
+      const domain = email.split('@')[1]?.toLowerCase();
+
+      // Check if it's a known valid domain
+      if (validDomains.includes(domain)) {
+        return true;
+      }
+
+      // Check if it's an organizational/educational domain (.edu, .ac, .org, .gov)
+      if (domain && (domain.endsWith('.edu') || domain.endsWith('.ac.in') ||
+        domain.endsWith('.edu.in') || domain.endsWith('.org') ||
+        domain.endsWith('.gov') || domain.endsWith('.co.in'))) {
+        return true;
+      }
+
+      return false;
+    }
+
+    // Advanced email validation with regex
+    function isValidEmailFormat(email) {
+      const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+      return emailRegex.test(email);
+    }
+
+    // Check if email already submitted feedback
     async function checkEmailExists(email) {
       const feedbackDocRef = doc(db, 'websites', PAGE_ID, 'feedback', email);
       const docSnap = await getDoc(feedbackDocRef);
@@ -641,6 +674,22 @@ Modified: Added popup modal for feedback with larger stars
       }
 
       try {
+        // Validate email format
+        if (!isValidEmailFormat(email)) {
+          showMessage('⚠️ Please enter a valid email address.', 'error');
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Submit Feedback';
+          return;
+        }
+
+        // Validate email domain
+        if (!isValidEmailDomain(email)) {
+          showMessage('⚠️ Please use a valid email provider (Gmail, Yahoo, Outlook, etc.) or organizational email.', 'error');
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Submit Feedback';
+          return;
+        }
+
         // Check if email already exists
         const emailExists = await checkEmailExists(email);
 
