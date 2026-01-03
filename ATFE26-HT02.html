@@ -2,7 +2,7 @@
 Authors: Reha Sreekumar, Srisha Satish Kanna and Ramaguru Radhakrishnan
 Description: Anokha TechFair & Exhibitions 2026 – Individual Team Page with Firestore Feedback
 Created Date: 01st January 2026
-Modified: Added collapsible feedback button with star rating
+Modified: Added popup modal for feedback with larger stars
 -->
 
 <!DOCTYPE html>
@@ -15,8 +15,8 @@ Modified: Added collapsible feedback button with star rating
 
   <style>
     :root {
-      --accent1: #6b8cff;
-      --accent2: #8b5cf6;
+      --accent1: #10b981;
+      --accent2: #059669;
       --text-dark: #27374d;
       --text-main: #1f2937;
       --border: #e5e7eb;
@@ -39,15 +39,50 @@ Modified: Added collapsible feedback button with star rating
       background: white;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
       margin-bottom: 35px;
+      position: relative;
+    }
+
+    .header-logos {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 40px;
+      position: absolute;
+      top: 15px;
+      left: 0;
+      right: 0;
+      z-index: 10;
+    }
+
+    .logo {
+      width: 140px;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .logo-middle {
+      width: 140px;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .logo-right {
+      width: 180px;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .header-content {
+      padding-top: 100px;
     }
 
     .site-header h1 {
       font-size: 2.4rem;
       font-weight: 800;
       margin: 0;
-      background: linear-gradient(to right, var(--text-dark), var(--accent2));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+      color: #1e40af;
     }
 
     .tagline {
@@ -124,56 +159,106 @@ Modified: Added collapsible feedback button with star rating
     /* Feedback Button Styles */
     .feedback-toggle-btn {
       width: 100%;
-      padding: 16px 24px;
+      padding: 18px 24px;
       background: linear-gradient(135deg, var(--accent1), var(--accent2));
       color: white;
       border: none;
       border-radius: 16px;
       font-weight: 700;
-      font-size: 1.1rem;
+      font-size: 1.15rem;
       cursor: pointer;
       transition: 0.3s ease;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      box-shadow: 0 6px 28px rgba(107, 140, 255, 0.3);
+      box-shadow: 0 6px 28px rgba(16, 185, 129, 0.3);
     }
 
     .feedback-toggle-btn:hover {
       filter: brightness(1.1);
       transform: translateY(-2px);
-      box-shadow: 0 8px 32px rgba(107, 140, 255, 0.4);
+      box-shadow: 0 8px 32px rgba(16, 185, 129, 0.4);
     }
 
-    .feedback-toggle-btn .arrow {
-      transition: transform 0.3s ease;
-      font-size: 1.2rem;
+    /* Modal Overlay */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      backdrop-filter: blur(4px);
     }
 
-    .feedback-toggle-btn.active .arrow {
-      transform: rotate(180deg);
+    .modal-overlay.active {
+      display: flex;
     }
 
-    /* Collapsible Feedback Form */
-    .feedback-content {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.4s ease;
+    /* Modal Content */
+    .modal-content {
+      background: white;
+      border-radius: 20px;
+      padding: 32px;
+      width: 90%;
+      max-width: 550px;
+      max-height: 85vh;
+      overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      animation: modalSlideIn 0.3s ease;
+      position: relative;
     }
 
-    .feedback-content.active {
-      max-height: 800px;
+    @keyframes modalSlideIn {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
-    .feedback-inner {
-      padding-top: 24px;
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+
+    .modal-header h2 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-dark);
+    }
+
+    .close-btn {
+      background: none;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: #9ca3af;
+      transition: color 0.2s;
+      padding: 0;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .close-btn:hover {
+      color: var(--text-dark);
     }
 
     .feedback-form {
       display: flex;
       flex-direction: column;
-      gap: 16px;
+      gap: 20px;
     }
 
     .form-group {
@@ -183,17 +268,17 @@ Modified: Added collapsible feedback button with star rating
 
     .form-group label {
       font-weight: 600;
-      margin-bottom: 6px;
-      font-size: 0.9rem;
+      margin-bottom: 10px;
+      font-size: 1.05rem;
       color: var(--text-dark);
     }
 
     .form-group input,
     .form-group textarea {
-      padding: 12px;
+      padding: 14px;
       border: 2px solid var(--border);
-      border-radius: 10px;
-      font-size: 0.95rem;
+      border-radius: 12px;
+      font-size: 1rem;
       font-family: inherit;
       transition: border-color 0.3s;
     }
@@ -212,10 +297,11 @@ Modified: Added collapsible feedback button with star rating
     /* Star Rating Styles */
     .star-rating {
       display: flex;
-      gap: 12px;
+      gap: 24px;
       flex-direction: row-reverse;
-      justify-content: flex-end;
-      font-size: 3rem;
+      justify-content: center;
+      font-size: 6rem;
+      margin: 10px 0;
     }
 
     .star-rating input {
@@ -225,12 +311,13 @@ Modified: Added collapsible feedback button with star rating
     .star-rating label {
       cursor: pointer;
       color: #d1d5db;
-      transition: color 0.2s ease;
+      transition: all 0.2s ease;
     }
 
     .star-rating label:hover,
     .star-rating label:hover~label {
       color: #fbbf24;
+      transform: scale(1.1);
     }
 
     .star-rating input:checked~label {
@@ -238,22 +325,24 @@ Modified: Added collapsible feedback button with star rating
     }
 
     .rating-value {
-      margin-top: 8px;
-      font-size: 0.85rem;
+      margin-top: 12px;
+      font-size: 1.05rem;
       color: var(--accent2);
       font-weight: 600;
+      text-align: center;
     }
 
     .submit-btn {
-      padding: 12px 24px;
+      padding: 14px 28px;
       background: linear-gradient(135deg, var(--accent1), var(--accent2));
       color: white;
       border: none;
       border-radius: 12px;
       font-weight: 600;
-      font-size: 1rem;
+      font-size: 1.05rem;
       cursor: pointer;
       transition: 0.3s ease;
+      margin-top: 8px;
     }
 
     .submit-btn:hover:not(:disabled) {
@@ -267,7 +356,7 @@ Modified: Added collapsible feedback button with star rating
     }
 
     .message {
-      padding: 12px 16px;
+      padding: 14px 18px;
       border-radius: 10px;
       margin-bottom: 16px;
       font-weight: 500;
@@ -305,6 +394,31 @@ Modified: Added collapsible feedback button with star rating
       .site-header h1 {
         font-size: 1.8rem;
       }
+
+      .modal-content {
+        padding: 24px;
+      }
+
+      .star-rating {
+        font-size: 4rem;
+        gap: 16px;
+      }
+
+      .logo {
+        width: 90px;
+      }
+
+      .logo-middle {
+        width: 90px;
+      }
+
+      .logo-right {
+        width: 120px;
+      }
+
+      .header-content {
+        padding-top: 70px;
+      }
     }
   </style>
 </head>
@@ -312,8 +426,15 @@ Modified: Added collapsible feedback button with star rating
 <body>
 
   <header class="site-header">
-    <h1>ATFE26-HT02– Smart Traffic Control System</h1>
-    <p class="tagline">Department of Computer Science & Engineering</p>
+    <div class="header-logos">
+      <img src="assets/AMRITA.svg" alt="Amrita Logo" class="logo">
+      <img src="assets/BLACK LOGO.webp" alt="Anokha Logo" class="logo-middle">
+      <img src="assets/TFE.png" alt="TechFair Logo" class="logo-right">
+    </div>
+    <div class="header-content">
+      <h1>ATFE26-HT02– Smart Traffic Control System</h1>
+      <p class="tagline">Department of Computer Science & Engineering</p>
+    </div>
   </header>
 
   <main class="container">
@@ -322,45 +443,50 @@ Modified: Added collapsible feedback button with star rating
     <section class="card">
       <button class="feedback-toggle-btn" id="feedbackToggle">
         Share Your Feedback
-        <span class="arrow">▼</span>
       </button>
-
-      <div class="feedback-content" id="feedbackContent">
-        <div class="feedback-inner">
-          <div id="message" class="message"></div>
-          <form id="feedbackForm" class="feedback-form">
-            <div class="form-group">
-              <label for="email">Email *</label>
-              <input type="email" id="email" name="email" required placeholder="your.email@example.com">
-            </div>
-
-            <div class="form-group">
-              <label>Rating *</label>
-              <div class="star-rating">
-                <input type="radio" id="star5" name="rating" value="5" required />
-                <label for="star5">★</label>
-                <input type="radio" id="star4" name="rating" value="4" />
-                <label for="star4">★</label>
-                <input type="radio" id="star3" name="rating" value="3" />
-                <label for="star3">★</label>
-                <input type="radio" id="star2" name="rating" value="2" />
-                <label for="star2">★</label>
-                <input type="radio" id="star1" name="rating" value="1" />
-                <label for="star1">★</label>
-              </div>
-              <div class="rating-value" id="ratingValue"></div>
-            </div>
-
-            <div class="form-group">
-              <label for="feedback">Feedback</label>
-              <textarea id="feedback" name="feedback"
-                placeholder="Share your thoughts about this project..."></textarea>
-            </div>
-            <button type="submit" class="submit-btn" id="submitBtn">Submit Feedback</button>
-          </form>
-        </div>
-      </div>
     </section>
+
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Share Your Feedback</h2>
+          <button class="close-btn" id="closeModal">&times;</button>
+        </div>
+
+        <div id="message" class="message"></div>
+
+        <form id="feedbackForm" class="feedback-form">
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+          </div>
+
+          <div class="form-group">
+            <label>Rating *</label>
+            <div class="star-rating">
+              <input type="radio" id="star5" name="rating" value="5" required />
+              <label for="star5">★</label>
+              <input type="radio" id="star4" name="rating" value="4" />
+              <label for="star4">★</label>
+              <input type="radio" id="star3" name="rating" value="3" />
+              <label for="star3">★</label>
+              <input type="radio" id="star2" name="rating" value="2" />
+              <label for="star2">★</label>
+              <input type="radio" id="star1" name="rating" value="1" />
+              <label for="star1">★</label>
+            </div>
+            <div class="rating-value" id="ratingValue"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" name="feedback" placeholder="Share your thoughts about this project..."></textarea>
+          </div>
+          <button type="submit" class="submit-btn" id="submitBtn">Submit Feedback</button>
+        </form>
+      </div>
+    </div>
 
     <section class="card">
       <h3>Team Information</h3>
@@ -446,12 +572,27 @@ Modified: Added collapsible feedback button with star rating
     const ratingInputs = document.querySelectorAll('input[name="rating"]');
     const ratingValueDiv = document.getElementById('ratingValue');
     const feedbackToggle = document.getElementById('feedbackToggle');
-    const feedbackContent = document.getElementById('feedbackContent');
+    const modalOverlay = document.getElementById('modalOverlay');
+    const closeModal = document.getElementById('closeModal');
 
-    // Toggle feedback form
+    // Open modal
     feedbackToggle.addEventListener('click', () => {
-      feedbackToggle.classList.toggle('active');
-      feedbackContent.classList.toggle('active');
+      modalOverlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    });
+
+    // Close modal
+    closeModal.addEventListener('click', () => {
+      modalOverlay.classList.remove('active');
+      document.body.style.overflow = 'auto';
+    });
+
+    // Close modal when clicking outside
+    modalOverlay.addEventListener('click', (e) => {
+      if (e.target === modalOverlay) {
+        modalOverlay.classList.remove('active');
+        document.body.style.overflow = 'auto';
+      }
     });
 
     // Show rating value when selected
@@ -529,6 +670,12 @@ Modified: Added collapsible feedback button with star rating
         // Reset form
         form.reset();
         ratingValueDiv.textContent = '';
+
+        // Close modal after 2 seconds
+        setTimeout(() => {
+          modalOverlay.classList.remove('active');
+          document.body.style.overflow = 'auto';
+        }, 2000);
       } catch (error) {
         console.error('Error submitting feedback:', error);
         showMessage('❌ Sorry, there was an error submitting your feedback. Please try again.', 'error');

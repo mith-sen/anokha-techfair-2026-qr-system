@@ -2,7 +2,7 @@
 Authors: Reha Sreekumar, Srisha Satish Kanna and Ramaguru Radhakrishnan
 Description: Anokha TechFair & Exhibitions 2026 – Individual Team Page with Firestore Feedback
 Created Date: 01st January 2026
-Modified: Added star rating and email uniqueness validation
+Modified: Added logos, popup feedback modal
 -->
 
 <!DOCTYPE html>
@@ -16,13 +16,9 @@ Modified: Added star rating and email uniqueness validation
   <style>
     :root {
       --accent1: #ff6b6b;
-      /* coral */
       --accent2: #4f46e5;
-      /* indigo */
       --accent3: #06b6d4;
-      /* teal */
       --bg: #fbfdff;
-      /* soft background */
       --text-dark: #27374d;
       --text-main: #1f2937;
       --border: #e5eef8;
@@ -39,6 +35,23 @@ Modified: Added star rating and email uniqueness validation
       min-height: 100vh;
     }
 
+    .logo-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: white;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .header-logo img {
+      display: block;
+      height: auto;
+      max-height: 80px;
+      width: auto;
+      object-fit: contain;
+    }
+
     .site-header {
       text-align: center;
       padding: 40px 20px;
@@ -50,7 +63,7 @@ Modified: Added star rating and email uniqueness validation
     .site-header h1 {
       font-size: 2.4rem;
       font-weight: 800;
-      margin: 0;
+      margin: 0 0 10px 0;
       color: var(--accent2);
     }
 
@@ -59,6 +72,28 @@ Modified: Added star rating and email uniqueness validation
       font-size: 1rem;
       opacity: 0.7;
       font-weight: 500;
+      margin-bottom: 15px;
+    }
+
+    .feedback-trigger-btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background: linear-gradient(135deg, #FFD700, #FFC300);
+      color: #1f2937;
+      border: none;
+      border-radius: 10px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      box-shadow: 0 6px 14px rgba(255, 200, 0, 0.35);
+      transition: all 0.25s ease;
+      margin-top: 10px;
+    }
+
+    .feedback-trigger-btn:hover {
+      background: linear-gradient(135deg, #ffdf33, #ffcc00);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(255, 200, 0, 0.45);
     }
 
     .container {
@@ -126,6 +161,88 @@ Modified: Added star rating and email uniqueness validation
       background: var(--accent2);
     }
 
+    /* Modal Styles */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.5);
+      animation: fadeIn 0.3s ease;
+    }
+
+    .modal.show {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .modal-content {
+      background-color: var(--card-bg);
+      margin: 20px;
+      padding: 30px;
+      border-radius: 16px;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+      animation: slideUp 0.3s ease;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-dark);
+    }
+
+    .close-btn {
+      background: none;
+      border: none;
+      font-size: 2rem;
+      cursor: pointer;
+      color: #999;
+      transition: color 0.2s;
+      padding: 0;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .close-btn:hover {
+      color: var(--accent1);
+    }
+
     .feedback-form {
       display: flex;
       flex-direction: column;
@@ -165,7 +282,6 @@ Modified: Added star rating and email uniqueness validation
       min-height: 120px;
     }
 
-    /* Star Rating Styles */
     .star-rating {
       display: flex;
       gap: 8px;
@@ -203,7 +319,7 @@ Modified: Added star rating and email uniqueness validation
     .submit-btn {
       padding: 14px 28px;
       background: linear-gradient(135deg, #FFD700, #FFC300);
-      color: #1f2937; /* dark text for contrast */
+      color: #1f2937;
       border: none;
       border-radius: 10px;
       font-weight: 600;
@@ -215,10 +331,10 @@ Modified: Added star rating and email uniqueness validation
     }
 
     .submit-btn:hover:not(:disabled) {
-        background: linear-gradient(135deg, #ffdf33, #ffcc00);
-        transform: translateY(-2px);
-        box-shadow: 0 10px 20px rgba(255, 200, 0, 0.45);
-      }
+      background: linear-gradient(135deg, #ffdf33, #ffcc00);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(255, 200, 0, 0.45);
+    }
 
     .submit-btn:active {
       transform: translateY(0);
@@ -230,7 +346,6 @@ Modified: Added star rating and email uniqueness validation
       cursor: not-allowed;
       box-shadow: none;
     }
-
 
     .message {
       padding: 12px 16px;
@@ -267,9 +382,39 @@ Modified: Added star rating and email uniqueness validation
       margin-top: auto;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
+      .logo-header {
+        padding: 15px 20px;
+      }
+
+      .header-logo img {
+        max-height: 60px;
+      }
+
+      .site-header {
+        padding: 30px 20px;
+      }
+
       .site-header h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
+      }
+
+      .tagline {
+        font-size: 0.9rem;
+      }
+
+      .feedback-trigger-btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+
+      .modal-content {
+        padding: 20px;
+      }
+
+      .star-rating {
+        font-size: 2rem;
+        gap: 8px;
       }
     }
   </style>
@@ -277,9 +422,19 @@ Modified: Added star rating and email uniqueness validation
 
 <body>
 
+  <div class="logo-header">
+    <div class="header-logo left">
+      <img src="./assets/BLACK LOGO.webp" alt="Left Logo">
+    </div>
+    <div class="header-logo right">
+      <img src="./assets/TFE.png" alt="Right Logo" style="width: 300px; height: 200px; object-fit: cover;"">
+    </div>
+  </div>
+
   <header class="site-header">
     <h1>ATFE26-HT01– Smart Traffic Control System</h1>
     <p class="tagline">Department of Computer Science & Engineering</p>
+    <button class="feedback-trigger-btn" id="openFeedbackBtn">Share Your Feedback</button>
   </header>
 
   <main class="container">
@@ -333,8 +488,15 @@ Modified: Added star rating and email uniqueness validation
       <a href="#" class="link-btn">Social Media</a>
     </section>
 
-    <section class="card">
-      <h3>Share Your Feedback</h3>
+  </main>
+
+  <!-- Feedback Modal -->
+  <div id="feedbackModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Share Your Feedback</h3>
+        <button class="close-btn" id="closeModalBtn">&times;</button>
+      </div>
       <div id="message" class="message"></div>
       <form id="feedbackForm" class="feedback-form">
         <div class="form-group">
@@ -366,9 +528,8 @@ Modified: Added star rating and email uniqueness validation
         </div>
         <button type="submit" class="submit-btn" id="submitBtn">Submit Feedback</button>
       </form>
-    </section>
-
-  </main>
+    </div>
+  </div>
 
   <footer class="footer">
     © 2026 Institution's Innovation Council (IIC) & Anokha TechFair & Exhibitions. All Rights Reserved.
@@ -379,7 +540,6 @@ Modified: Added star rating and email uniqueness validation
     import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
     import { getFirestore, collection, addDoc, query, where, getDocs, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
 
-    // Firebase config
     const firebaseConfig = {
       apiKey: "AIzaSyCOaBiBOWhxuhalFXqTVwZgMD7ScyM342E",
       authDomain: "anokha-techfair-2026-qr.firebaseapp.com",
@@ -389,21 +549,31 @@ Modified: Added star rating and email uniqueness validation
       appId: "1:223357261790:web:b43b76b11a9b0984416f4f"
     };
 
-    // Initialize Firebase
     const app = initializeApp(firebaseConfig);
     const db = getFirestore(app);
-
-    // Unique identifier for this page
     const PAGE_ID = "ATFE26-HT01";
 
-    // Get form elements
+    // Modal controls
+    const modal = document.getElementById('feedbackModal');
+    const openBtn = document.getElementById('openFeedbackBtn');
+    const closeBtn = document.getElementById('closeModalBtn');
+
+    openBtn.onclick = () => modal.classList.add('show');
+    closeBtn.onclick = () => modal.classList.remove('show');
+    
+    window.onclick = (e) => {
+      if (e.target === modal) {
+        modal.classList.remove('show');
+      }
+    };
+
+    // Form elements
     const form = document.getElementById('feedbackForm');
     const submitBtn = document.getElementById('submitBtn');
     const messageDiv = document.getElementById('message');
     const ratingInputs = document.querySelectorAll('input[name="rating"]');
     const ratingValueDiv = document.getElementById('ratingValue');
 
-    // Show rating value when selected
     ratingInputs.forEach(input => {
       input.addEventListener('change', (e) => {
         const value = e.target.value;
@@ -411,7 +581,6 @@ Modified: Added star rating and email uniqueness validation
       });
     });
 
-    // Show message function
     function showMessage(text, type) {
       messageDiv.textContent = text;
       messageDiv.className = `message ${type} show`;
@@ -420,7 +589,6 @@ Modified: Added star rating and email uniqueness validation
       }, 5000);
     }
 
-    // Check if email already exists
     async function checkEmailExists(email) {
       const feedbackRef = collection(db, 'websites', PAGE_ID, 'feedback');
       const q = query(feedbackRef, where('email', '==', email));
@@ -428,20 +596,16 @@ Modified: Added star rating and email uniqueness validation
       return !querySnapshot.empty;
     }
 
-    // Handle form submission
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
 
-      // Disable submit button
       submitBtn.disabled = true;
       submitBtn.textContent = 'Submitting...';
 
-      // Get form data
       const email = document.getElementById('email').value.trim().toLowerCase();
       const rating = document.querySelector('input[name="rating"]:checked')?.value;
       const feedback = document.getElementById('feedback').value.trim();
 
-      // Validate rating
       if (!rating) {
         showMessage('Please select a rating before submitting.', 'error');
         submitBtn.disabled = false;
@@ -450,7 +614,6 @@ Modified: Added star rating and email uniqueness validation
       }
 
       try {
-        // Check if email already exists
         const emailExists = await checkEmailExists(email);
 
         if (emailExists) {
@@ -460,7 +623,6 @@ Modified: Added star rating and email uniqueness validation
           return;
         }
 
-        // Prepare data
         const formData = {
           pageId: PAGE_ID,
           email: email,
@@ -469,20 +631,20 @@ Modified: Added star rating and email uniqueness validation
           timestamp: serverTimestamp()
         };
 
-        // Add document to Firestore
         await addDoc(collection(db, 'websites', PAGE_ID, 'feedback'), formData);
 
-        // Show success message
         showMessage('Thank you! Your feedback has been submitted successfully.', 'success');
 
-        // Reset form
         form.reset();
         ratingValueDiv.textContent = '';
+        
+        setTimeout(() => {
+          modal.classList.remove('show');
+        }, 2000);
       } catch (error) {
         console.error('Error submitting feedback:', error);
         showMessage('Sorry, there was an error submitting your feedback. Please try again.', 'error');
       } finally {
-        // Re-enable submit button
         submitBtn.disabled = false;
         submitBtn.textContent = 'Submit Feedback';
       }
