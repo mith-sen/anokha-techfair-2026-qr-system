@@ -34,48 +34,59 @@
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
 
+    /* ================= HEADER ================= */
+
     .header {
       background: var(--primary-blue);
       color: white;
       padding: 30px 40px;
-      position: relative;
     }
 
     .logo-container {
       display: flex;
-      justify-content: space-between;
       align-items: center;
+      gap: 20px;
       margin-bottom: 30px;
+      width: fit-content;
     }
 
-    .logo-left {
-      width: 70px;
-      height: 70px;
-      background: white;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-weight: 600;
-      color: var(--primary-blue);
-      font-size: 20px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    }
-
+    .logo-left,
     .logo-right {
-      width: 110px;
-      height: 110px;
-      background: #e74c3c;
-      border-radius: 8px;
+      background: white;
+      border-radius: 10px;
+      padding: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-weight: 700;
-      color: white;
-      font-size: 28px;
       box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     }
 
+    .logo-left img,
+    .logo-right img {
+      height: 60px;       /* 🔑 single control */
+      width: auto;        /* keeps proportion */
+      max-width: 100%;
+      object-fit: contain;
+      display: block;
+    }
+
+    .project-id {
+      font-size: 14px;
+      opacity: 0.9;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    .department {
+      font-size: 15px;
+      opacity: 0.95;
+    }
     .project-id {
       font-size: 14px;
       opacity: 0.9;
@@ -437,8 +448,8 @@
   <div class="container">
     <div class="header">
       <div class="logo-container">
-        <div class="logo-left">IIC</div>
-        <div class="logo-right">ATFE</div>
+        <div class="logo-left"><img src="assets/BLACK LOGO.webp" alt="Logo"></div>
+        <div class="logo-right"><img src="assets/TFE.png" alt="Logo" ></div>
       </div>
       <div class="project-id">ATFE26-HT01</div>
       <h1>Smart Traffic Control System</h1>
