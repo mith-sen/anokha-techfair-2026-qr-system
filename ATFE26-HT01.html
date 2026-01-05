@@ -7,7 +7,9 @@
   <title>ATFE26-HT01 - Smart Traffic Control System</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
   <style>
     :root {
       --primary-blue: #2c3e50;
@@ -494,6 +496,7 @@
         transform: translateX(400px);
         opacity: 0;
       }
+
       to {
         transform: translateX(0);
         opacity: 1;
@@ -505,6 +508,7 @@
         transform: translateX(0);
         opacity: 1;
       }
+
       to {
         transform: translateX(400px);
         opacity: 0;
@@ -519,7 +523,7 @@
 
 <body>
   <div id="toast" class="toast"></div>
-  
+
   <div class="container">
     <div class="header">
       <div class="logo-container">
@@ -548,10 +552,6 @@
         <div class="info-item">
           <div class="info-label">Faculty Mentor</div>
           <div class="info-value">Dr. ABC XYZ</div>
-        </div>
-        <div class="info-item">
-          <div class="info-label">Department</div>
-          <div class="info-value">CSE</div>
         </div>
       </div>
     </div>
@@ -719,7 +719,7 @@
       const toast = document.getElementById('toast');
       toast.textContent = text;
       toast.classList.add('show');
-      
+
       setTimeout(() => {
         toast.classList.add('hide');
         setTimeout(() => {
