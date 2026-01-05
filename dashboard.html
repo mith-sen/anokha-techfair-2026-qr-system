@@ -480,33 +480,18 @@
         let allFeedbackData = [];
         const teamIds = [];
 
-        // Generate Team IDs
-        function generateTeamIds() {
-            // HT01-40
-            for (let i = 1; i <= 40; i++) {
-                teamIds.push(`ATFE26-HT${i.toString().padStart(2, '0')}`);
-            }
-            // ST01-50
-            for (let i = 1; i <= 50; i++) {
-                teamIds.push(`ATFE26-ST${i.toString().padStart(2, '0')}`);
-            }
-            totalTeamsEl.textContent = teamIds.length;
-        }
-
         // Initialize Table
-        function initTable() {
-            tableBody.innerHTML = '';
-            teamIds.forEach(id => {
-                const row = document.createElement('tr');
-                row.id = `row-${id}`;
-                row.innerHTML = `
+        function createRow(id, count, avgRating) {
+            const row = document.createElement('tr');
+            row.id = `row-${id}`;
+            const activeClass = count > 0 ? 'active' : '';
+            row.innerHTML = `
           <td><span class="team-name">${id}</span></td>
-          <td><span class="live-count" id="count-${id}">0</span></td>
-          <td><span style="font-weight:600; color:#f39c12;" id="rating-${id}">-</span></td>
+          <td><span class="live-count ${activeClass}" id="count-${id}">${count}</span></td>
+          <td><span style="font-weight:600; color:#f39c12;" id="rating-${id}">${avgRating}</span></td>
           <td><button class="view-btn" onclick="openFeedbackModal('${id}')">View Feedback</button></td>
         `;
-                tableBody.appendChild(row);
-            });
+            tableBody.appendChild(row);
         }
 
         // Expose modal function globally
@@ -555,12 +540,14 @@
                 allFeedbackData = [];
                 const counts = {};
                 const ratingsSum = {};
+                const uniqueTeamIds = new Set();
 
                 snapshot.forEach(doc => {
                     const data = doc.data();
                     allFeedbackData.push(data);
 
                     if (data.pageId) {
+                        uniqueTeamIds.add(data.pageId);
                         counts[data.pageId] = (counts[data.pageId] || 0) + 1;
                         ratingsSum[data.pageId] = (ratingsSum[data.pageId] || 0) + (parseInt(data.rating) || 0);
                     }
@@ -568,31 +555,21 @@
 
                 // Update UI
                 totalFeedbackEl.textContent = allFeedbackData.length;
+                totalTeamsEl.textContent = uniqueTeamIds.size;
 
-                teamIds.forEach(id => {
-                    // Update Count
-                    const countEl = document.getElementById(`count-${id}`);
-                    if (countEl) {
-                        const count = counts[id] || 0;
-                        countEl.textContent = count;
-                        if (count > 0) {
-                            countEl.classList.add('active');
-                        } else {
-                            countEl.classList.remove('active');
-                        }
-                    }
+                // Clear table and rebuild
+                tableBody.innerHTML = '';
 
-                    // Update Avg Rating
-                    const ratingEl = document.getElementById(`rating-${id}`);
-                    if (ratingEl) {
-                        const count = counts[id] || 0;
-                        if (count > 0) {
-                            const avg = (ratingsSum[id] / count).toFixed(1);
-                            ratingEl.textContent = `${avg} ★`;
-                        } else {
-                            ratingEl.textContent = '-';
-                        }
+                // Sort IDs alphanumerically
+                const sortedIds = Array.from(uniqueTeamIds).sort();
+
+                sortedIds.forEach(id => {
+                    const count = counts[id] || 0;
+                    let avgRating = '-';
+                    if (count > 0) {
+                        avgRating = (ratingsSum[id] / count).toFixed(1) + ' ★';
                     }
+                    createRow(id, count, avgRating);
                 });
             }, (error) => {
                 console.error("Error fetching feedback:", error);
@@ -646,8 +623,7 @@
         };
 
         // Init
-        generateTeamIds();
-        initTable();
+        // logic moved to onSnapshot listener
 
     </script>
 </body>
