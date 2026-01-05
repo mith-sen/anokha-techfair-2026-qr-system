@@ -14,214 +14,273 @@ Modified: Added logos, popup feedback modal
   <title>ATFE26-HT01| Anokha TechFair 2026</title>
 
   <style>
+    /* ==== Global Design Tokens (Amrita-style) ==== */
     :root {
-      --accent1: #ff6b6b;
-      --accent2: #4f46e5;
-      --accent3: #06b6d4;
-      --bg: #fbfdff;
-      --text-dark: #27374d;
-      --text-main: #1f2937;
-      --border: #e5eef8;
-      --card-bg: #ffffff;
+      --primary-blue: #003366;
+      /* deep navy amrita primary */
+      --accent-blue: #0066CC;
+      /* bright accent amrita blue */
+      --light-gray: #F4F7F9;
+      --card-bg: #FFFFFF;
+      --text-primary: #1D1D1F;
+      --text-secondary: #495057;
+      --text-light: #FFFFFF;
+      --border-light: #E0E0E0;
+      --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.05);
+      --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.1);
+      --radius: 12px;
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
     body {
-      font-family: "Segoe UI", system-ui, sans-serif;
-      background: var(--bg);
-      margin: 0;
-      color: var(--text-main);
+      font-family: var(--font-family);
+      background: var(--light-gray);
+      color: var(--text-primary);
+      line-height: 1.6;
       display: flex;
       flex-direction: column;
       min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
     }
 
+    /* ==== Header with side-by-side logos ==== */
     .logo-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 20px 40px;
-      background: white;
-      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      padding: 15px 8%;
+      background: #FFFFFF;
+      border-bottom: 2px solid #F0F0F0;
+      gap: 20px;
+    }
+
+    .header-logo {
+      flex: 0 1 auto;
     }
 
     .header-logo img {
       display: block;
-      height: auto;
-      max-height: 80px;
+      height: 70px;
       width: auto;
       object-fit: contain;
     }
 
+    /* Side by side only - no stacking */
+    @media (max-width: 768px) {
+      .logo-header {
+        padding: 10px 5%;
+        flex-direction: row !important;
+      }
+
+      .header-logo img {
+        height: 45px;
+      }
+
+      .info-grid,
+      .card ul {
+        grid-template-columns: 1fr !important;
+      }
+    }
+
+    /* ==== Site header (hero) ==== */
     .site-header {
       text-align: center;
-      padding: 40px 20px;
-      background: white;
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      margin-bottom: 35px;
+      padding: 80px 24px 120px;
+      background: linear-gradient(135deg, var(--primary-blue) 0%, #002244 100%);
+      color: var(--text-light);
+      position: relative;
     }
 
     .site-header h1 {
-      font-size: 2.4rem;
+      font-size: 2.75rem;
       font-weight: 800;
-      margin: 0 0 10px 0;
-      color: var(--accent2);
+      margin-bottom: 12px;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
     }
 
     .tagline {
-      margin-top: 10px;
-      font-size: 1rem;
-      opacity: 0.7;
-      font-weight: 500;
-      margin-bottom: 15px;
+      font-size: 1.25rem;
+      opacity: 0.85;
+      margin-bottom: 30px;
+      font-weight: 300;
     }
 
     .feedback-trigger-btn {
       display: inline-block;
-      padding: 12px 28px;
-      background: linear-gradient(135deg, #FFD700, #FFC300);
-      color: #1f2937;
+      padding: 14px 36px;
+      background: var(--accent-blue);
+      color: white;
       border: none;
-      border-radius: 10px;
+      border-radius: 6px;
       font-weight: 600;
       font-size: 1rem;
       cursor: pointer;
-      box-shadow: 0 6px 14px rgba(255, 200, 0, 0.35);
-      transition: all 0.25s ease;
-      margin-top: 10px;
+      transition: var(--transition);
+      box-shadow: 0 4px 12px rgba(0, 102, 204, 0.2);
     }
 
     .feedback-trigger-btn:hover {
-      background: linear-gradient(135deg, #ffdf33, #ffcc00);
+      background: #0056B3;
       transform: translateY(-2px);
-      box-shadow: 0 10px 20px rgba(255, 200, 0, 0.45);
+      box-shadow: 0 6px 15px rgba(0, 102, 204, 0.3);
     }
 
+    /* ==== Container ==== */
     .container {
       width: 90%;
-      max-width: 1000px;
-      margin: auto;
-      padding-bottom: 60px;
+      max-width: 1100px;
+      margin: -60px auto 80px;
+      z-index: 2;
     }
 
+    /* ==== Card ==== */
     .card {
       background: var(--card-bg);
-      border-radius: 16px;
-      padding: 24px 28px;
-      margin-bottom: 24px;
-      box-shadow: 0 6px 28px rgba(0, 0, 0, 0.06);
+      border-radius: var(--radius);
+      padding: 40px;
+      margin-bottom: 25px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid rgba(0, 0, 0, 0.03);
+      transition: var(--transition);
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow-md);
     }
 
     .card h3 {
-      margin: 0 0 12px;
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       font-weight: 700;
-      color: var(--text-dark);
+      color: var(--primary-blue);
+      margin-bottom: 25px;
+      position: relative;
+      padding-left: 15px;
     }
 
-    .card p,
-    .card li {
-      font-size: 0.95rem;
-      line-height: 1.6;
+    .card h3::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: var(--accent-blue);
+      border-radius: 2px;
     }
 
+    /* ==== Info Grid ==== */
     .info-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 20px;
+      gap: 25px;
     }
 
+    .info-grid p {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .info-grid p strong {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #707070;
+    }
+
+    /* ==== List ==== */
+    .card ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+
+    .card li {
+      padding: 10px 15px;
+      background: #F8F9FA;
+      border-radius: 8px;
+    }
+
+    /* ==== Badges ==== */
     .badge {
       display: inline-block;
-      padding: 5px 12px;
-      border-radius: 12px;
-      font-size: 0.75rem;
-      font-weight: 600;
-      background: rgba(79, 70, 229, 0.08);
-      color: var(--accent2);
-      margin-right: 6px;
+      padding: 6px 14px;
+      background: #E8F0FE;
+      color: #005CBB;
+      border-radius: 4px;
+      font-weight: 700;
+      margin-right: 8px;
+      font-size: 0.85rem;
     }
 
+    /* ==== Link Buttons ==== */
     .link-btn {
       display: inline-block;
+      padding: 12px 24px;
+      background: white;
+      color: var(--primary-blue);
       text-decoration: none;
-      padding: 8px 16px;
-      background: var(--accent1);
-      color: white;
-      border-radius: 12px;
+      border-radius: 6px;
       font-weight: 600;
-      font-size: 0.85rem;
-      margin-right: 10px;
-      margin-top: 6px;
-      transition: 0.2s ease;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      margin-right: 12px;
+      margin-top: 10px;
+      border: 1px solid var(--border-light);
+      transition: var(--transition);
     }
 
     .link-btn:hover {
-      transform: translateY(-2px);
-      background: var(--accent2);
+      background: var(--primary-blue);
+      color: white;
+      border-color: var(--primary-blue);
     }
 
-    /* Modal Styles */
+    /* ==== Modal ==== */
     .modal {
       display: none;
       position: fixed;
+      inset: 0;
+      background: rgba(0, 34, 68, 0.6);
+      backdrop-filter: blur(8px);
       z-index: 1000;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: rgba(0, 0, 0, 0.5);
-      animation: fadeIn 0.3s ease;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
     }
 
     .modal.show {
       display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
     }
 
     .modal-content {
-      background-color: var(--card-bg);
-      margin: 20px;
-      padding: 30px;
-      border-radius: 16px;
-      width: 90%;
-      max-width: 600px;
-      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
-      animation: slideUp 0.3s ease;
-      max-height: 90vh;
-      overflow-y: auto;
-    }
-
-    @keyframes slideUp {
-      from {
-        transform: translateY(50px);
-        opacity: 0;
-      }
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
+      background: white;
+      width: 100%;
+      max-width: 580px;
+      padding: 45px;
+      border-radius: 12px;
+      box-shadow: 0 40px 80px rgba(0, 0, 0, 0.3);
+      position: relative;
     }
 
     .modal-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 20px;
+      margin-bottom: 35px;
     }
 
     .modal-header h3 {
-      margin: 0;
-      font-size: 1.5rem;
+      font-size: 1.85rem;
+      color: var(--primary-blue);
       font-weight: 700;
-      color: var(--text-dark);
     }
 
     .close-btn {
@@ -230,64 +289,53 @@ Modified: Added logos, popup feedback modal
       font-size: 2rem;
       cursor: pointer;
       color: #999;
-      transition: color 0.2s;
-      padding: 0;
-      width: 40px;
-      height: 40px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      transition: var(--transition);
     }
 
     .close-btn:hover {
-      color: var(--accent1);
+      color: var(--primary-blue);
+      transform: rotate(90deg);
     }
 
+    /* ==== Form ==== */
     .feedback-form {
       display: flex;
       flex-direction: column;
-      gap: 16px;
-    }
-
-    .form-group {
-      display: flex;
-      flex-direction: column;
+      gap: 24px;
     }
 
     .form-group label {
       font-weight: 600;
-      margin-bottom: 6px;
-      font-size: 0.9rem;
-      color: var(--text-dark);
+      margin-bottom: 8px;
+      display: block;
+      color: var(--primary-blue);
+      font-size: 0.95rem;
     }
 
     .form-group input,
     .form-group textarea {
-      padding: 12px;
-      border: 2px solid var(--border);
-      border-radius: 10px;
-      font-size: 0.95rem;
-      font-family: inherit;
-      transition: border-color 0.3s;
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #CED4DA;
+      border-radius: 6px;
+      font-size: 1rem;
+      background: #FFFFFF;
+      transition: border-color 0.2s;
     }
 
     .form-group input:focus,
     .form-group textarea:focus {
       outline: none;
-      border-color: var(--accent1);
+      border-color: var(--accent-blue);
+      box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
     }
 
-    .form-group textarea {
-      resize: vertical;
-      min-height: 120px;
-    }
-
+    /* ==== Stars (SVG) ==== */
     .star-rating {
       display: flex;
-      gap: 8px;
       flex-direction: row-reverse;
+      gap: 12px;
       justify-content: flex-end;
-      font-size: 2rem;
     }
 
     .star-rating input {
@@ -296,125 +344,113 @@ Modified: Added logos, popup feedback modal
 
     .star-rating label {
       cursor: pointer;
-      color: #d1d5db;
-      transition: color 0.2s ease;
+      width: 55px;
+      height: 55px;
     }
 
-    .star-rating label:hover,
-    .star-rating label:hover~label {
-      color: #fbbf24;
+    .star-rating label svg {
+      width: 100%;
+      height: 100%;
+      fill: #E9ECEF;
+      transition: var(--transition);
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.05));
     }
 
-    .star-rating input:checked~label {
-      color: #fbbf24;
+    .star-rating label:hover svg,
+    .star-rating label:hover~label svg {
+      fill: #FFD43B;
+      transform: scale(1.15) rotate(-5deg);
     }
 
-    .rating-value {
-      margin-top: 8px;
-      font-size: 0.85rem;
-      color: var(--accent2);
-      font-weight: 600;
+    .star-rating input:checked~label svg {
+      fill: #FFD43B;
+      filter: drop-shadow(0 4px 10px rgba(255, 212, 59, 0.4));
     }
 
     .submit-btn {
-      padding: 14px 28px;
-      background: linear-gradient(135deg, #FFD700, #FFC300);
-      color: #1f2937;
+      padding: 16px;
+      background: var(--primary-blue);
+      color: white;
       border: none;
-      border-radius: 10px;
-      font-weight: 600;
-      font-size: 1rem;
-      letter-spacing: 0.4px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 1.1rem;
       cursor: pointer;
-      box-shadow: 0 6px 14px rgba(255, 200, 0, 0.35);
-      transition: all 0.25s ease;
+      transition: var(--transition);
     }
 
-    .submit-btn:hover:not(:disabled) {
-      background: linear-gradient(135deg, #ffdf33, #ffcc00);
-      transform: translateY(-2px);
-      box-shadow: 0 10px 20px rgba(255, 200, 0, 0.45);
-    }
-
-    .submit-btn:active {
-      transform: translateY(0);
-      box-shadow: 0 4px 10px rgba(255, 200, 0, 0.3);
+    .submit-btn:hover {
+      background: #002244;
     }
 
     .submit-btn:disabled {
-      opacity: 0.55;
+      opacity: 0.5;
       cursor: not-allowed;
-      box-shadow: none;
+    }
+
+    /* ==== Footer ==== */
+    footer.footer {
+      background: var(--primary-blue);
+      color: white;
+      padding: 50px 24px;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: auto;
+      border-top: 5px solid var(--accent-blue);
     }
 
     .message {
-      padding: 12px 16px;
-      border-radius: 10px;
-      margin-bottom: 16px;
-      font-weight: 500;
+      padding: 15px;
+      border-radius: 6px;
+      margin-bottom: 25px;
+      font-weight: 600;
       display: none;
+      border-left: 4px solid;
     }
 
     .message.success {
-      background: #d1fae5;
-      color: #065f46;
-      border: 2px solid #10b981;
+      background: #E6F4EA;
+      color: #1E7E34;
+      border-color: #28A745;
     }
 
     .message.error {
-      background: #fee2e2;
-      color: #991b1b;
-      border: 2px solid #ef4444;
+      background: #FEF2F2;
+      color: #DC3545;
+      border-color: #DC3545;
     }
 
     .message.show {
       display: block;
+      animation: fadeIn 0.3s;
     }
 
-    footer.footer {
-      text-align: center;
-      padding: 20px;
-      background: white;
-      border-top: 2px solid rgba(0, 0, 0, 0.05);
-      font-size: 0.85rem;
-      font-weight: 500;
-      opacity: 0.8;
-      margin-top: auto;
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
     }
 
-    @media (max-width: 768px) {
-      .logo-header {
-        padding: 15px 20px;
+    @media (max-width: 480px) {
+      .site-header h1 {
+        font-size: 1.85rem;
       }
 
-      .header-logo img {
-        max-height: 60px;
-      }
-
-      .site-header {
+      .card {
         padding: 30px 20px;
       }
 
-      .site-header h1 {
-        font-size: 1.5rem;
+      .container {
+        width: 92%;
       }
 
-      .tagline {
-        font-size: 0.9rem;
-      }
-
-      .feedback-trigger-btn {
-        font-size: 0.9rem;
-        padding: 10px 20px;
-      }
-
-      .modal-content {
-        padding: 20px;
-      }
-
-      .star-rating {
-        font-size: 2rem;
-        gap: 8px;
+      .star-rating label {
+        width: 45px;
+        height: 45px;
       }
     }
   </style>
@@ -423,233 +459,258 @@ Modified: Added logos, popup feedback modal
 <body>
 
   <div class="logo-header">
-    <div class="header-logo left">
+    <div class="header-logo">
       <img src="./assets/BLACK LOGO.webp" alt="Left Logo">
     </div>
-    <div class="header-logo right">
-      <img src="./assets/TFE.png" alt="Right Logo" style="width: 300px; height: 200px; object-fit: cover;"">
+    <div class="header-logo">
+      <img src="./assets/TFE.png" alt="Right Logo">
     </div>
   </div>
 
-  <header class="site-header">
-    <h1>ATFE26-HT01– Smart Traffic Control System</h1>
-    <p class="tagline">Department of Computer Science & Engineering</p>
-    <button class="feedback-trigger-btn" id="openFeedbackBtn">Share Your Feedback</button>
-  </header>
+  <header class=" site-header">
+      <h1>ATFE26-HT01– Smart Traffic Control System</h1>
+      <p class="tagline">Department of Computer Science & Engineering</p>
+      <button class="feedback-trigger-btn" id="openFeedbackBtn">Share Your Feedback</button>
+      </header>
 
-  <main class="container">
+      <main class="container">
 
-    <section class="card">
-      <h3>Team Information</h3>
-      <div class="info-grid">
-        <p><strong>Team Name:</strong> IntelliFlow</p>
-        <p><strong>Stall Number:</strong> S01</p>
-        <p><strong>Faculty Mentor:</strong> Dr. ABC XYZ</p>
-        <p><strong>Department:</strong> CSE</p>
-      </div>
-    </section>
-
-    <section class="card">
-      <h3>Project Description</h3>
-      <p>
-        This project proposes an AI-driven smart traffic control system that dynamically
-        adjusts traffic signals based on real-time congestion data using computer vision
-        and IoT sensors to reduce waiting time and emissions.
-      </p>
-    </section>
-
-    <section class="card">
-      <h3>Team Mates</h3>
-      <ul>
-        <li>Student 1 – CSE</li>
-        <li>Student 2 – CSE</li>
-        <li>Student 3 – CSE</li>
-        <li>Student 4 – CSE</li>
-      </ul>
-    </section>
-
-    <section class="card">
-      <h3>Innovation & Maturity Levels</h3>
-      <p>
-        <span class="badge">SDG 9</span>
-        <span class="badge">SDG 11</span>
-      </p>
-      <p style="margin-top:10px;">
-        <strong>TRL:</strong> 5 &nbsp;&nbsp;
-        <strong>IRL:</strong> 4 &nbsp;&nbsp;
-        <strong>MRL:</strong> 3
-      </p>
-    </section>
-
-    <section class="card">
-      <h3>Resources & Links</h3>
-      <a href="#" class="link-btn">Poster</a>
-      <a href="#" class="link-btn">GitHub</a>
-      <a href="#" class="link-btn">Social Media</a>
-    </section>
-
-  </main>
-
-  <!-- Feedback Modal -->
-  <div id="feedbackModal" class="modal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3>Share Your Feedback</h3>
-        <button class="close-btn" id="closeModalBtn">&times;</button>
-      </div>
-      <div id="message" class="message"></div>
-      <form id="feedbackForm" class="feedback-form">
-        <div class="form-group">
-          <label for="email">Email *</label>
-          <input type="email" id="email" name="email" required placeholder="your.email@example.com">
-        </div>
-
-        <div class="form-group">
-          <label>Rating *</label>
-          <div class="star-rating">
-            <input type="radio" id="star5" name="rating" value="5" required />
-            <label for="star5">★</label>
-            <input type="radio" id="star4" name="rating" value="4" />
-            <label for="star4">★</label>
-            <input type="radio" id="star3" name="rating" value="3" />
-            <label for="star3">★</label>
-            <input type="radio" id="star2" name="rating" value="2" />
-            <label for="star2">★</label>
-            <input type="radio" id="star1" name="rating" value="1" />
-            <label for="star1">★</label>
+        <section class="card">
+          <h3>Team Information</h3>
+          <div class="info-grid">
+            <p><strong>Team Name:</strong> IntelliFlow</p>
+            <p><strong>Stall Number:</strong> S01</p>
+            <p><strong>Faculty Mentor:</strong> Dr. ABC XYZ</p>
+            <p><strong>Department:</strong> CSE</p>
           </div>
-          <div class="rating-value" id="ratingValue"></div>
+        </section>
+
+        <section class="card">
+          <h3>Project Description</h3>
+          <p>
+            This project proposes an AI-driven smart traffic control system that dynamically
+            adjusts traffic signals based on real-time congestion data using computer vision
+            and IoT sensors to reduce waiting time and emissions.
+          </p>
+        </section>
+
+        <section class="card">
+          <h3>Team Mates</h3>
+          <ul>
+            <li>Student 1 – CSE</li>
+            <li>Student 2 – CSE</li>
+            <li>Student 3 – CSE</li>
+            <li>Student 4 – CSE</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h3>Innovation & Maturity Levels</h3>
+          <p>
+            <span class="badge">SDG 9</span>
+            <span class="badge">SDG 11</span>
+          </p>
+          <p style="margin-top:10px;">
+            <strong>TRL:</strong> 5 &nbsp;&nbsp;
+            <strong>IRL:</strong> 4 &nbsp;&nbsp;
+            <strong>MRL:</strong> 3
+          </p>
+        </section>
+
+        <section class="card">
+          <h3>Resources & Links</h3>
+          <a href="#" class="link-btn">Poster</a>
+          <a href="#" class="link-btn">GitHub</a>
+          <a href="#" class="link-btn">LinkedIn</a>
+        </section>
+
+      </main>
+
+      <!-- Feedback Modal -->
+      <div id="feedbackModal" class="modal">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Share Your Feedback</h3>
+            <button class="close-btn" id="closeModalBtn">&times;</button>
+          </div>
+          <div id="message" class="message"></div>
+          <form id="feedbackForm" class="feedback-form">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+            </div>
+
+            <div class="form-group">
+              <label>Rating *</label>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" required />
+                <label for="star5">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                </label>
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                </label>
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                </label>
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                </label>
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1">
+                  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+                  </svg>
+                </label>
+              </div>
+              <div class="rating-value" id="ratingValue"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="feedback">Feedback *</label>
+              <textarea id="feedback" name="feedback" required
+                placeholder="Share your thoughts about this project..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn" id="submitBtn">Submit Feedback</button>
+          </form>
         </div>
+      </div>
 
-        <div class="form-group">
-          <label for="feedback">Feedback *</label>
-          <textarea id="feedback" name="feedback" required
-            placeholder="Share your thoughts about this project..."></textarea>
-        </div>
-        <button type="submit" class="submit-btn" id="submitBtn">Submit Feedback</button>
-      </form>
-    </div>
-  </div>
+      <footer class="footer">
+        © 2026 Institution's Innovation Council (IIC) & Anokha TechFair & Exhibitions. All Rights Reserved.
+      </footer>
 
-  <footer class="footer">
-    © 2026 Institution's Innovation Council (IIC) & Anokha TechFair & Exhibitions. All Rights Reserved.
-  </footer>
+      <!-- Firebase SDK -->
+      <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getFirestore, collection, addDoc, query, where, getDocs, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
 
-  <!-- Firebase SDK -->
-  <script type="module">
-    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
-    import { getFirestore, collection, addDoc, query, where, getDocs, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
-
-    const firebaseConfig = {
-      apiKey: "AIzaSyCOaBiBOWhxuhalFXqTVwZgMD7ScyM342E",
-      authDomain: "anokha-techfair-2026-qr.firebaseapp.com",
-      projectId: "anokha-techfair-2026-qr",
-      storageBucket: "anokha-techfair-2026-qr.firebasestorage.app",
-      messagingSenderId: "223357261790",
-      appId: "1:223357261790:web:b43b76b11a9b0984416f4f"
-    };
-
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
-    const PAGE_ID = "ATFE26-HT01";
-
-    // Modal controls
-    const modal = document.getElementById('feedbackModal');
-    const openBtn = document.getElementById('openFeedbackBtn');
-    const closeBtn = document.getElementById('closeModalBtn');
-
-    openBtn.onclick = () => modal.classList.add('show');
-    closeBtn.onclick = () => modal.classList.remove('show');
-    
-    window.onclick = (e) => {
-      if (e.target === modal) {
-        modal.classList.remove('show');
-      }
-    };
-
-    // Form elements
-    const form = document.getElementById('feedbackForm');
-    const submitBtn = document.getElementById('submitBtn');
-    const messageDiv = document.getElementById('message');
-    const ratingInputs = document.querySelectorAll('input[name="rating"]');
-    const ratingValueDiv = document.getElementById('ratingValue');
-
-    ratingInputs.forEach(input => {
-      input.addEventListener('change', (e) => {
-        const value = e.target.value;
-        ratingValueDiv.textContent = `You selected ${value} star${value > 1 ? 's' : ''}`;
-      });
-    });
-
-    function showMessage(text, type) {
-      messageDiv.textContent = text;
-      messageDiv.className = `message ${type} show`;
-      setTimeout(() => {
-        messageDiv.classList.remove('show');
-      }, 5000);
-    }
-
-    async function checkEmailExists(email) {
-      const feedbackRef = collection(db, 'websites', PAGE_ID, 'feedback');
-      const q = query(feedbackRef, where('email', '==', email));
-      const querySnapshot = await getDocs(q);
-      return !querySnapshot.empty;
-    }
-
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-
-      submitBtn.disabled = true;
-      submitBtn.textContent = 'Submitting...';
-
-      const email = document.getElementById('email').value.trim().toLowerCase();
-      const rating = document.querySelector('input[name="rating"]:checked')?.value;
-      const feedback = document.getElementById('feedback').value.trim();
-
-      if (!rating) {
-        showMessage('Please select a rating before submitting.', 'error');
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Submit Feedback';
-        return;
-      }
-
-      try {
-        const emailExists = await checkEmailExists(email);
-
-        if (emailExists) {
-          showMessage('This email has already submitted feedback for this project.', 'error');
-          submitBtn.disabled = false;
-          submitBtn.textContent = 'Submit Feedback';
-          return;
-        }
-
-        const formData = {
-          pageId: PAGE_ID,
-          email: email,
-          rating: parseInt(rating),
-          feedback: feedback,
-          timestamp: serverTimestamp()
+        const firebaseConfig = {
+          apiKey: "AIzaSyCOaBiBOWhxuhalFXqTVwZgMD7ScyM342E",
+          authDomain: "anokha-techfair-2026-qr.firebaseapp.com",
+          projectId: "anokha-techfair-2026-qr",
+          storageBucket: "anokha-techfair-2026-qr.firebasestorage.app",
+          messagingSenderId: "223357261790",
+          appId: "1:223357261790:web:b43b76b11a9b0984416f4f"
         };
 
-        await addDoc(collection(db, 'websites', PAGE_ID, 'feedback'), formData);
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+        const PAGE_ID = "ATFE26-HT01";
 
-        showMessage('Thank you! Your feedback has been submitted successfully.', 'success');
+        // Modal controls
+        const modal = document.getElementById('feedbackModal');
+        const openBtn = document.getElementById('openFeedbackBtn');
+        const closeBtn = document.getElementById('closeModalBtn');
 
-        form.reset();
-        ratingValueDiv.textContent = '';
-        
-        setTimeout(() => {
-          modal.classList.remove('show');
-        }, 2000);
-      } catch (error) {
-        console.error('Error submitting feedback:', error);
-        showMessage('Sorry, there was an error submitting your feedback. Please try again.', 'error');
-      } finally {
-        submitBtn.disabled = false;
-        submitBtn.textContent = 'Submit Feedback';
-      }
-    });
-  </script>
+        openBtn.onclick = () => modal.classList.add('show');
+        closeBtn.onclick = () => modal.classList.remove('show');
+
+        window.onclick = (e) => {
+          if (e.target === modal) {
+            modal.classList.remove('show');
+          }
+        };
+
+        // Form elements
+        const form = document.getElementById('feedbackForm');
+        const submitBtn = document.getElementById('submitBtn');
+        const messageDiv = document.getElementById('message');
+        const ratingInputs = document.querySelectorAll('input[name="rating"]');
+        const ratingValueDiv = document.getElementById('ratingValue');
+
+        ratingInputs.forEach(input => {
+          input.addEventListener('change', (e) => {
+            const value = e.target.value;
+            ratingValueDiv.textContent = `You selected ${value} star${value > 1 ? 's' : ''}`;
+          });
+        });
+
+        function showMessage(text, type) {
+          messageDiv.textContent = text;
+          messageDiv.className = `message ${type} show`;
+          setTimeout(() => {
+            messageDiv.classList.remove('show');
+          }, 5000);
+        }
+
+        async function checkEmailExists(email) {
+          const feedbackRef = collection(db, 'websites', PAGE_ID, 'feedback');
+          const q = query(feedbackRef, where('email', '==', email));
+          const querySnapshot = await getDocs(q);
+          return !querySnapshot.empty;
+        }
+
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+
+          submitBtn.disabled = true;
+          submitBtn.textContent = 'Submitting...';
+
+          const email = document.getElementById('email').value.trim().toLowerCase();
+          const rating = document.querySelector('input[name="rating"]:checked')?.value;
+          const feedback = document.getElementById('feedback').value.trim();
+
+          if (!rating) {
+            showMessage('Please select a rating before submitting.', 'error');
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Submit Feedback';
+            return;
+          }
+
+          try {
+            const emailExists = await checkEmailExists(email);
+
+            if (emailExists) {
+              showMessage('This email has already submitted feedback for this project.', 'error');
+              submitBtn.disabled = false;
+              submitBtn.textContent = 'Submit Feedback';
+              return;
+            }
+
+            const formData = {
+              pageId: PAGE_ID,
+              email: email,
+              rating: parseInt(rating),
+              feedback: feedback,
+              timestamp: serverTimestamp()
+            };
+
+            await addDoc(collection(db, 'websites', PAGE_ID, 'feedback'), formData);
+
+            showMessage('Thank you! Your feedback has been submitted successfully.', 'success');
+
+            form.reset();
+            ratingValueDiv.textContent = '';
+
+            setTimeout(() => {
+              modal.classList.remove('show');
+            }, 2000);
+          } catch (error) {
+            console.error('Error submitting feedback:', error);
+            showMessage('Sorry, there was an error submitting your feedback. Please try again.', 'error');
+          } finally {
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Submit Feedback';
+          }
+        });
+      </script>
 
 </body>
 
