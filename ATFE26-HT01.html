@@ -236,7 +236,7 @@
 
     .level-fullform {
       font-size: 11px;
-      color: #999;
+      color: black;
       font-weight: 400;
       font-family: 'Inter', sans-serif;
     }
@@ -518,6 +518,44 @@
     .toast.hide {
       animation: slideOut 0.3s ease-out;
     }
+
+    .roll-number {
+      font-weight: bold;
+      margin-left: 8px;
+      color: var(--accent-blue);
+      font-size: 0.9em;
+    }
+
+    .member-link {
+      display: inline-flex;
+      margin-top: 8px;
+      color: #555;
+      transition: color 0.2s;
+    }
+
+    .member-link:hover {
+      color: var(--primary-blue);
+    }
+
+    .github-title-icon {
+      display: inline-flex;
+      vertical-align: middle;
+      margin-left: 12px;
+      color: white;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+    }
+
+    .github-title-icon:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: translateY(-2px);
+    }
   </style>
 </head>
 
@@ -531,7 +569,14 @@
         <div class="logo-right"><img src="assets/TFE.png" alt="Logo"></div>
       </div>
       <div class="project-id">ATFE26-HT01</div>
-      <h1>Smart Traffic Control System</h1>
+      <h1>Smart Traffic Control System <a href="#" class="github-title-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+            </path>
+          </svg>
+        </a></h1>
       <div class="department">Department of Computer Science & Engineering</div>
     </div>
 
@@ -570,12 +615,53 @@
       <div class="section">
         <h2 class="section-title">Team Members</h2>
         <div class="team-members">
-          <div class="team-member">Student 1 – CSE</div>
-          <div class="team-member">Student 2 – CSE</div>
-          <div class="team-member">Student 3 – CSE</div>
-          <div class="team-member">Student 4 – CSE</div>
+          <div class="team-member">
+            <div>
+              Student 1 <span class="roll-number">Roll No</span>
+            </div>
+            <a href="#" class="member-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+          </div>
+          <div class="team-member">
+            <div>
+              Student 2 <span class="roll-number">Roll No</span>
+            </div>
+            <a href="#" class="member-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+          </div>
+          <div class="team-member">
+            <div>
+              Student 3 <span class="roll-number">Roll No</span>
+            </div>
+            <a href="#" class="member-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+          </div>
+          <div class="team-member">
+            <div>
+              Student 4 <span class="roll-number">Roll No</span>
+            </div>
+            <a href="#" class="member-link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
+
 
       <div class="section">
         <h2 class="section-title">Readiness Levels</h2>
@@ -607,14 +693,6 @@
         </div>
       </div>
 
-      <div class="section">
-        <h2 class="section-title">Resources & Links</h2>
-        <div class="resources">
-          <a href="#" class="resource-btn">Poster</a>
-          <a href="#" class="resource-btn">GitHub</a>
-          <a href="#" class="resource-btn">LinkedIn</a>
-        </div>
-      </div>
     </div>
 
     <div class="footer">
