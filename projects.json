@@ -1784,7 +1784,7 @@
     "teamName": "-",
     "stallNumber": "-",
     "facultyMentor": "-",
-    "description": "The project focuses on the development of plantable disposable cups using banana pseudostem fiber and coconut fiber as sustainable raw materials. These cups are biodegradable, eco-friendly, and embedded with seeds that can germinate after disposal. Organic gums and natural colors are used, ensuring food safety and environmental compatibility. The innovation aims to replace plastic and paper cups while promoting the concept of waste-to-green growth, contributing to sustainable development and circular economy practices. <div class=\"section\"> <h2 class=\"section-title\">Team Members</h2> <div class=\"team-members\"> <div class=\"team-member\"> <div> Vidhyaa Lakshmi Viswanathan<span class=\"roll-number\">Roll No</span>",
+    "description": "",
     "trl": "1",
     "mrl": "2",
     "irl": "4",
@@ -2142,7 +2142,7 @@
     "teamName": "IntelliFlow",
     "stallNumber": "LS8",
     "facultyMentor": "NAN",
-    "description": "<<<<<<< HEAD This project presents a gesture-controlled drone interface that replaces conventional radio control transmitters with intuitive hand motion input. A wearable glove equipped with an MPU6050 inertial measurement unit and an ESP32 captures human hand movements and translates them into real-time flight commands for throttle, roll, pitch, and yaw. Sensor fusion is achieved using a complementary filter to ensure stable and smooth control signals. Low-latency wireless communication is implemented through an ESP32-based ESP-NOW protocol, enabling reliable data transmission to an APM 2.8.1 flight controller. The system emphasizes human\u2013machine interaction by offering a natural and immersive control experience. Despite hardware and computational constraints, the project demonstrates effective engineering trade-offs, iterative design refinement, and robust system integration for real-time aerial control. ======= \"This project focuses on the design and analysis of a piezoelectric energy harvesting system that captures electrical energy from vibrations induced by vehicular traffic on a simple beam bridge. The system is modeled and simulated using MATLAB, incorporating classical structural vibration theory to evaluate dynamic response. Multiple harvester placement locations along the bridge span are analyzed to identify the optimal position for maximum energy output. By integrating vibration modeling with performance optimization, the project demonstrates an effective approach to sustainable energy generation from existing infrastructure. The MATLAB-based methodology enables repeatable analysis, quantitative comparison, and clear performance evaluation, highlighting the potential of smart energy harvesting solutions for real-world civil and transportation engineering applications.\" >>>>>>> 8bcf329750cb6d9c4e04c4e63ad38701fa0424bb",
+    "description": "This project presents a gesture-controlled drone interface that replaces conventional radio control transmitters with intuitive hand motion input. A wearable glove equipped with an MPU6050 inertial measurement unit and an ESP32 captures human hand movements and translates them into real-time flight commands for throttle, roll, pitch, and yaw. Sensor fusion is achieved using a complementary filter to ensure stable and smooth control signals. Low-latency wireless communication is implemented through an ESP32-based ESP-NOW protocol, enabling reliable data transmission to an APM 2.8.1 flight controller. The system emphasizes human\u2013machine interaction by offering a natural and immersive control experience. Despite hardware and computational constraints, the project demonstrates effective engineering trade-offs, iterative design refinement, and robust system integration for real-time aerial control. ======= \"This project focuses on the design and analysis of a piezoelectric energy harvesting system that captures electrical energy from vibrations induced by vehicular traffic on a simple beam bridge. The system is modeled and simulated using MATLAB, incorporating classical structural vibration theory to evaluate dynamic response. Multiple harvester placement locations along the bridge span are analyzed to identify the optimal position for maximum energy output. By integrating vibration modeling with performance optimization, the project demonstrates an effective approach to sustainable energy generation from existing infrastructure. The MATLAB-based methodology enables repeatable analysis, quantitative comparison, and clear performance evaluation, highlighting the potential of smart energy harvesting solutions for real-world civil and transportation engineering applications.",
     "trl": "4",
     "mrl": "4",
     "irl": "5",
@@ -2155,7 +2155,7 @@
     ],
     "teamMembers": [
       {
-        "name": "<<<<<<< HEAD\n            Sanjay.S",
+        "name": "Sanjay.S",
         "rollNumber": "Roll No",
         "linkedin": ""
       },
