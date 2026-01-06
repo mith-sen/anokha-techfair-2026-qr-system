@@ -1,0 +1,3932 @@
+{
+  "ATFE26-HT01": {
+    "id": "ATFE26-HT01",
+    "title": "AGE- Autonomous Ground Explorer",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "facultyMentor": "NAN",
+    "description": "The project is an ESP32-based 4WD autonomous rover that intelligently explores indoor environments. Its key innovation lies in the integration of a servo-mounted TF-Mini LiDAR with the classic Vector Field Histogram (VFH) algorithm for dynamic obstacle avoidance, fully implemented on a low-cost microcontroller without reliance on resource-heavy frameworks such as ROS. This enables the rover to perform wide-angle scans, analyze surrounding obstacles in real time, and select the safest direction to proceed.",
+    "trl": "6",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Saishreya Nair",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT02": {
+    "id": "ATFE26-HT02",
+    "title": "LARA",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS6",
+    "facultyMentor": "NAN",
+    "description": "Fixed wing UAV designed for the problem statement given by Boeing National Aeromodelling competition 2025-26 and used this opportunity for experimenting on lightweight airframe structures and crash proof fabrication methods for rigorous flight testing and educational purpose",
+    "trl": "9",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "KANEESH RAVI",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT03": {
+    "id": "ATFE26-HT03",
+    "title": "LAIKA",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "Project Laika presents a fixed-wing UAV engineered for high-payload, precision aerial delivery. Its core innovation lies in a custom servo-actuated payload bay, co-designed with the airframe and integrated at the aircraft\u2019s center of gravity to enable controlled, simultaneous payload release without affecting flight balance. A Clark-Y airfoil was optimized through aerodynamic simulations, and a hybrid lightweight construction was employed to maximize the payload-to-weight ratio while ensuring stable and efficient flight. A fully functional prototype has been successfully built and flight-tested, demonstrating stable handling characteristics and reliable, on-command payload release during operation. This project showcases a practical solution for applications in sustainable last-mile logistics and emergency aid delivery, where dependable and efficient aerial transport is critical.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Saishreya Nair",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT04": {
+    "id": "ATFE26-HT04",
+    "title": "Big Boy",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS8",
+    "facultyMentor": "NAN",
+    "description": "It is a human-detection UAV designed as a disaster-response drone for remote and inaccessible regions, capable of delivering medical supplies and emergency communication devices to survivors in support of rescue operations. The system integrates multi-sensor fusion, artificial intelligence, and computer vision to autonomously detect humans, accurately localize their positions, and map affected areas for coordinated follow-up missions. The UAV is engineered for rapid deployment, stable flight, and reliable payload delivery under challenging environmental conditions. By reducing dependence on manual search efforts, the platform significantly improves response time, situational awareness, and the overall effectiveness of disaster management operations.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Sathvikh Sriram",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT05": {
+    "id": "ATFE26-HT05",
+    "title": "Low-Cost Arduino-Based Flight Data Recorder",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS8",
+    "facultyMentor": "NAN",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT06": {
+    "id": "ATFE26-HT06",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT07": {
+    "id": "ATFE26-HT07",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT08": {
+    "id": "ATFE26-HT08",
+    "title": "AERION",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS10",
+    "facultyMentor": "NAN",
+    "description": "AERION is a twin-boom, propeller-driven unmanned aerial vehicle designed to achieve structural efficiency, modularity, and high payload capability. The aircraft features a high-wing rectangular configuration with a 1.5-meter wingspan, where the wing is fully detachable for ease of transport and maintenance. The airframe is constructed using Depron foam reinforced with fiber tape, while the wing incorporates a hybrid structure consisting of 3D-printed ribs, aluminum spars, and balsa wood to balance strength and weight. Designed to carry payloads of up to 1.5 kg, AERION is well suited for experimental sensors and mission-specific modules. The project delivers a mission-ready UAV platform that combines twin-boom stability with modern fabrication techniques, enabling scalable research and payload-driven innovation.",
+    "trl": "7",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7"
+    ],
+    "teamMembers": [
+      {
+        "name": "Sai Rutejith Pavan Devireddy",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT09": {
+    "id": "ATFE26-HT09",
+    "title": "Swarm of two ESP32 drones",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS10",
+    "facultyMentor": "NAN",
+    "description": "This project demonstrates a decentralized dual-drone system in which two ESP32-based unmanned aerial vehicles communicate directly using the ESP-NOW peer-to-peer protocol, eliminating the need for an external ground station. One drone functions as a leader by receiving remote control inputs, while the follower drone mirrors its behavior based on transmitted flight data. The system integrates an IMU and barometric pressure sensor for stable flight control, along with a wireless server interface for real-time PID parameter tuning. By enabling reliable peer-to-peer coordination and autonomous following behavior, the project highlights a scalable and low-latency architecture suitable for cooperative UAV operations and foundational swarm robotics research.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Samadrita Bhattacharjee",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": "google.com"
+  },
+  "ATFE26-HT10": {
+    "id": "ATFE26-HT10",
+    "title": "Abhimanyu - Autonomous Navigation Drone",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS10",
+    "facultyMentor": "NAN",
+    "description": "Abhimanyu is an autonomous navigation quadcopter developed using an H-configuration airframe, integrating a CubePilot Orange flight controller and a Raspberry Pi 4B for high-level onboard computation. The Raspberry Pi interfaces with a LoRa SX1278 transceiver module, enabling long-range communication with a Teensy 4.0-based ground station connected to QGroundControl. This architecture demonstrates a robust hybrid hardware\u2013software design that combines reliable flight control with flexible autonomous logic implemented in Python. The H-configuration enhances stability and payload accommodation, supporting advanced navigation tasks. Overall, the project highlights effective system integration, scalable autonomy, and practical UAV design suitable for research-oriented autonomous flight applications.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Sathvikh Sriram",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT11": {
+    "id": "ATFE26-HT11",
+    "title": "Wearable Epileptic Seizure Prediction Device Using ECG Signals",
+    "department": "Department of Electronics and Communication Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS11",
+    "facultyMentor": "NAN",
+    "description": "This project presents a wearable epileptic seizure prediction system based on electrocardiogram (ECG) signals. ECG data are acquired using an AD8232 biopotential sensor interfaced with an ESP32 microcontroller and transmitted to the cloud through the MQTT protocol. A cloud-connected personal computer subscribes to the ECG stream, performs signal preprocessing, and applies a deep learning model to classify normal and pre-ictal states. The prediction results are published back to the cloud, enabling real-time monitoring and access for caregivers, relatives, and medical professionals.",
+    "trl": "6",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "P M Ananya",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT12": {
+    "id": "ATFE26-HT12",
+    "title": "Integration of Digitauyiytin with MPPT for solar pv operations under partial shading conditions",
+    "department": "Department of Electronics and Communication Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S31",
+    "facultyMentor": "NAN",
+    "description": "This project presents the integration of a digital twin with a DC\u2013DC boost converter for intelligent Maximum Power Point Tracking (MPPT) in solar photovoltaic systems. The digital twin accurately models the boost converter\u2019s electrical behaviour in real time, enabling effective monitoring and control of the power conversion process. By synchronizing the virtual model with the physical system, the approach improves MPPT performance, enhances system reliability, and supports faster algorithm validation. The work demonstrates how digital twin technology can aid efficient power electronics design and control in renewable energy applications.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "7",
+      "9",
+      "10"
+    ],
+    "teamMembers": [
+      {
+        "name": "SAI KARTHIK RAJAN",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT13": {
+    "id": "ATFE26-HT13",
+    "title": "SETU 5.0 - A Rapid Deployment System for Emergency Response",
+    "department": "Department of Electronics and Communication Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS11",
+    "facultyMentor": "NAN",
+    "description": "During disasters such as floods and landslides, damaged infrastructure and inaccessible terrain delay the delivery of critical supplies. Conventional solutions, including ground vehicles and aerial systems, are limited by terrain constraints, weather dependence, and high operational costs. This project presents SETU 5.0, a low-cost, semi-autonomous cable-based rapid deployment system to address last-mile logistics challenges. The system transports essential payloads along a suspended cable, integrating obstacle awareness, payload monitoring, and controlled delivery. A real-time monitoring interface enables remote supervision, supporting reliable, energy-efficient, and scalable deployment in disaster-prone environments.",
+    "trl": "4",
+    "mrl": "4",
+    "irl": "5",
+    "sdgs": [
+      "3",
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Deepthika S",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT14": {
+    "id": "ATFE26-HT14",
+    "title": "FieldBeacon",
+    "department": "Department of Electronics and Communication Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS11",
+    "facultyMentor": "NAN",
+    "description": "The \u201cField Beacon\u201d project introduces a novel, cost-effective solution to protect crops and lives from animal intrusion using a real-time beam-tracking system. Using phased-array technology in the 2.45 GHz ISM band, the system continuously monitors and detects animals such as elephants and wild boars and activates deterrence measures while notifying farmers of the intrusion. The system uses two 2 \u00d7 4 microstrip patch antenna array for transmission and reception with beam steering capability of \u00b130\u25e6 and maximum gain 14.95dB. Moreover, the array also reflects an efficiently reduced Side Lobe Level (SLL) of - 13.77dB. Additionally, the ADALM-Pluto SDR and Raspberry Pi modules are used for signal processing, and computational tasks, respectively. Designed for scalability, simplicity, and educational value, Field Beacon emphasizes robust, real-time operation, making it accessible to both farmers and non-engineers.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "12"
+    ],
+    "teamMembers": [
+      {
+        "name": "Gurudev R N",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT15": {
+    "id": "ATFE26-HT15",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT16": {
+    "id": "ATFE26-HT16",
+    "title": "3-Axis Arm Controller",
+    "department": "Department of Electrical and Electronics Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This intelligent 6-DOF robotic arm utilizes a unique Hybrid Brain architecture combining YOLOv8, ANFIS, and NLP models to enable autonomous manipulation with a standard 2D webcam. By leveraging these neural networks to compensate for mechanical imperfections and depth ambiguity in real time, the system successfully bridges the gap between lightweight, limited-cost components into a capable transforming low-cost components into a capable system.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT17": {
+    "id": "ATFE26-HT17",
+    "title": "ElectraCore",
+    "department": "School of AI",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project develops a solar-powered wireless electrie vehicle charging system based on inductive power transfer. Photovoltaic energy is conditioned and stored using a charge controller and battery system, then converted to high-frequency AC to drive a transmitter coil. Power is magnetically coupled to a receiver coil, rectified, and regulated for EV battery charging, demonstrating an efficient, contactless, and sustainable charging architecture.",
+    "trl": "5",
+    "mrl": "4",
+    "irl": "5",
+    "sdgs": [
+      "7",
+      "9",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT18": {
+    "id": "ATFE26-HT18",
+    "title": "Mini Air Defense System",
+    "department": "School of AI",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "This project implements a mini air defence systero for short-range object detection and directional response using embedded sensors and servo-based actuation. An ultrasonic sensor scans the environment, microcontroller processes distance and angular data to estimate target location. Based on this information, system aligns a turret mechanism and activates predefined alert or response actions. The design focuses on real-time operation.",
+    "trl": "5",
+    "mrl": "4",
+    "irl": "4",
+    "sdgs": [
+      "7",
+      "9",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT19": {
+    "id": "ATFE26-HT19",
+    "title": "Automated Irrigation System Using Canopy Temperature Monitoring",
+    "department": "School of Agricultural Sciences",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project presents an automated irrigation system using crop canopy temperature monitoring. A non-contact IR sensor measures canopy and atmospheric temperature, and the ESP32 activates irrigation when the temperature difference (AT) exceeds 3 \u00b0C, indicating plant water stress. The system enables precise, plant-centric irrigation with improved water use efficiency and reduced manual intervention.",
+    "trl": "6",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "12",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Keerthana M H",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT20": {
+    "id": "ATFE26-HT20",
+    "title": "IoT-Enabled Smart Irrigation System",
+    "department": "School of Agricultural Sciences",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "\"A sensor-based irrigation system uses technology to water crops more efficiently. It automatically checks the soil's moisture level and weather conditions in real time. This apply water only when and where plants truly need it. This could conserve water and reduce waste.\"",
+    "trl": "6",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "12",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Vignesh J",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT21": {
+    "id": "ATFE26-HT21",
+    "title": "Prototype of Quadropole Ion Trap",
+    "department": "Department of Physical Science",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "Ion traps are devices capable of confining charged particles using electric and/or magnetic fields. They play a crucial role in modern physics, mass spectrometry, quantum computing, and precision measurement. This paper presents the design, construction, and working principle of a prototype AC ion trap operated at approximately 1500 V alternating current (AC). The system uses a variac-controlled AC source connected to a step-up transformer, with the transformer output applied to a three-electrode configuration consisting of two end electrodes and a central ring electrode. The paper explains the physical principles behind ion trapping, construction methodology, electrical configuration, safety considerations, and practical applications",
+    "trl": "6",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "4",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "N. Purna Siddhardha",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT22": {
+    "id": "ATFE26-HT22",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT23": {
+    "id": "ATFE26-HT23",
+    "title": "Solar Panel Maintenance",
+    "department": "Department of Electrical and Electronics Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "The proposed system employs real-time performance monitoring to initiate cleaning only when a reduction in output is detected. An autonomous rover travels horizontally along a guided path on the solar panel surface and removes accumulated dust using a mechanical eleaning mechanism. Controlled low-speed motion ensures uniform and safe cleaning, while wireless communication enables reliable coordination between system components",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "3",
+    "sdgs": [
+      "7"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT24": {
+    "id": "ATFE26-HT24",
+    "title": "Portable Solar Tracker",
+    "department": "Department of Electrical and Electronics Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "A low-cost, portable dual-axis solar tracking system using an STM32 microcontroller and GPS-synchronized algorithms is designed to accurately orient solar panels in real time. By autonomously optimizing panel angles, the system achieves an increased energy yield compared to fixed installations. The weather-independent and reproducible design makes it more compact, efficient, and a reliable solar power solution.",
+    "trl": "5",
+    "mrl": "4",
+    "irl": "4",
+    "sdgs": [
+      "7",
+      "9",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT25": {
+    "id": "ATFE26-HT25",
+    "title": "Steward Platform",
+    "department": "Department of Mechanical Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "This project presents the design and implementation of a dual-mode control system for a 6-Degree-of-Freedom Stewart Platform. The platform can be controlled using vision-based hand gestures or IMU-based orientation input, selectable based on user preference. In vision mode, a camera captures hand gestures, which are processed using computer vision to generate platform motion commands. In IMU mode, orientation data (roll and pitch) from an inertial sensor directly controls platform tilt and movement.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT26": {
+    "id": "ATFE26-HT26",
+    "title": "Omni-directional Multi-Morphing Robot",
+    "department": "Department of Mechanical Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "\"This project presents the design and analysis of a bioinspired multi-morphing omnidirectional mobile robot capable of seamless motion in multiple directions.A simplified kinematic model is developed, and optimal parameters such as wheel radius, wheel offset, and steering angle are identified using Jacobian condition number analysis.The robot enables smooth omnidirectional motion with minimal control complexity, allowing intuitive operation through a high-level API. The proposed system improves maneuverability, adaptability, and usability for service and research applications.\"",
+    "trl": "9",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "3",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT27": {
+    "id": "ATFE26-HT27",
+    "title": "NIVARA Smart Health",
+    "department": "Department of Mechanical Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT28": {
+    "id": "ATFE26-HT28",
+    "title": "Project Odin",
+    "department": "Department of Mechanical Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT29": {
+    "id": "ATFE26-HT29",
+    "title": "Prosthetic Hand with Real-time Feedback using EMG Sensor",
+    "department": "School of AI",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT30": {
+    "id": "ATFE26-HT30",
+    "title": "Electricity Generating Flooring System Using Footstep Energy",
+    "department": "Department of Civil Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "NAN",
+    "description": "This project presents an electricity generating flooring system that converts mechanical energy from human footsteps into electrical energy. Sensors installed beneath the floor capture pressure from walking and convert it into usable power, which is stored and used to operate low-energy devices such as LED lights. The system offers a sustainable energy solution for high foot-traffic areas like colleges, malls, and public transport stations.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "2",
+    "sdgs": [
+      "7",
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT31": {
+    "id": "ATFE26-HT31",
+    "title": "Light Transmitting Concrete Blocks Using Optical Fibers",
+    "department": "Department of Civil Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project develops light transmitting concrete blocks by embedding optical fibers into conventional concrete, allowing light to pass through without compromising strength. The blocks reduce the need for artificial lighting during the day and support energy-efficient, sustainable building design.",
+    "trl": "4",
+    "mrl": "4",
+    "irl": "3",
+    "sdgs": [
+      "7",
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT32": {
+    "id": "ATFE26-HT32",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT33": {
+    "id": "ATFE26-HT33",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT34": {
+    "id": "ATFE26-HT34",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT35": {
+    "id": "ATFE26-HT35",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT36": {
+    "id": "ATFE26-HT36",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT37": {
+    "id": "ATFE26-HT37",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT38": {
+    "id": "ATFE26-HT38",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT39": {
+    "id": "ATFE26-HT39",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-HT40": {
+    "id": "ATFE26-HT40",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST01": {
+    "id": "ATFE26-NST01",
+    "title": "Fabrication of flexible polymer dye-sensitized solar cells through high-temperature sintering processes",
+    "department": "Department of Chemical Engineering and Material Science",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "DESCRIPTION",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Tamil R",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST02": {
+    "id": "ATFE26-NST02",
+    "title": "Green hydrogen production by water electrolysis",
+    "department": "Department of Chemical Engineering and Material Science",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "-",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "XYZ",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST03": {
+    "id": "ATFE26-NST03",
+    "title": "Ethylene furanoate (PEF) polymer, replacement fro PET polymer from agrowaste",
+    "department": "Department of Chemical Engineering and Material Science",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "This project develops polyethylene furanoate (PEF) as a sustainable alternative to PET using 2,5-furandicarboxylic acid (FDCA derived from sugarcane bagasse. It promotes waste valorisation, reduces fossil resource dependence, and supports low-carbon polymer production.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Fatima Safeeda",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST04": {
+    "id": "ATFE26-NST04",
+    "title": "Development of a self healing sensor  using natural rubber latex and sustainable fillers which offers a green, flexible solution for wearable electronics",
+    "department": "Department of Chemical Engineering and Material Science",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "The influence of maleated chitin (MC) on interfacial interactions, crosslink density, and intrinsic self-healing behavior of epoxidized natural rubber (ENR) remains insufficiently understood, limiting the rational design of highperformance, bio-based self-healing elastomers. This study elucidates the effect of MC loading on dispersion, interfacial chemistry, and the resulting mechanical and healing properties of ENR",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Navyasree Reghu",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST06": {
+    "id": "ATFE26-NST06",
+    "title": "Tea Tensils for Eco-Ventures",
+    "department": "Department of Food Science and Nutrition (Physical sciences)",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "This project focuses on developing biodegradable cutlery from tea nerves, a waste generated during tea processing. Natural binders and eco-friendly molding techniques are used to produce plastic-free and compostable utensils. The cutlery is designed to be food-safe and mechanically strong for single-use applications. This approach helps reduce agro-waste and plastic pollution. It also supports low-cost production and rural employment opportunities.",
+    "trl": "6",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "8",
+      "9",
+      "12",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Avantika.S.V",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST07": {
+    "id": "ATFE26-NST07",
+    "title": "pH INDICATAP",
+    "department": "Department of Food Science and Nutrition (Physical sciences)",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "This project focuses on developing biodegradable cutlery from tea nerves, a waste generated during tea processing. Natural binders and eco-friendly molding techniques are used to produce plastic-free and compostable utensils. The cutlery is designed to be food-safe and mechanically strong for single-use applications. This approach helps reduce agro-waste and plastic pollution. It also supports low-cost production and rural employment opportunities.",
+    "trl": "6",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Maha shwetha .A",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST08": {
+    "id": "ATFE26-NST08",
+    "title": "Coconana Cups",
+    "department": "Department of Food Science and Nutrition (Physical sciences)",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "The project focuses on the development of plantable disposable cups using banana pseudostem fiber and coconut fiber as sustainable raw materials. These cups are biodegradable, eco-friendly, and embedded with seeds that can germinate after disposal. Organic gums and natural colors are used, ensuring food safety and environmental compatibility. The innovation aims to replace plastic and paper cups while promoting the concept of waste-to-green growth, contributing to sustainable development and circular economy practices. <div class=\"section\"> <h2 class=\"section-title\">Team Members</h2> <div class=\"team-members\"> <div class=\"team-member\"> <div> Vidhyaa Lakshmi Viswanathan<span class=\"roll-number\">Roll No</span>",
+    "trl": "1",
+    "mrl": "2",
+    "irl": "4",
+    "sdgs": [
+      "7",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Vidhyaa Lakshmi Viswanathan",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST09": {
+    "id": "ATFE26-NST09",
+    "title": "Adulterant Detecting Strips",
+    "department": "Department of Food Science and Nutrition (Physical sciences)",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "This project aims to develop a low-cost and eco-friendly prototype to detect common food adulterants using natural indicators and scrap materials. The detection is based on simple visual changes such as color change or sediment formation. The method provides a preliminary, qualitative assessment of food adulteration and helps promote food safety and consumer awareness. <div class=\"section\"> <h2 class=\"section-title\">Team Members</h2> <div class=\"team-members\"> <div class=\"team-member\"> <div> Daya R <span class=\"roll-number\">Roll No</span>",
+    "trl": "1",
+    "mrl": "2",
+    "irl": "4",
+    "sdgs": [
+      "3",
+      "6",
+      "12"
+    ],
+    "teamMembers": [
+      {
+        "name": "Daya R",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST10": {
+    "id": "ATFE26-NST10",
+    "title": "Bioplastic from Banana Peel",
+    "department": "Department of Food Science and Nutrition (Physical sciences)",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "The Aeroponic Tower System is a vertical, soil-less farming method that uses minimal land and up to 95% less water to grow high-quality crops. Plants are suspended in a vertical structure and supplied with nutrient-rich mist, allowing high oxygen exposure to roots and faster growth. This cost-effective and sustainable system is ideal for urban and land-limited areas, offering an efficient alternative to conventional farming. <div class=\"section\"> <h2 class=\"section-title\">Team Members</h2> <div class=\"team-members\"> <div class=\"team-member\"> <div> Mitra Manoj <span class=\"roll-number\">Roll No</span>",
+    "trl": "6",
+    "mrl": "3",
+    "irl": "3",
+    "sdgs": [
+      "6",
+      "12",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Mitra Manoj",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-NST11": {
+    "id": "ATFE26-NST11",
+    "title": "Aeroponic tower system",
+    "department": "Department of Food Science and Nutrition (Physical sciences)",
+    "teamName": "-",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "The Aeroponic Tower System is a vertical, soil-less farming method that uses minimal land and up to 95% less water to grow high-quality crops. Plants are suspended in a vertical structure and supplied with nutrient-rich mist, allowing high oxygen exposure to roots and faster growth. This cost-effective and sustainable system is ideal for urban and land-limited areas, offering an efficient alternative to conventional farming. <div class=\"section\"> <h2 class=\"section-title\">Team Members</h2> <div class=\"team-members\"> <div class=\"team-member\"> <div> Spandanam Sharma <span class=\"roll-number\">Roll No</span>",
+    "trl": "6",
+    "mrl": "6",
+    "irl": "3",
+    "sdgs": [
+      "6",
+      "12",
+      "13"
+    ],
+    "teamMembers": [
+      {
+        "name": "Spandanam Sharma",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST01": {
+    "id": "ATFE26-ST01",
+    "title": "Agile Interceptor UAV for Engagement and Target",
+    "department": "Department of Aerospace Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project focuses on the design, modeling, and implementation of a detection and tracking algorithm for a quadcopter interceptor. A detailed comparison of aerial vehicles led to the selection of a quadcopter, followed by weight estimation based on finalized components and payload. Two designs were successfully modeled in Fusion 360, with Simulink simulations demonstrating a vertical velocity of 37 m/s. While the detection algorithm was successfully tested and integrated, challenges in position control were encountered due to an asymmetric design. The interceptor model ultimately achieved a level of performance that nearly met the initial requirements.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Dharamnath Sah",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST02": {
+    "id": "ATFE26-ST02",
+    "title": "Morphing Fixed Wing UAV to a land War Machine",
+    "department": "Department of Aerospace Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "The project presents the concept and design of a morphing UAV capable of transforming from a conventional fixed-wing aircraft into a bipedal ground attack vehicle. The primary objective is to achieve a seamless transition between aerial and terrestrial modes of operation. A suitable attack mechanism and a center-of-gravity (CG) shift mechanism are incorporated to ensure stability in both configurations. The project focuses on the conceptual design and system-level development of a morphing unmanned aerial vehicle featuring a synchronized wing-folding mechanism, a crank-driven bipedal gait system, and an active CG shift using a sliding mass to maintain stability during transformation and ground operation. The design is supported by constraint-based sizing, aerodynamic analysis, torque and power calculations, and detailed CAD modeling.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Harsh Panjrath",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST03": {
+    "id": "ATFE26-ST03",
+    "title": "Sabilization of a Rotor tilt free Tricopter",
+    "department": "Department of Aerospace Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "Motor with a flywheel mounted at the center of gravity is introduced to mitigate inherent yaw imbalance, enabling stable hover without servo-based yaw actuation. The complete six-degree-of-freedom (6-DoF) dynamics of the tricopter are modeled using Newton\u2013Euler equations under rigid-body assumptions. A cascaded PID-based control architecture is implemented in MATLAB Simulink, consisting of attitude and ang The project focuses on the design, dynamic modeling, and stabilization of a tilt-free tricopter UAV, aiming to eliminate the mechanical complexity associated with conventional tilting or coaxial rotor mechanisms. The tricopter employs three fixed rotors arranged at 120\u00b0 and achieves attitude control purely through differential thrust and advanced control algorithms, making it an under-actuated yet mechanically simpler system. A dedicated counter-momentular-rate control loops for roll, pitch, and yaw. Simulation results demonstrate controllable hover behavior with manageable oscillations.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Anerudh K",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST04": {
+    "id": "ATFE26-ST04",
+    "title": "Multi-Agent Reinforcement Learning for Autonomous Rover Formation Navigation in Constrained Corridors",
+    "department": "Department of Aerospace Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project presents a multi-agent reinforcement learning framework for coordinating three autonomous differential-drive rovers navigating through curved corridors with varying widths. The system is trained using Proximal Policy Optimization (PPO) in a PyBullet simulation environment. The rovers learn collaborative forward motion while maintaining formation cohesion and avoiding inter-agent and environmental collisions. A dense reward-shaping strategy is employed, incorporating directional velocity incentives and collision penalties to stabilize learning. To enhance robustness and generalization, procedurally generated corridor layouts are used during training, along with a curriculum learning strategy that progressively increases environmental complexity. Key contributions include a novel reward architecture and an effective multi-agent coordination approach. This work demonstrates the integration of classical robotic motion control with scalable artificial intelligence techniques and has practical relevance in warehouse automation, cooperative robotics, and planetary exploration missions.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Adithyan Lalu",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST05": {
+    "id": "ATFE26-ST05",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST06": {
+    "id": "ATFE26-ST06",
+    "title": "Energy harvestor using vibrations of a bridge",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS8",
+    "facultyMentor": "NAN",
+    "description": "<<<<<<< HEAD This project presents a gesture-controlled drone interface that replaces conventional radio control transmitters with intuitive hand motion input. A wearable glove equipped with an MPU6050 inertial measurement unit and an ESP32 captures human hand movements and translates them into real-time flight commands for throttle, roll, pitch, and yaw. Sensor fusion is achieved using a complementary filter to ensure stable and smooth control signals. Low-latency wireless communication is implemented through an ESP32-based ESP-NOW protocol, enabling reliable data transmission to an APM 2.8.1 flight controller. The system emphasizes human\u2013machine interaction by offering a natural and immersive control experience. Despite hardware and computational constraints, the project demonstrates effective engineering trade-offs, iterative design refinement, and robust system integration for real-time aerial control. ======= \"This project focuses on the design and analysis of a piezoelectric energy harvesting system that captures electrical energy from vibrations induced by vehicular traffic on a simple beam bridge. The system is modeled and simulated using MATLAB, incorporating classical structural vibration theory to evaluate dynamic response. Multiple harvester placement locations along the bridge span are analyzed to identify the optimal position for maximum energy output. By integrating vibration modeling with performance optimization, the project demonstrates an effective approach to sustainable energy generation from existing infrastructure. The MATLAB-based methodology enables repeatable analysis, quantitative comparison, and clear performance evaluation, highlighting the potential of smart energy harvesting solutions for real-world civil and transportation engineering applications.\" >>>>>>> 8bcf329750cb6d9c4e04c4e63ad38701fa0424bb",
+    "trl": "4",
+    "mrl": "4",
+    "irl": "5",
+    "sdgs": [
+      "4",
+      "6",
+      "7",
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "<<<<<<< HEAD\n            Sanjay.S",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST07": {
+    "id": "ATFE26-ST07",
+    "title": "Airfoil Recommendation system",
+    "department": "Department of Aerospace and Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "LS9",
+    "facultyMentor": "NAN",
+    "description": "\"This project focuses on the development of an airfoil recommendation system aimed at supporting students and beginner aircraft designers in glider design. The system accepts user-defined performance objectives and recommends suitable airfoils from a curated aerodynamic database by integrating aerodynamic coefficients with computational selection methods. The primary objective is to provide a reliable starting point for airfoil selection, significantly reducing reliance on trial-and-error approaches during early-stage design. Although the initial implementation utilizes a relatively small dataset, the model was successfully trained to produce consistent and meaningful recommendations. The project establishes a functional baseline framework, with future enhancements planned through dataset expansion and improved prediction accuracy and robustness.\"",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Manasa J",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST08": {
+    "id": "ATFE26-ST08",
+    "title": "High-Fidelity Missile-Target Engagement Simulation with Wind-Aware Guidance and Dual-Pulse Propulsion",
+    "department": "Department of Aerospace Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "\"This project presents a high-fidelity six-degree-of-freedom (6-DoF) missile\u2013target engagement simulation developed in MATLAB, incorporating realistic atmospheric, aerodynamic, propulsion, and guidance dynamics. The model integrates altitude-dependent wind profiles derived from real radiosonde data and simulates a dual-pulse solid rocket motor with time-varying mass and thrust characteristics. Guidance is implemented using proportional navigation enhanced with adaptive gain scheduling to improve performance across engagement phases. Key engagement phenomena, including trajectory evolution, miss distance, and control response, are explicitly analyzed through comprehensive visualization tools. The project demonstrates strong proficiency in missile flight dynamics and system-level modeling, reflecting a deep understanding of practical engagement behavior under realistic environmental and propulsion constraints.\"",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "6",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Adithyan Lalu",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST09": {
+    "id": "ATFE26-ST09",
+    "title": "Start Smart",
+    "department": "Department of Electronics and Communication Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "StartSmart is an AI-driven platform that helps early-stage entrepreneurs validate and refine startup ideas, request funding, and participate in innovation challenges. It leverages advanced AI models to provide automated idea evaluation reports, SWOT analyses, and personalized growth roadmaps while enabling seamless interaction between founders, investors, and administrators. The system includes multi-role dashboards, funding request management, Ideathon organization, and real-time notifications, simplifying and democratizing idea assessment and early startup decision-making. Additionally, the platform offers structured scoring rubrics, transparent review workflows, and investor-friendly insights to enhance decision accuracy. Its scalable cloud-based architecture ensures reliable performance, while its intuitive UI empowers users of all backgrounds. StartSmart ultimately bridges the gap between idea-stage innovators and funding opportunities.",
+    "trl": "7",
+    "mrl": "7",
+    "irl": "4",
+    "sdgs": [
+      "8",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Lithigesh P G",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST10": {
+    "id": "ATFE26-ST10",
+    "title": "Circuit Crafter \u2013 Discover,\u00a0Design\u00a0& Deploy",
+    "department": "Department of Electronics and Communication Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "Circuit Crafter is a web-based collaborative platform that simplifies electronic circuit design by automating calculations and generating ready-to-simulate LTSpice files. Users can design standard circuit models by entering design parameters, instantly download simulation files, and share or publish their own models. The platform also supports custom components, community collaboration (Posting, Commenting, tagging, model sharing) and an admin approval workflow. By eliminating repetitive manual design steps, Circuit Crafter improves efficiency, learning, and reuse in circuit design for students, hobbyists, and engineers. Built using the MERN stack with secure media handling, Project streamlines electronics learning and prototyping across desktop and mobile devices.",
+    "trl": "6",
+    "mrl": "6",
+    "irl": "7",
+    "sdgs": [
+      "4",
+      "9",
+      "12"
+    ],
+    "teamMembers": [
+      {
+        "name": "A Bala Subrahmanya Sriranga Navaneeth",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST11": {
+    "id": "ATFE26-ST11",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST12": {
+    "id": "ATFE26-ST12",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST13": {
+    "id": "ATFE26-ST13",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST14": {
+    "id": "ATFE26-ST14",
+    "title": "IRIS: Intelligent Real-World Interaction System",
+    "department": "Department of Electrical and Electronics Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "IRIS is an AI system unifying safety and navigation for the visually impaired. Three-Brain Architecture: Safety (Edge AI): Instant, offline obstacle alerts. Understanding (Cloud AI): Natural scene descriptions. Memory (ARCore): Guided return-path navigation",
+    "trl": "6",
+    "mrl": "4",
+    "irl": "6",
+    "sdgs": [
+      "3",
+      "9",
+      "10",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST15": {
+    "id": "ATFE26-ST15",
+    "title": "Sisyphus Vuln: Extending SCA to Python Notebooks and Automating Identifying Vulnerabilities in Direct Dependencies",
+    "department": "TIFAC-CORE in Cyber Security",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "\u2022 Sisyphus-vul solves this challenge by creating a tool that natively parses python notebooks\u2019 JSON structure using AST and identifies direct dependencies <br>\u2022 Using the direct dependency, the indirect dependencies are found resolving a full a dependency tree. <br>\u2022 Query OSV DB for up-to-date vulnerability information for the direct and indirect dependencies. <br>\u2022 If input is a regular project, use Syft to generate SBOM then query OSV for vulnerabilities. <br>\u2022 If manifest file, parse it and query OSV. <br>\u2022 Give output in - CLI / python API / web dashboard / JSON file. <br>\u2022 Return CycloneDX format SBOM file if asked explicitly.",
+    "trl": "4",
+    "mrl": "4",
+    "irl": "4",
+    "sdgs": [
+      "8",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "K C K Sanjai",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST16": {
+    "id": "ATFE26-ST16",
+    "title": "VMarket: Volatility Predictor",
+    "department": "TIFAC-CORE in Cyber Security",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "\u2022 VMarket is an interactive educational platform bridging the gap between theory and real-world application. <br>\u2022 It integrates GARCH (Statistical), LSTM (Deep Learning), and FinBERT (NLP) to forecast stock volatility. <br>\u2022 Enables students to train models on live data from 7 major tech stocks using a complete, GPU- accelerated pipeline.",
+    "trl": "6",
+    "mrl": "6",
+    "irl": "7",
+    "sdgs": [
+      "9",
+      "10"
+    ],
+    "teamMembers": [
+      {
+        "name": "Krithikk T",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST17": {
+    "id": "ATFE26-ST17",
+    "title": "Catalogue AI Agent",
+    "department": "TIFAC-CORE in Cyber Security",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "Catalogue AI Agent automates enrichment of electronie product catalogs, transforming incomplete data into insurance-ready information for faster policy creation",
+    "trl": "5",
+    "mrl": "5",
+    "irl": "5",
+    "sdgs": [
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Kavya Sri Koduru",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST18": {
+    "id": "ATFE26-ST18",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST19": {
+    "id": "ATFE26-ST19",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST20": {
+    "id": "ATFE26-ST20",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST21": {
+    "id": "ATFE26-ST21",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST22": {
+    "id": "ATFE26-ST22",
+    "title": "Halfskill",
+    "department": "School of AI",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST23": {
+    "id": "ATFE26-ST23",
+    "title": "Mindpal",
+    "department": "School of AI",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "MindPal is an AI-powered companion that bridges the gap between journaling and therapy. By combining Hugging Face and Google Gemini, the app analyzes daily thoughts to create a \"digital twin\" pet that visually mirrors the user's emotional state. The platform gamifies mental self-care while providing a safety net through real-time crisis detection and seamless professional therapist integration.",
+    "trl": "7",
+    "mrl": "6",
+    "irl": "6",
+    "sdgs": [
+      "3",
+      "9",
+      "17"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST24": {
+    "id": "ATFE26-ST24",
+    "title": "Trescend",
+    "department": "School of AI",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "Trescend is a web-based idea expression platform that enables people, to share their ideas in a safe and confidential environment. The platform uses AI to evaluate ideas instead of human judges, ensuring unbiased and scalable assessment. Users can submit ideas anonymously, preventing plagiarism and fear of judgment. Trescend also includes a confidential competition system and provides monetary rewards to encourage creativity and innovation.",
+    "trl": "7",
+    "mrl": "6",
+    "irl": "4",
+    "sdgs": [
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST25": {
+    "id": "ATFE26-ST25",
+    "title": "Auction Bidding Simulator",
+    "department": "School of AI",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This real-time web application simulates high-stakes auctions to combat unfair bidding practices. Built with Vanilla JavaScript, Tailwind CSS, and Firebase, it features single-player AI challenges and low-latency multiplayer. Key innovations include an \"Anti-Sniping Protocol\" that extends timers for fair price discovery and a \"Fairness Engine\" for validating bids, promoting a transparent digital economy.",
+    "trl": "7",
+    "mrl": "5",
+    "irl": "4",
+    "sdgs": [
+      "4",
+      "9",
+      "16"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST26": {
+    "id": "ATFE26-ST26",
+    "title": "Health Connect",
+    "department": "School of AI",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "AI telehealth platform for underserved patients. Multi-agent system processes text/voice/images in Hindi/English. Biosignal processing toolkit, Smart appointments, queue management. Doctor-in-loop learning improves AI. Features: auto SOAP notes, SMS access. 13 microservices.",
+    "trl": "6",
+    "mrl": "5",
+    "irl": "4",
+    "sdgs": [
+      "3",
+      "7",
+      "9"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST27": {
+    "id": "ATFE26-ST27",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST28": {
+    "id": "ATFE26-ST28",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST29": {
+    "id": "ATFE26-ST29",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST30": {
+    "id": "ATFE26-ST30",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST31": {
+    "id": "ATFE26-ST31",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST32": {
+    "id": "ATFE26-ST32",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST33": {
+    "id": "ATFE26-ST33",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST34": {
+    "id": "ATFE26-ST34",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST35": {
+    "id": "ATFE26-ST35",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST36": {
+    "id": "ATFE26-ST36",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST37": {
+    "id": "ATFE26-ST37",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST38": {
+    "id": "ATFE26-ST38",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST39": {
+    "id": "ATFE26-ST39",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST40": {
+    "id": "ATFE26-ST40",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST41": {
+    "id": "ATFE26-ST41",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST42": {
+    "id": "ATFE26-ST42",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST43": {
+    "id": "ATFE26-ST43",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST44": {
+    "id": "ATFE26-ST44",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST45": {
+    "id": "ATFE26-ST45",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST46": {
+    "id": "ATFE26-ST46",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST47": {
+    "id": "ATFE26-ST47",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST48": {
+    "id": "ATFE26-ST48",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST49": {
+    "id": "ATFE26-ST49",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  },
+  "ATFE26-ST50": {
+    "id": "ATFE26-ST50",
+    "title": "Smart Traffic Control System",
+    "department": "Department of Computer Science & Engineering",
+    "teamName": "IntelliFlow",
+    "stallNumber": "S01",
+    "facultyMentor": "Dr. ABC XYZ",
+    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "trl": "5",
+    "mrl": "3",
+    "irl": "4",
+    "sdgs": [
+      "9",
+      "11"
+    ],
+    "teamMembers": [
+      {
+        "name": "Student 1",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 2",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 3",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      },
+      {
+        "name": "Student 4",
+        "rollNumber": "Roll No",
+        "linkedin": ""
+      }
+    ],
+    "githubLink": ""
+  }
+}
