@@ -2580,42 +2580,27 @@
   },
   "ATFE26-ST18": {
     "id": "ATFE26-ST18",
-    "title": "Smart Traffic Control System",
+    "title": "QR Tunnel",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
+    "teamName": "QR Tunnel",
     "stallNumber": "S01",
     "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "description": "QRTunnel is a privacy-first file-sharing system built for simplicity and control. It enables instant, direct transfers— using LAN nearby and secure tunnels remotely —without clouds, external servers, or data logging. With one-command sharing, zero logins, no installation for receivers, anonymous exchange, and full host control, QRTunnel stays lightweight and open-source while prioritizing privacy, reliability, and real-world usability.",
+    "trl": "7",
+    "mrl": "5",
+    "irl": "6",
     "sdgs": [
-      "9",
-      "11"
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aniruth Karthik",
+        "rollNumber": "CB.SC.U4CSE24502",
+        "linkedin": "https://www.linkedin.com/in/aniruthkarthik"
       }
+     
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/AniruthKarthik/qrtunnel"
   },
   "ATFE26-ST19": {
     "id": "ATFE26-ST19",
@@ -2855,9 +2840,9 @@
     "id": "ATFE26-ST25",
     "title": "Auction Bidding Simulator",
     "department": "School of AI",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
+    "teamName": "Synergy",
+    "stallNumber": "",
+    "facultyMentor": "Dr. Sandhya S Pai",
     "description": "This real-time web application simulates high-stakes auctions to combat unfair bidding practices. Built with Vanilla JavaScript, Tailwind CSS, and Firebase, it features single-player AI challenges and low-latency multiplayer. Key innovations include an \"Anti-Sniping Protocol\" that extends timers for fair price discovery and a \"Fairness Engine\" for validating bids, promoting a transparent digital economy.",
     "trl": "7",
     "mrl": "5",
@@ -2869,27 +2854,27 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aryan Bhupathi",
+        "rollNumber": "CB.SC.U4AIE25107",
+        "linkedin": "www.linkedin.com/in/aryan-bhupathi-4235433a3"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "M. Rikhitha Reddy ",
+        "rollNumber": " CB.SC.U4AIE25143",
+        "linkedin": " https://www.linkedin.com/in/rikhitha-reddy-22bbb336b"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "G. Puran Reddy",
+        "rollNumber": "CB.SC.U4AIE25118",
+        "linkedin": "www.linkedin.com/in/puran-reddy-gundala-61060236b"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": " P. Sai Chandana",
+        "rollNumber": "CB.SC.U4AIE25140",
+        "linkedin": "https://www.linkedin.com/in/saichandana-paturu-a45ab937b"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://aryanthecuber.github.io/Auction-Bidding-Simulator/"
   },
   "ATFE26-ST26": {
     "id": "ATFE26-ST26",
@@ -3117,42 +3102,38 @@
   },
   "ATFE26-ST32": {
     "id": "ATFE26-ST32",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "title": "OCR Based Drug Name Extraction System ",
+    "department": "AIM ",
+    "teamName": "Med Wizards",
+    "stallNumber": "S43",
+    "facultyMentor": "",
+    "description": "The OCR Based Drug Name Extraction System converts prescription images into accurate drug names and readable explanations. OCR output is corrected using a fine-tuned ByT5 model trained on synthetic noise, improving reliability before database matching and explanation generation.",
     "trl": "5",
-    "mrl": "3",
+    "mrl": "4",
     "irl": "4",
     "sdgs": [
-      "9",
-      "11"
+      "6",
+      "7",
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
+        "name": "Harshath A",
+        "rollNumber": "CB.AI.U4AIM24015",
+        "linkedin": "https://www.linkedin.com/in/harshath-a-ai/"
+      },
+      {
+        "name": "Kishore S",
+        "rollNumber": "CB.AI.U4AIM24020",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Pranesh Kishor Kumar",
+        "rollNumber": "CB.AI.U4AIM24056",
         "linkedin": ""
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Harsha123456-gitty/OCR-Based-Medical-Drug-Explainer.git"
   },
   "ATFE26-ST33": {
     "id": "ATFE26-ST33",
@@ -3424,81 +3405,52 @@
   },
   "ATFE26-ST40": {
     "id": "ATFE26-ST40",
-    "title": "Smart Traffic Control System",
+    "title": "Stencil",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "teamName": "Krishanth K",
+    "stallNumber": "",
+    "facultyMentor": "",
+    "description": "One UI definition. Six+ rendering targets. Zero framework expertise required. Stencil generates production-ready interfaces for React, HTML, Flutter, Tkinter, ImGui, and Cursesfrom a single declarative configuration—spanning web, mobile, desktop, game tools, and terminal applications.",
+
     "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "mrl": "5",
+    "irl": "5",
     "sdgs": [
-      "9",
-      "11"
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Krishanth K",
+        "rollNumber": "CB.SC.U4CSE24521",
+        "linkedin": "http://linkedin.com/in/krishanth-k"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Krishanth-K/stencil"
   },
   "ATFE26-ST41": {
     "id": "ATFE26-ST41",
-    "title": "Smart Traffic Control System",
+    "title": "SprintPilot: AI-Orchestrated Agile Product Management Workspace",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
+    "teamName": "SolorForge",
+    "stallNumber": "S50",
+    "facultyMentor": "",
+    "description": "SprintPilot is an AI-powered Agile workspace that turns raw product ideas into ready-to-build blueprints. Using Google Gemini 2.0 Flash with a React and Supabase stack, it automates the discovery-to-backlog flow by generating PRDs, technical architectures, and database schemas inside a premium glassmorphic dashboard. It gives PMs, designers, and engineers a faster, clearer way to plan and ship.",
+    "trl": "8",
+    "mrl": "6",
     "irl": "4",
     "sdgs": [
-      "9",
-      "11"
+      "4",
+      "8",
+      "9"      
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Priyansh AvtarSingh Narang",
+        "rollNumber": " CB.SC.U4CSE23642",
+        "linkedin": " https://www.linkedin.com/in/priyansh-narang-a9a743307"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/priyansh-narang2308/SprintPilot-Sprintfour"
   },
   "ATFE26-ST42": {
     "id": "ATFE26-ST42",
