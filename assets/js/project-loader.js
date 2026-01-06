@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> e62b3ed56f74c617baf078d20e307b671dffb9fe
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         // 1. Get Project ID
@@ -9,7 +13,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         // we might rely on the text content if it looks like a valid ID.
         // However, the JSON was generated using filenames. So filename is the safest key.
         const path = window.location.pathname;
+<<<<<<< HEAD
         const filename = path.split('/').pop().replace(/\.html$/i, '');
+=======
+        const filename = path.split('/').pop().replace('.html', '');
+>>>>>>> e62b3ed56f74c617baf078d20e307b671dffb9fe
         projectId = filename;
 
         console.log(`Loading project data for ID: ${projectId}`);
@@ -141,4 +149,8 @@ function updateLevel(label, value) {
         const valEl = targetLabel.parentElement.querySelector('.level-value');
         if (valEl) valEl.textContent = value || '-';
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e62b3ed56f74c617baf078d20e307b671dffb9fe
