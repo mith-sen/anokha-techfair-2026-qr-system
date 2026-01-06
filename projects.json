@@ -3,36 +3,26 @@
     "id": "ATFE26-HT01",
     "title": "AGE- Autonomous Ground Explorer",
     "department": "Department of Aerospace and Engineering",
-    "teamName": "IntelliFlow",
-    "facultyMentor": "NAN",
-    "description": "The project is an ESP32-based 4WD autonomous rover that intelligently explores indoor environments. Its key innovation lies in the integration of a servo-mounted TF-Mini LiDAR with the classic Vector Field Histogram (VFH) algorithm for dynamic obstacle avoidance, fully implemented on a low-cost microcontroller without reliance on resource-heavy frameworks such as ROS. This enables the rover to perform wide-angle scans, analyze surrounding obstacles in real time, and select the safest direction to proceed.",
+    "teamName": "AGE",
+    "stallNumber": "",
+    "facultyMentor": "Dr. Jinraj V pushpangathan (Aerospace)",
+    "description": "This project features a smart autonomous rover designed for reliable navigation in complex environments. By utilizing a LiDAR-based VFH (Vector Field Histogram) algorithm, the rover can identify clear “valleys” or paths through obstacles in real-time. This system ensures smooth movement and intelligent pathfinding, making it suitable for indoor exploration or delivery tasks where human intervention is limited.",
     "trl": "6",
-    "mrl": "3",
-    "irl": "4",
+    "mrl": "4",
+    "irl": "5",
     "sdgs": [
-      "6",
-      "7",
-      "9"
+      "9",
+      "11"
     ],
     "teamMembers": [
       {
         "name": "Saishreya Nair",
-        "rollNumber": "Roll No",
+        "rollNumber": "CB.EN.U4AEE23070",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Ajay Kumar Mahato",
+        "rollNumber": "CB.EN.U4AEE23071",
         "linkedin": ""
       }
     ],
@@ -43,7 +33,7 @@
     "title": "LARA",
     "department": "Department of Aerospace and Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "LS6",
+    "stallNumber": "",
     "facultyMentor": "NAN",
     "description": "Fixed wing UAV designed for the problem statement given by Boeing National Aeromodelling competition 2025-26 and used this opportunity for experimenting on lightweight airframe structures and crash proof fabrication methods for rigorous flight testing and educational purpose",
     "trl": "9",
@@ -83,7 +73,7 @@
     "title": "LAIKA",
     "department": "Department of Aerospace Engineering",
     "teamName": "LAIKA",
-    "stallNumber": "S01",
+    "stallNumber": "",
     "facultyMentor": "NAN",
     "description": "This project focuses on the design and fabrication of a fixed-wing RC aircraft optimized for maximum payload delivery under strict weight and thrust constraints. Aerodynamic analysis, airfoil selection, and simulations were performed using XFLR5, and the final design was modeled in Fusion 360. A simple servo-actuated payload release mechanism ensures controlled and reliable payload deployment. The aircraft has been designed to achieve a high payload-to-weight ratio and demonstrates stable flight characteristics suitable for logistics and emergency delivery applications.",
     "trl": "5",
@@ -107,15 +97,14 @@
       }
     ],
     "githubLink": "",
-    "posterLink": "https://amritavishwavidyapeetham-my.sharepoint.com/personal/cb_sc_u4cse24249_cb_students_amrita_edu/Documents/Apps/Microsoft%20Forms/Anokha%20TFE%2026%20-%20Final%20Team%20Details/Question/poster%20-%20laika_M%20P%20SHRI%20HARSHINI%20%5BC.pdf",
-    "canvaLink": "https://www.canva.com/design/DAG9m3-L3sw/dtXmuYjeH8sUZ2awdG3UmQ/edit"
+    "posterLink": "https://amritavishwavidyapeetham-my.sharepoint.com/personal/cb_sc_u4cse24249_cb_students_amrita_edu/Documents/Apps/Microsoft%20Forms/Anokha%20TFE%2026%20-%20Final%20Team%20Details/Question/poster%20-%20laika_M%20P%20SHRI%20HARSHINI%20%5BC.pdf"
   },
   "ATFE26-HT04": {
     "id": "ATFE26-HT04",
     "title": "Big Boy",
     "department": "Department of Aerospace and Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "LS8",
+    "stallNumber": "",
     "facultyMentor": "NAN",
     "description": "It is a human-detection UAV designed as a disaster-response drone for remote and inaccessible regions, capable of delivering medical supplies and emergency communication devices to survivors in support of rescue operations. The system integrates multi-sensor fusion, artificial intelligence, and computer vision to autonomously detect humans, accurately localize their positions, and map affected areas for coordinated follow-up missions. The UAV is engineered for rapid deployment, stable flight, and reliable payload delivery under challenging environmental conditions. By reducing dependence on manual search efforts, the platform significantly improves response time, situational awareness, and the overall effectiveness of disaster management operations.",
     "trl": "4",
@@ -154,10 +143,10 @@
     "id": "ATFE26-HT05",
     "title": "Low-Cost Arduino-Based Flight Data Recorder",
     "department": "Department of Aerospace and Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "LS8",
-    "facultyMentor": "NAN",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "teamName": "Flight data recorder",
+    "stallNumber": "",
+    "facultyMentor": "Dr Jinraj V Pushpangathan | Dr Resmi V L ",
+    "description": "t—This project presents the design and development  of an Arduino-based flight data recorder that captures critical flight parameters, such as altitude, pressure, temperature, and  GPS location. The system utilizes a combination of sensors,  including a barometric pressure sensor for altitude and pressure measurement, a temperature sensor for ambient temperature  monitoring, an inertial measurement unit for acceleration and  angular velocity, and a GPS module for location tracking. The Arduino microcontroller serves as the brain of the system,  collecting data from the sensors and storing it on a microSD card for later analysis. The data is subsequently imported into  MATLAB and Processing for visualization along with an Extended Karlman filter for noise reduction.",
     "trl": "4",
     "mrl": "3",
     "irl": "4",
@@ -168,23 +157,28 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
+        "name": "Swathi Priya Nattudurai",
+        "rollNumber": "-",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
+        "name": "T Mehashviney",
+        "rollNumber": "-",
         "linkedin": ""
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
+        "name": "Tanya Kumar",
+        "rollNumber": "-",
         "linkedin": ""
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Varshaa K G",
+        "rollNumber": "-",
+        "linkedin": ""
+      },
+      {
+        "name": "VasanthaKumar S",
+        "rollNumber": "-",
         "linkedin": ""
       }
     ],
@@ -195,7 +189,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -234,7 +228,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -273,7 +267,7 @@
     "title": "AERION",
     "department": "Department of Aerospace Engineering",
     "teamName": "AERION",
-    "stallNumber": "LS10",
+    "stallNumber": "",
     "facultyMentor": "NAN",
     "description": "AERION is a large-scale twin-engine fixed-wing RC aircraft designed for high payload capacity, stability, and performance. It features a high-wing configuration with a high aspect ratio wing for improved aerodynamic efficiency and flight stability. The twin-engine setup enables differential thrust, enhancing maneuverability and control. Optimized to carry heavy payloads of up to 2 kg, the aircraft is suitable for experimental missions and payload-driven applications. The design emphasizes modularity, robustness, and reliable flight characteristics, making it a practical platform for aerospace research and prototyping.",
     "trl": "6",
@@ -303,7 +297,7 @@
     "title": "Swarm of two ESP32 drones",
     "department": "Department of Aerospace and Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "LS10",
+    "stallNumber": "",
     "facultyMentor": "NAN",
     "description": "This project demonstrates a decentralized dual-drone system in which two ESP32-based unmanned aerial vehicles communicate directly using the ESP-NOW peer-to-peer protocol, eliminating the need for an external ground station. One drone functions as a leader by receiving remote control inputs, while the follower drone mirrors its behavior based on transmitted flight data. The system integrates an IMU and barometric pressure sensor for stable flight control, along with a wireless server interface for real-time PID parameter tuning. By enabling reliable peer-to-peer coordination and autonomous following behavior, the project highlights a scalable and low-latency architecture suitable for cooperative UAV operations and foundational swarm robotics research.",
     "trl": "4",
@@ -343,7 +337,7 @@
     "title": "Abhimanyu - Autonomous Navigation Drone",
     "department": "Department of Aerospace and Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "LS10",
+    "stallNumber": "",
     "facultyMentor": "NAN",
     "description": "Abhimanyu is an autonomous navigation quadcopter developed using an H-configuration airframe, integrating a CubePilot Orange flight controller and a Raspberry Pi 4B for high-level onboard computation. The Raspberry Pi interfaces with a LoRa SX1278 transceiver module, enabling long-range communication with a Teensy 4.0-based ground station connected to QGroundControl. This architecture demonstrates a robust hybrid hardware\u2013software design that combines reliable flight control with flexible autonomous logic implemented in Python. The H-configuration enhances stability and payload accommodation, supporting advanced navigation tasks. Overall, the project highlights effective system integration, scalable autonomy, and practical UAV design suitable for research-oriented autonomous flight applications.",
     "trl": "5",
@@ -397,35 +391,35 @@
     "teamMembers": [
       {
         "name": "P M Ananya",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.EN.U4ECE22239",
+        "linkedin": "https://www.linkedin.com/in/ananya-maharajan"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Sriram A",
+        "rollNumber": "CB.EN.U4ECE22246",
+        "linkedin": "https://www.linkedin.com/in/sriram-a-19b287303"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Joshua John Britto",
+        "rollNumber": "CB.EN.U4ECE22268",
+        "linkedin": "https://www.linkedin.com/in/joshua-john-britto-66613429b"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Jaisujan S J",
+        "rollNumber": "CB.EN.U4ECE24123",
+        "linkedin": "https://www.linkedin.com/in/jaisujan-sj-6403a730a"
       }
     ],
     "githubLink": ""
   },
   "ATFE26-HT12": {
     "id": "ATFE26-HT12",
-    "title": "Integration of Digitauyiytin with MPPT for solar pv operations under partial shading conditions",
+    "title": "Integration of Digital Twin with MPPT for solar pv operations under partial shading conditions",
     "department": "Department of Electronics and Communication Engineering",
     "teamName": "VOLTVANGUARD",
     "stallNumber": "S31",
-    "facultyMentor": "NAN",
-    "description": "This project presents the integration of a digital twin with a DC\u2013DC boost converter for intelligent Maximum Power Point Tracking (MPPT) in solar photovoltaic systems. The digital twin accurately models the boost converter\u2019s electrical behaviour in real time, enabling effective monitoring and control of the power conversion process. By synchronizing the virtual model with the physical system, the approach improves MPPT performance, enhances system reliability, and supports faster algorithm validation. The work demonstrates how digital twin technology can aid efficient power electronics design and control in renewable energy applications.",
+    "facultyMentor": "Dr. Deepthi P (ECE)",
+    "description": "This project presents the integration of a digital twin with a DC boost converter for intelligent Maximum Power Point Tracking (MPPT) in solar photovoltaic systems. The digital twin accurately models the boost converters electrical behaviour in real time, enabling effective monitoring and control of the power conversion process. By synchronizing the virtual model with the physical system, the approach improves MPPT performance, enhances system reliability, and supports faster algorithm validation. The work demonstrates how digital twin technology can aid efficient power electronics design and control in renewable energy applications.",
     "trl": "4",
     "mrl": "3",
     "irl": "4",
@@ -437,7 +431,7 @@
       {
         "name": "SAI KARTHIK RAJAN",
         "rollNumber": "CB.EN.U4ECE22051",
-        "linkedin": "karthik-rajan-1b4a44216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        "linkedin": "https://www.linkedin.com/in/sai-karthik-rajan-1b4a44216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ],
     "githubLink": "https://github.com/saikarthikrajan/Integration-of-Digital-twin-with-MPPT-for-solar-pv-operations-under-partial-shading-conditions"
@@ -446,7 +440,7 @@
     "id": "ATFE26-HT13",
     "title": "SETU 5.0: A Rapid Deployment System for Emergency Response",
     "department": "ECE",
-    "teamName": "IntelliFlow",
+    "teamName": "SETU 5.0",
     "stallNumber": "LS11",
     "facultyMentor": "Dr. Ganesan M. (ECE)",
     "description": "During disasters such as floods and landslides, damaged infrastructure and inaccessible terrain delay the delivery of critical supplies. Conventional solutions, including ground vehicles and aerial systems, are limited by terrain constraints, weather dependence, and high operational costs. This project presents SETU 5.0, a low-cost, semi-autonomous cable-based rapid deployment system to address last-mile logistics challenges. The system transports essential payloads along a suspended cable, integrating obstacle awareness, payload monitoring, and controlled delivery. A real-time monitoring interface enables remote supervision, supporting reliable, energy-efficient, and scalable deployment in disaster-prone environments.",
@@ -483,8 +477,8 @@
     "department": "Department of Electronics and Communication Engineering",
     "teamName": "IntelliFlow",
     "stallNumber": "LS11",
-    "facultyMentor": "NAN",
-    "description": "The \u201cField Beacon\u201d project introduces a novel, cost-effective solution to protect crops and lives from animal intrusion using a real-time beam-tracking system. Using phased-array technology in the 2.45 GHz ISM band, the system continuously monitors and detects animals such as elephants and wild boars and activates deterrence measures while notifying farmers of the intrusion. The system uses two 2 \u00d7 4 microstrip patch antenna array for transmission and reception with beam steering capability of \u00b130\u25e6 and maximum gain 14.95dB. Moreover, the array also reflects an efficiently reduced Side Lobe Level (SLL) of - 13.77dB. Additionally, the ADALM-Pluto SDR and Raspberry Pi modules are used for signal processing, and computational tasks, respectively. Designed for scalability, simplicity, and educational value, Field Beacon emphasizes robust, real-time operation, making it accessible to both farmers and non-engineers.",
+    "facultyMentor": "Dr. Harshavardhan Singh (Department of Electronics and Communication Engineering)",
+    "description": "The Field Beacon project introduces a novel, cost-effective solution to protect crops and lives from animal intrusion using a real-time beam-tracking system. Using phased-array technology in the 2.45 GHz ISM band, the system continuously monitors and detects animals such as elephants and wild boars and activates deterrence measures while notifying farmers of the intrusion. The system uses two 2 \u00d7 4 microstrip patch antenna array for transmission and reception with beam steering capability of  and maximum gain 14.95dB. Moreover, the array also reflects an efficiently reduced Side Lobe Level (SLL) of - 13.77dB. Additionally, the ADALM-Pluto SDR and Raspberry Pi modules are used for signal processing, and computational tasks, respectively. Designed for scalability, simplicity, and educational value, Field Beacon emphasizes robust, real-time operation, making it accessible to both farmers and non-engineers.",
     "trl": "4",
     "mrl": "3",
     "irl": "4",
@@ -494,19 +488,19 @@
     ],
     "teamMembers": [
       {
-        "name": "Vishnu",
+        "name": "V Vishnu",
         "rollNumber": "CB.EN.U4ECE22056",
-        "linkedin": "//www.linkedin.com/in/v-vishnu-835649341/"
+        "linkedin": "https://www.linkedin.com/in/v-vishnu-835649341/"
       },
       {
-        "name": "Gurudev R",
+        "name": "Gurudev R N",
         "rollNumber": "CB.EN.U4ECE22222",
         "linkedin": "https://www.linkedin.com/in/guru-dev-2a6610287/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B80aakIHtTeqXUTtw0peNLQ"
       },
       {
         "name": "Ajay U",
-        "rollNumber": "Roll No",
-        "linkedin": "CB.EN.U4ECE22202"
+        "rollNumber": "CB.EN.U4ECE22202",
+        "linkedin": ""
       }
     ],
     "githubLink": ""
@@ -516,7 +510,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "S36",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -555,7 +549,7 @@
     "title": "3-Axis Arm Controller",
     "department": "Department of Electrical and Electronics Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "LS12",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This intelligent 6-DOF robotic arm utilizes a unique Hybrid Brain architecture combining YOLOv8, ANFIS, and NLP models to enable autonomous manipulation with a standard 2D webcam. By leveraging these neural networks to compensate for mechanical imperfections and depth ambiguity in real time, the system successfully bridges the gap between lightweight, limited-cost components into a capable transforming low-cost components into a capable system.",
     "trl": "5",
@@ -594,7 +588,7 @@
     "title": "ELECTRACORE – Solar Powered Wireless EV Charging System",
     "department": "Artificial Intelligence and Data Science (CPS)",
     "teamName": "ELECTRACORE",
-    "stallNumber": "S01",
+    "stallNumber": "LS14",
     "facultyMentor": "NAN",
     "description": "This project develops a solar-powered wireless electric vehicle charging system based on inductive power transfer. Photovoltaic energy generated using solar panels is stored through a charge controller and battery system. The stored energy is converted into high-frequency AC using a BJT-based inverter to drive the transmitter coil. Power is transferred magnetically to a receiver coil, where it is rectified and regulated to safely charge the EV battery. The system demonstrates an efficient, contactless, and sustainable charging solution that reduces dependency on physical connectors while improving safety and reliability in electric vehicle charging applications.",
     "trl": "5",
@@ -638,10 +632,10 @@
   },
   "ATFE26-HT18": {
     "id": "ATFE26-HT18",
-    "title": "SKYFORGE – Mini Air Defence System",
+    "title": "SKYFORGE - Mini Air Defence System",
     "department": "Artificial Intelligence and Data Science (CPS)",
     "teamName": "SKYFORGE",
-    "stallNumber": "S01",
+    "stallNumber": "LS14",
     "facultyMentor": "NAN",
     "description": "This project implements a mini air defence system designed for short-range object detection and directional response using low-cost embedded hardware. An ultrasonic sensor continuously scans the surrounding environment to detect moving or approaching objects. Distance and angular data are processed by a microcontroller to estimate the target’s location in real time. Based on this information, the system aligns a turret mechanism using servo motors and triggers predefined alert or response actions. The prototype focuses on real-time detection, stable angular tracking, and accurate servo actuation despite sensor noise and hardware limitations. Experimental results demonstrate reliable object detection, consistent tracking, and effective response under static and slow-moving target conditions, validating the basic autonomous defence logic of the system.",
     "trl": "5",
@@ -690,8 +684,8 @@
     "id": "ATFE26-HT19",
     "title": "Automated Irrigation System Using Canopy Temperature Monitoring",
     "department": "School of Agricultural Sciences",
-    "teamName": "Canopy Temperature–Based Irrigation Systems Team",
-    "stallNumber": "S01",
+    "teamName": "Canopy Temperature-Based Irrigation Systems Team",
+    "stallNumber": "S27",
     "facultyMentor": "Dr. Karuppuswamy Vikraman V",
     "description": "This project presents an automated irrigation system using crop canopy temperature monitoring. A non-contact infrared sensor measures both canopy and atmospheric temperatures, and an ESP32 controller activates irrigation when the temperature difference (ΔT) exceeds 3 °C, indicating plant water stress. The system enables precise, plant-centric irrigation, improving water use efficiency while reducing manual intervention and unnecessary water usage.",
     "trl": "6",
@@ -720,10 +714,10 @@
     "id": "ATFE26-HT20",
     "title": "IoT-Enabled Smart Irrigation System",
     "department": "School of Agricultural Sciences",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "NAN",
-    "description": "\"A sensor-based irrigation system uses technology to water crops more efficiently. It automatically checks the soil's moisture level and weather conditions in real time. This apply water only when and where plants truly need it. This could conserve water and reduce waste.\"",
+    "teamName": "Agri Avengers ",
+    "stallNumber": "S28",
+    "facultyMentor": "Dr .V. Karuppasamy Vikraman",
+    "description": "A sensor-based irrigation system uses technology to water crops more efficiently. It automatically checks the soil's moisture level and weather conditions in real time. This apply water only when and where plants truly need it. This could conserve water and reduce waste.\"",
     "trl": "6",
     "mrl": "3",
     "irl": "4",
@@ -735,22 +729,12 @@
     "teamMembers": [
       {
         "name": "Vignesh J",
-        "rollNumber": "Roll No",
+        "rollNumber": "CB.AG.U4AGR23060",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Devanand B",
+        "rollNumber": "CB.AG.U4AGR23120",
         "linkedin": ""
       }
     ],
@@ -760,8 +744,8 @@
     "id": "ATFE26-HT21",
     "title": "Prototype of Quadropole Ion Trap",
     "department": "Department of Physical Science",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "teamName": "-",
+    "stallNumber": "LS10",
     "facultyMentor": "NAN",
     "description": "Ion traps are devices capable of confining charged particles using electric and/or magnetic fields. They play a crucial role in modern physics, mass spectrometry, quantum computing, and precision measurement. This paper presents the design, construction, and working principle of a prototype AC ion trap operated at approximately 1500 V alternating current (AC). The system uses a variac-controlled AC source connected to a step-up transformer, with the transformer output applied to a three-electrode configuration consisting of two end electrodes and a central ring electrode. The paper explains the physical principles behind ion trapping, construction methodology, electrical configuration, safety considerations, and practical applications",
     "trl": "6",
@@ -800,7 +784,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "LS10",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -839,7 +823,7 @@
     "title": "Solar Panel Maintenance",
     "department": "Department of Electrical and Electronics Engineering",
     "teamName": "Clean Grid Robotics",
-    "stallNumber": "S01",
+    "stallNumber": "LS12",
     "facultyMentor": "NAN",
     "description": "Dust accumulation on solar panels can reduce power output by 15–30%, and frequent manual cleaning is inefficient and unsafe for large installations. Existing automated systems often operate on fixed schedules, leading to unnecessary cleaning and energy loss. A compact, condition-based cleaning solution is therefore required to maintain panel efficiency with minimal intervention. The proposed system employs real-time performance monitoring to initiate cleaning only when a reduction in output is detected. An autonomous rover travels horizontally along a guided path on the solar panel surface and removes accumulated dust using a mechanical cleaning mechanism. Controlled low-speed motion ensures uniform and safe cleaning, while wireless communication enables reliable coordination between system components.",
     "trl": "4",
@@ -853,7 +837,7 @@
       {
         "name": "Chinna Gundam Harsha Vardhan Reddy",
         "rollNumber": "CB.EN.U4ELC24011",
-        "linkedin": "www.linkedin.com/in/harsha-chinna-gundam-930813358"
+        "linkedin": "https://www.linkedin.com/in/harsha-chinna-gundam-930813358"
       },
       {
         "name": "Jethin MS",
@@ -878,7 +862,7 @@
     "title": "Portable Solar Tracker",
     "department": "Department of Electrical and Electronics Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "LS12",
     "facultyMentor": "NAN",
     "description": "A low-cost, portable dual-axis solar tracking system using an STM32 microcontroller and GPS-synchronized algorithms is designed to accurately orient solar panels in real time. By autonomously optimizing panel angles, the system achieves an increased energy yield compared to fixed installations. The weather-independent and reproducible design makes it more compact, efficient, and a reliable solar power solution.",
     "trl": "5",
@@ -918,7 +902,7 @@
     "title": "Steward Platform",
     "department": "Department of Mechanical Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "LS09",
     "facultyMentor": "NAN",
     "description": "This project presents the design and implementation of a dual-mode control system for a 6-Degree-of-Freedom Stewart Platform. The platform can be controlled using vision-based hand gestures or IMU-based orientation input, selectable based on user preference. In vision mode, a camera captures hand gestures, which are processed using computer vision to generate platform motion commands. In IMU mode, orientation data (roll and pitch) from an inertial sensor directly controls platform tilt and movement.",
     "trl": "4",
@@ -956,10 +940,10 @@
     "id": "ATFE26-HT26",
     "title": "Omni-directional Multi-Morphing Robot",
     "department": "Department of Mechanical Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "NAN",
-    "description": "\"This project presents the design and analysis of a bioinspired multi-morphing omnidirectional mobile robot capable of seamless motion in multiple directions.A simplified kinematic model is developed, and optimal parameters such as wheel radius, wheel offset, and steering angle are identified using Jacobian condition number analysis.The robot enables smooth omnidirectional motion with minimal control complexity, allowing intuitive operation through a high-level API. The proposed system improves maneuverability, adaptability, and usability for service and research applications.\"",
+    "teamName": "Multi-morphing Omnidirectional Robot",
+    "stallNumber": "LS09",
+    "facultyMentor": "Dr.Rammohan S",
+    "description": "This project presents the design and analysis of a bioinspired multi-morphing omnidirectional mobile robot capable of seamless motion in multiple directions.A simplified kinematic model is developed, and optimal parameters such as wheel radius, wheel offset, and steering angle are identified using Jacobian condition number analysis.The robot enables smooth omnidirectional motion with minimal control complexity, allowing intuitive operation through a high-level API. The proposed system improves maneuverability, adaptability, and usability for service and research applications.\"",
     "trl": "9",
     "mrl": "3",
     "irl": "4",
@@ -969,23 +953,13 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "RITHIKSWARAN R",
+        "rollNumber": "CB.EN.U4ARE23040",
+        "linkedin": "https://www.linkedin.com/in/rithik-radhakrishnan-7159b5329/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "SAI SUNANDHA JK",
+        "rollNumber": "CB.EN.U4ARE23043",
         "linkedin": ""
       }
     ],
@@ -996,7 +970,7 @@
     "title": "NIVARA Smart Health",
     "department": "Department of Mechanical Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "S35",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -1035,7 +1009,7 @@
     "title": "Project Odin",
     "department": "Department of Mechanical Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "LS13",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -1074,7 +1048,7 @@
     "title": "Prosthetic Hand with Real-time Feedback using EMG Sensor",
     "department": "School of AI",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "LS14",
     "facultyMentor": "NAN",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -1113,7 +1087,7 @@
     "title": "STRESS ION – Electricity Generating Flooring System Using Footstep Energy",
     "department": "Department of Civil Engineering",
     "teamName": "STRESS ION",
-    "stallNumber": "S01",
+    "stallNumber": "S15",
     "facultyMentor": "NAN",
     "description": "The Electricity Generating Flooring System is a smart and eco-friendly solution that produces electrical energy from the compression load generated by human footsteps. Energy-harvesting sensors installed beneath floor tiles convert mechanical pressure into electrical energy. The generated power can be stored and utilized for low-power applications such as LED lighting, emergency lights, and display boards. The project demonstrates the practical use of renewable energy in high foot-traffic public spaces like colleges, malls, and railway stations, promoting sustainable urban infrastructure.",
     "trl": "4",
@@ -1164,7 +1138,7 @@
     "title": "Light Transmitting Concrete Blocks Using Optical Fibers",
     "department": "Department of Civil Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "S16",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project develops light transmitting concrete blocks by embedding optical fibers into conventional concrete, allowing light to pass through without compromising strength. The blocks reduce the need for artificial lighting during the day and support energy-efficient, sustainable building design.",
     "trl": "4",
@@ -1204,7 +1178,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "LS13",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -1243,7 +1217,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "LS15",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -1279,38 +1253,44 @@
   },
   "ATFE26-HT34": {
     "id": "ATFE26-HT34",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
+    "title": "Ultrasonic Glass For Blind",
+    "department": "Department of Artificial Intelligence & Engineering",
+    "teamName": "Tech Nebula",
+    "stallNumber": "LS15",
+    "facultyMentor": "",
+    "description": "This project develops Ultrasonic Smart Glasses to assist visually impaired individuals in detecting nearby obstacles. Ultrasonic sensors measure distance and a microcontroller processes the data to provide instant audio or vibration alerts. The system is lightweight, low-cost, and enables safer, hands-free navigation.",
+    "trl": "6",
     "mrl": "3",
     "irl": "4",
     "sdgs": [
-      "9",
-      "11"
+      "6",
+      "7",
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
+        "name": "Neha S",
+        "rollNumber": "CB.AI.U4AID25137",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
+        "name": "Maha Sri N",
+        "rollNumber": "CB.AI.U4AID25128",
         "linkedin": ""
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
+        "name": "Umamageswari M",
+        "rollNumber": "CB.AI.U4AAR25055",
         "linkedin": ""
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Akshaya S",
+        "rollNumber": "CB.AI.U4QTS25006",
+        "linkedin": ""
+      },
+      {
+        "name": "Sahana B",
+        "rollNumber": "CB.AI.U4CPS25008",
         "linkedin": ""
       }
     ],
@@ -1318,10 +1298,10 @@
   },
   "ATFE26-HT35": {
     "id": "ATFE26-HT35",
-    "title": "Smart Traffic Control System",
+    "title": "Dual Axis",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "LS15",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -1357,38 +1337,29 @@
   },
   "ATFE26-HT36": {
     "id": "ATFE26-HT36",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
+    "title": "Quadratic Boost Converter",
+    "department": "Department of Electrical and Electronics Engineering",
+    "teamName": "QuadraVolt",
+    "stallNumber": "S33",
+    "facultyMentor": "Dr. S. Sampath Kumar",
+    "description": "The Quadratic Boost Converter (QBC) is a non-isolated high-gain DC–DC converter capable of achieving quadratic voltage gain without operating at extreme duty cycles. By cascading energy storage stages within a single topology, the converter provides enhanced voltage amplification with improved efficiency and reduced component stress. This work presents the design, simulation, and hardware implementation of a QBC for low-voltage to high-voltage applications, with performance validated through experimental testing.",
+    "trl": "6",
+    "mrl": "5",
     "irl": "4",
     "sdgs": [
+      "7",
       "9",
       "11"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
+        "name": "Sai Kamal Mudiganti",
+        "rollNumber": "CB.EN.U4EEE23030",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Rajaram Rao",
+        "rollNumber": "CB.EN.U4EEE24035",
         "linkedin": ""
       }
     ],
@@ -1396,191 +1367,212 @@
   },
   "ATFE26-HT37": {
     "id": "ATFE26-HT37",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "title": "AeroGesture: Vision-Controlled Flappy Flight",
+    "department": "Intel IOT Club",
+    "teamName": "AeroVision AI",
+    "stallNumber": "LS13",
+    "facultyMentor": "",
+    "description": "This project develops a high-performance, pose-driven Flappy Bird iteration. Utilizing the MediaPipe Landmarker, the system maps 3D finger coordinates to in-game physics. It features a dual-threaded architecture to maintain 60FPS gameplay while processing high-resolution video streams for gesture recognition.",
+    "trl": "8",
+    "mrl": "9",
+    "irl": "6",
     "sdgs": [
-      "9",
-      "11"
+      "6",
+      "7",
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vishal M",
+        "rollNumber": "CB.EN.U4CCE24161",
+        "linkedin": "https://www.linkedin.com/in/vishal2601dev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aruneshwar S.J",
+        "rollNumber": "CB.EN.U4CCE24008",
+        "linkedin": "https://www.linkedin.com/in/aruneshwar-s-j-71001a312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Ridhu Pharan",
+        "rollNumber": "CB.EN.U4ECE23133",
+        "linkedin": "https://www.linkedin.com/in/ridhu-pharan-17857b2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/shalcoder/AeroGesture-Vision-Controlled-Flappy-Flight"
   },
   "ATFE26-HT38": {
     "id": "ATFE26-HT38",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
+    "title": "Stall Monitoring System for Public Safety",
+    "department": "Intel IoT Club",
+    "teamName": "Sparkd",
+    "stallNumber": "LS13",
+    "facultyMentor": "",
+    "description": "Large-scale technical fairs like Anokha attract thousands of visitors, making real-time crowd management a significant challenge. Our project, the AI-Powered Stall Monitoring System, addresses this by leveraging Edge AI and Computer Vision to count visitors at individual stalls in real-time. This system not only ensures public safety by identifying overcrowding but also provides organizers with valuable data regarding stall engagement and visitor flow. The solution features a centralized dashboard, Crowd Watch, which visualizes live data from distributed ESP32-CAM nodes, enabling proactive event management.",
+    "trl": "7",
     "mrl": "3",
-    "irl": "4",
+    "irl": "6",
     "sdgs": [
-      "9",
-      "11"
+      "11",
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Parthivsurya K B",
+        "rollNumber": "CB.SC.U4CSE24535",
+        "linkedin": "https://www.linkedin.com/in/parthivsurya-k-b-60aa55206/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Nimal Danyath K",
+        "rollNumber": "CB.SC.U4CSE24033",
+        "linkedin": "https://www.linkedin.com/in/nimaldanyathk/"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Ruthwik Narayan P",
+        "rollNumber": "CB.SC.U4CSE24043",
+        "linkedin": "https://www.linkedin.com/in/ruthwik-narayan-p-92b773329/"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vaishak T",
+        "rollNumber": "CB.EN.U4CCE24156",
+        "linkedin": "https://www.linkedin.com/in/vaishak-t-96b93930a"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Parthivsurya/Sparkd-Crowd"
   },
   "ATFE26-HT39": {
     "id": "ATFE26-HT39",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "title": "Amrita Smart Bicycle Rental System",
+    "department": "Intel IoT Club",
+    "teamName": "",
+    "stallNumber": "LS03",
+    "facultyMentor": "",
+    "description": "Efficient short-distance mobility within large institutional campuses remains a challenge due to the absence of secure, scalable, and accountable bicycle rental systems. This project presents a Smart Bicycle Locker and Route-Based Rental System designed for university campuses. Users select boarding and destination points via a mobile app, with bicycles allocated based on predefined route zones. IoT-enabled smart locks manage access, while a digital wallet ensures automated fare calculation based on actual usage. The system integrates cloud backend services, real-time user-location tracking without dedicated GPS hardware, dynamic pricing, and admin dashboards for fleet monitoring. Additional features such as owner override, usage alerts, and reward-based incentives promote responsible and eco-friendly riding behavior.",
+    "trl": "9",
+    "mrl": "7",
+    "irl": "8",
     "sdgs": [
       "9",
       "11"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "N V Tharun",
+        "rollNumber": "CB.EN.U4CCE24154",
+        "linkedin": "https://www.linkedin.com/in/tharun-n-v-859794320/?isSelfProfile=true"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Girisudhan V",
+        "rollNumber": "CB.EN.U4ECE24016",
+        "linkedin": "https://www.linkedin.com/in/girisudhanvenkatesh"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Arinandhan K",
+        "rollNumber": "CB.EN.U4CCE24105",
+        "linkedin": "https://www.linkedin.com/in/ari-nandhan-1b586b312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aruneshwar S.J",
+        "rollNumber": "CB.EN.U4CCE24008",
+        "linkedin": "https://www.linkedin.com/in/aruneshwar-s-j-71001a312?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Vishal M",
+        "rollNumber": "CB.EN.U4CCE24161",
+        "linkedin": "https://www.linkedin.com/in/vishal2601dev?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Navaneeth A B S",
+        "rollNumber": "CB.EN.U4ECE23001",
+        "linkedin": "https://www.linkedin.com/in/navaneeth-adharapuram-190686278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Ridhu Pharan",
+        "rollNumber": "CB.EN.U4ECE23133",
+        "linkedin": "https://www.linkedin.com/in/ridhu-pharan-17857b2a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "name": "Sri Charan",
+        "rollNumber": "CB.EN.U4ECE23206",
+        "linkedin": "https://www.linkedin.com/in/sri-charan-a-281532286"
+      },
+      {
+        "name": "Kanishk Rungta",
+        "rollNumber": "CB.SC.U4CSE23762",
+        "linkedin": "https://www.linkedin.com/in/kanishkrungta?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ],
-    "githubLink": ""
+    "githubLink": "Frontend: https://github.com/Intel-IoT-Club/bicycle_stand_locker_frontend , Backend: https://github.com/Intel-IoT-Club/bicycle_stand_locker_frontend"
   },
   "ATFE26-HT40": {
     "id": "ATFE26-HT40",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "title": "Riverant : Autonomous River and Lake Cleaning Robot",
+    "department": "Mechanical Engineering (ARE)",
+    "teamName": "Riverant",
+    "stallNumber": "LS09",
+    "facultyMentor": "Mrs. Siva Selvi",
+    "description": "Riverant is an autonomous and remotely operated river-cleaning robot designed to detect, collect, and segregate floating waste from water bodies. The system integrates sensor-based navigation, modular waste collection mechanisms, and intelligent control algorithms to efficiently remove plastic debris and invasive plants such as water hyacinth.",
+    "trl": "6",
+    "mrl": "4",
+    "irl": "3",
     "sdgs": [
+      "6",
       "9",
-      "11"
+      "11",
+      "13",
+      "14"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Madugula Phani Nithin",
+        "rollNumber": "CB.EN.U4ARE22057",
+        "linkedin": "https://www.linkedin.com/in/phani-nithin"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Shravan A P",
+        "rollNumber": "CB.EN.U4ARE22045",
+        "linkedin": "https://www.linkedin.com/in/shravan-ap"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Rohith Rathish",
+        "rollNumber": "CB.EN.U4ARE23041",
+        "linkedin": "https://www.linkedin.com/in/rohith-rathish"
       }
     ],
     "githubLink": ""
   },
   "ATFE26-NST01": {
     "id": "ATFE26-NST01",
-    "title": "Fabrication of flexible polymer dye-sensitized solar cells through high-temperature sintering processes",
-    "department": "Department of Chemical Engineering and Material Science",
-    "teamName": "-",
-    "stallNumber": "-",
-    "facultyMentor": "-",
-    "description": "DESCRIPTION",
+    "title": "Flexible Plastic DSSC Tapes and Modules for Wearable Electronics and BIPV Applications",
+    "department": "Department of Chemical Engineering and Materials Science",
+    "teamName": "Flexible Solar Cells Team",
+    "stallNumber": "S26",
+    "facultyMentor": "Dr. Duraisamy Kumaresan and Dr. R Krishna Prasad",
+    "description": "Flexible dye-sensitized solar cells (FDSSCs) are designed for powering low-power electronic devices such as sensors, IoT components, and wearable electronics. The incorporation of nanostructured layers enables tunable transparency and color, allowing seamless integration into building-integrated photovoltaics (BIPV) and decorative display applications. These characteristics make FDSSCs suitable for next-generation flexible and aesthetic energy-harvesting systems.",
+    "trl": "4",
+    "mrl": "4",
+    "irl": "3",
     "sdgs": [
-      "9",
-      "11"
+      "7"
     ],
     "teamMembers": [
       {
         "name": "Tamil R",
-        "rollNumber": "Roll No",
+        "rollNumber": "CB.PS.R4CHM24008",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
+        "name": "Bhatt Tejas Ketanbhai",
+        "rollNumber": "",
         "linkedin": ""
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
+        "name": "Jakul Chanthini MSR",
+        "rollNumber": "",
         "linkedin": ""
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Geetha N",
+        "rollNumber": "",
         "linkedin": ""
       }
     ],
@@ -1591,7 +1583,7 @@
     "title": "Green hydrogen production by water electrolysis",
     "department": "Department of Chemical Engineering and Material Science",
     "teamName": "-",
-    "stallNumber": "-",
+    "stallNumber": "S34",
     "facultyMentor": "-",
     "description": "-",
     "sdgs": [
@@ -1624,39 +1616,40 @@
   },
   "ATFE26-NST03": {
     "id": "ATFE26-NST03",
-    "title": "Ethylene furanoate (PEF) polymer, replacement fro PET polymer from agrowaste",
-    "department": "Department of Chemical Engineering and Material Science",
-    "teamName": "-",
-    "stallNumber": "-",
-    "facultyMentor": "-",
-    "description": "This project develops polyethylene furanoate (PEF) as a sustainable alternative to PET using 2,5-furandicarboxylic acid (FDCA derived from sugarcane bagasse. It promotes waste valorisation, reduces fossil resource dependence, and supports low-carbon polymer production.",
+    "title": "Ethylene Furanoate (PEF) Polymer as a Sustainable Replacement for PET from Agrowaste",
+    "department": "Department of Chemical Engineering and Materials Science",
+    "teamName": "Sustainable Polymer Developers",
+    "stallNumber": "S24",
+    "facultyMentor": "Dr. Meera Balachandran",
+    "description": "This project develops polyethylene furanoate (PEF) as a sustainable alternative to PET using 2,5-furandicarboxylic acid (FDCA) derived from sugarcane bagasse. The approach promotes waste valorization, reduces dependence on fossil resources, and supports low-carbon polymer production, contributing to environmentally responsible materials engineering.",
     "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "mrl": "4",
+    "irl": "5",
     "sdgs": [
       "9",
       "11",
-      "13"
+      "13",
+      "14"
     ],
     "teamMembers": [
       {
-        "name": "Fatima Safeeda",
-        "rollNumber": "Roll No",
+        "name": "A Niranjana Anur Aruna Sasti",
+        "rollNumber": "CB.EN.U4CHE22001",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
+        "name": "Fatheema Safeeda",
+        "rollNumber": "",
         "linkedin": ""
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
+        "name": "Anusri B",
+        "rollNumber": "CB.EN.U4CHE24007",
         "linkedin": ""
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Sulaksha G",
+        "rollNumber": "CB.EN.U4CHE24056",
         "linkedin": ""
       }
     ],
@@ -1664,39 +1657,29 @@
   },
   "ATFE26-NST04": {
     "id": "ATFE26-NST04",
-    "title": "Development of a self healing sensor  using natural rubber latex and sustainable fillers which offers a green, flexible solution for wearable electronics",
-    "department": "Department of Chemical Engineering and Material Science",
-    "teamName": "-",
-    "stallNumber": "-",
-    "facultyMentor": "-",
-    "description": "The influence of maleated chitin (MC) on interfacial interactions, crosslink density, and intrinsic self-healing behavior of epoxidized natural rubber (ENR) remains insufficiently understood, limiting the rational design of highperformance, bio-based self-healing elastomers. This study elucidates the effect of MC loading on dispersion, interfacial chemistry, and the resulting mechanical and healing properties of ENR",
+    "title": "Multiscale Graphene and Carbon Nanotube Reinforced PAEK–Carbon Fiber Composites for UAVs and Space Structure Applications",
+    "department": "Department of Chemical and Materials Science Engineering",
+    "teamName": "MultiScaleX",
+    "stallNumber": "S22",
+    "facultyMentor": "Dr. Meera Balachandran",
+    "description": "This project presents a multiscale reinforcement strategy for PAEK–carbon fiber composites using graphene and multi-walled carbon nanotubes (MWCNTs) for UAV and aerospace applications. Graphene and CNTs are incorporated at the matrix and interface levels to enhance crack resistance and load transfer. Fracture mechanisms such as CNT pull-out, CNT fracture, and graphene-induced crack deflection are analyzed. Finite Element Analysis under bending loads demonstrates reduced von Mises stress concentration near crack tips in reinforced composites, highlighting the effectiveness of multiscale nano-reinforcement for lightweight, damage-tolerant aerospace structures.",
     "trl": "4",
-    "mrl": "3",
-    "irl": "4",
+    "mrl": "4",
+    "irl": "3-4",
     "sdgs": [
       "9",
-      "11",
+      "12",
       "13"
     ],
     "teamMembers": [
       {
-        "name": "Navyasree Reghu",
-        "rollNumber": "Roll No",
+        "name": "Richa G Nair",
+        "rollNumber": "CB.EN.P2MSE25006",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "K Niranjana",
+        "rollNumber": "",
         "linkedin": ""
       }
     ],
@@ -1705,11 +1688,11 @@
   "ATFE26-NST05": {
     "id": "ATFE26-NST05",
     "title": "Catalyst from Agro-Waste",
-    "department": "Chemical Engineering and Material Science",
+    "department": "Department of Chemical Engineering and Materials Science",
     "teamName": "Sustainability Discoverers",
-    "stallNumber": "S01",
+    "stallNumber": "S20",
     "facultyMentor": "Dr. Meera Balachandran",
-    "description": "This project focuses on the development of a low-cost and sustainable catalyst derived from agro-waste for the production of 2,5-furandicarboxylic acid (FDCA). Rice husk ash is utilized as a renewable silica source to replace conventional synthetic catalyst supports, while earth-abundant metals such as manganese and iron are incorporated to avoid the use of noble metals. The approach reduces cost and environmental impact, promoting sustainable and green chemical processes.",
+    "description": "This project focuses on developing a low-cost and sustainable catalyst derived from agro-waste for the production of 2,5-furandicarboxylic acid (FDCA). Rice husk ash is utilized as a renewable silica source to replace conventional synthetic supports, while earth-abundant metals such as manganese and iron are incorporated to avoid the use of noble metals, promoting greener and more economical catalytic processes.",
     "trl": "4",
     "mrl": "4",
     "irl": "5",
@@ -1720,7 +1703,7 @@
     ],
     "teamMembers": [
       {
-        "name": "Niranjana Anur Aruna Sasti A",
+        "name": "A Niranjana Anur Aruna Sasti",
         "rollNumber": "CB.EN.U4CHE22001",
         "linkedin": ""
       },
@@ -1752,7 +1735,7 @@
     "title": "Tea Tensils for Eco-Ventures",
     "department": "Department of Food Science and Nutrition (Physical sciences)",
     "teamName": "-",
-    "stallNumber": "-",
+    "stallNumber": "LS04",
     "facultyMentor": "-",
     "description": "This project focuses on developing biodegradable cutlery from tea nerves, a waste generated during tea processing. Natural binders and eco-friendly molding techniques are used to produce plastic-free and compostable utensils. The cutlery is designed to be food-safe and mechanically strong for single-use applications. This approach helps reduce agro-waste and plastic pollution. It also supports low-cost production and rural employment opportunities.",
     "trl": "6",
@@ -1793,7 +1776,7 @@
     "title": "pH INDICATAP",
     "department": "Department of Food Science and Nutrition (Physical sciences)",
     "teamName": "-",
-    "stallNumber": "-",
+    "stallNumber": "LS04",
     "facultyMentor": "-",
     "description": "This project focuses on developing biodegradable cutlery from tea nerves, a waste generated during tea processing. Natural binders and eco-friendly molding techniques are used to produce plastic-free and compostable utensils. The cutlery is designed to be food-safe and mechanically strong for single-use applications. This approach helps reduce agro-waste and plastic pollution. It also supports low-cost production and rural employment opportunities.",
     "trl": "6",
@@ -1833,7 +1816,7 @@
     "title": "Coconana Cups",
     "department": "Department of Food Science and Nutrition (Physical sciences)",
     "teamName": "-",
-    "stallNumber": "-",
+    "stallNumber": "LS04",
     "facultyMentor": "-",
     "description": "The project focuses on the development of plantable disposable cups using banana pseudostem fiber and coconut fiber as sustainable raw materials. These cups are biodegradable, eco-friendly, and embedded with seeds that can germinate after disposal. Organic gums and natural colors are used, ensuring food safety and environmental compatibility. The innovation aims to replace plastic and paper cups while promoting the concept of waste-to-green growth, contributing to sustainable development and circular economy practices. <div class=\"section\"> <h2 class=\"section-title\">Team Members</h2> <div class=\"team-members\"> <div class=\"team-member\"> <div> Vidhyaa Lakshmi Viswanathan<span class=\"roll-number\">Roll No</span>",
     "trl": "1",
@@ -1872,7 +1855,7 @@
     "title": "Adulterant Detecting Strips",
     "department": "Department of Food Science and Nutrition (Physical sciences)",
     "teamName": "-",
-    "stallNumber": "-",
+    "stallNumber": "LS02",
     "facultyMentor": "-",
     "description": "This project aims to develop a low-cost and eco-friendly prototype to detect common food adulterants using natural indicators and scrap materials. The detection is based on simple visual changes such as color change or sediment formation. The method provides a preliminary, qualitative assessment of food adulteration and helps promote food safety and consumer awareness. <div class=\"section\"> <h2 class=\"section-title\">Team Members</h2> <div class=\"team-members\"> <div class=\"team-member\"> <div> Daya R <span class=\"roll-number\">Roll No</span>",
     "trl": "1",
@@ -1912,7 +1895,7 @@
     "title": "Bioplastic from Banana Peel",
     "department": "Department of Food Science and Nutrition (Physical sciences)",
     "teamName": "-",
-    "stallNumber": "-",
+    "stallNumber": "LS02",
     "facultyMentor": "-",
     "description": "The Aeroponic Tower System is a vertical, soil-less farming method that uses minimal land and up to 95% less water to grow high-quality crops. Plants are suspended in a vertical structure and supplied with nutrient-rich mist, allowing high oxygen exposure to roots and faster growth. This cost-effective and sustainable system is ideal for urban and land-limited areas, offering an efficient alternative to conventional farming. <div class=\"section\"> <h2 class=\"section-title\">Team Members</h2> <div class=\"team-members\"> <div class=\"team-member\"> <div> Mitra Manoj <span class=\"roll-number\">Roll No</span>",
     "trl": "6",
@@ -1952,7 +1935,7 @@
     "title": "Aeroponic tower system",
     "department": "Department of Food Science and Nutrition (Physical sciences)",
     "teamName": "-",
-    "stallNumber": "-",
+    "stallNumber": "LS02",
     "facultyMentor": "-",
     "description": "The Aeroponic Tower System is a vertical, soil-less farming method that uses minimal land and up to 95% less water to grow high-quality crops. Plants are suspended in a vertical structure and supplied with nutrient-rich mist, allowing high oxygen exposure to roots and faster growth. This cost-effective and sustainable system is ideal for urban and land-limited areas, offering an efficient alternative to conventional farming. <div class=\"section\"> <h2 class=\"section-title\">Team Members</h2> <div class=\"team-members\"> <div class=\"team-member\"> <div> Spandanam Sharma <span class=\"roll-number\">Roll No</span>",
     "trl": "6",
@@ -1989,79 +1972,79 @@
   },
   "ATFE26-ST01": {
     "id": "ATFE26-ST01",
-    "title": "Agile Interceptor UAV for Engagement and Target",
+    "title": "Agile Interceptor UAV for Target Tracking and Engagement",
     "department": "Department of Aerospace Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project focuses on the design, modeling, and implementation of a detection and tracking algorithm for a quadcopter interceptor. A detailed comparison of aerial vehicles led to the selection of a quadcopter, followed by weight estimation based on finalized components and payload. Two designs were successfully modeled in Fusion 360, with Simulink simulations demonstrating a vertical velocity of 37 m/s. While the detection algorithm was successfully tested and integrated, challenges in position control were encountered due to an asymmetric design. The interceptor model ultimately achieved a level of performance that nearly met the initial requirements.",
+    "teamName": "Agile Interceptor",
+    "stallNumber": "S17",
+    "facultyMentor": "Dr. Rajesh Senthil Kumar T",
+    "description": "This project develops a quadcopter interceptor combined with dual interception payloads featuring detection and tracking capabilities. A quadcopter configuration was selected through comparative analysis, followed by weight estimation and dual CAD designs using Fusion 360. Simulink simulations achieved a vertical velocity of 37 m/s. Detection objectives were met, though asymmetric design introduced position control challenges, with performance goals nearly achieved.",
     "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "mrl": "4",
+    "irl": "3",
     "sdgs": [
-      "6",
-      "7",
-      "9"
+      "4",
+      "9",
+      "11"
     ],
     "teamMembers": [
       {
         "name": "Dharamnath Sah",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.EN.U4AEE22067",
+        "linkedin": "https://www.linkedin.com/in/dharamnathsah999/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Mayank Kuldeep",
+        "rollNumber": "CB.EN.U4AEE22070",
+        "linkedin": "https://www.linkedin.com/in/mayank-kuldeep-08b414353/"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Mithraa C S",
+        "rollNumber": "CB.EN.U4AEE22036",
+        "linkedin": "https://www.linkedin.com/in/mithraa785"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Shanmuga Shruthika D",
+        "rollNumber": "CB.EN.U4AEE22057",
+        "linkedin": "https://www.linkedin.com/in/shruthika-d57/"
+      },
+      {
+        "name": "Saksham Kumar Yadav",
+        "rollNumber": "CB.EN.U4AEE22075",
+        "linkedin": "https://www.linkedin.com/in/saksham-kumar-yadav-0aaaa9273/"
+      },
+      {
+        "name": "P Shreevineela",
+        "rollNumber": "CB.EN.U4AEE23033",
+        "linkedin": "https://www.linkedin.com/in/padisetti-sree-vineela-b88511330/"
       }
     ],
     "githubLink": ""
   },
   "ATFE26-ST02": {
     "id": "ATFE26-ST02",
-    "title": "Morphing Fixed Wing UAV to a land War Machine",
-    "department": "Department of Aerospace Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "The project presents the concept and design of a morphing UAV capable of transforming from a conventional fixed-wing aircraft into a bipedal ground attack vehicle. The primary objective is to achieve a seamless transition between aerial and terrestrial modes of operation. A suitable attack mechanism and a center-of-gravity (CG) shift mechanism are incorporated to ensure stability in both configurations. The project focuses on the conceptual design and system-level development of a morphing unmanned aerial vehicle featuring a synchronized wing-folding mechanism, a crank-driven bipedal gait system, and an active CG shift using a sliding mass to maintain stability during transformation and ground operation. The design is supported by constraint-based sizing, aerodynamic analysis, torque and power calculations, and detailed CAD modeling.",
-    "trl": "4",
-    "mrl": "3",
-    "irl": "4",
+    "title": "Bioinspired Multi-morphing Omnidirectional Robot",
+    "department": "Department of Mechanical Engineering (Automation and Robotic Engineering)",
+    "teamName": "Multi-morphing Omnidirectional Robot",
+    "stallNumber": "S19",
+    "facultyMentor": "Dr. Rammohan S",
+    "description": "This project presents the design and analysis of a bioinspired multi-morphing omnidirectional mobile robot capable of seamless motion in multiple directions. A simplified kinematic model is developed, and optimal parameters such as wheel radius, wheel offset, and steering angle are identified using Jacobian condition number analysis. The robot enables smooth omnidirectional motion with minimal control complexity, allowing intuitive operation through a high-level API. The proposed system improves maneuverability, adaptability, and usability for service and research applications.",
+    "trl": "9",
+    "mrl": "4",
+    "irl": "3",
     "sdgs": [
-      "6",
-      "7",
-      "9"
+      "9",
+      "11",
+      "12"
     ],
     "teamMembers": [
       {
-        "name": "Harsh Panjrath",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Rithikswaran R",
+        "rollNumber": "CB.EN.U4ARE23040",
+        "linkedin": "https://www.linkedin.com/in/rithik-radhakrishnan-7159b5329/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Sai Sunandha JK",
+        "rollNumber": "CB.EN.U4ARE23043",
         "linkedin": ""
       }
     ],
@@ -2069,40 +2052,45 @@
   },
   "ATFE26-ST03": {
     "id": "ATFE26-ST03",
-    "title": "Sabilization of a Rotor tilt free Tricopter",
+    "title": "Stabilization of Rotor-Tilt Free Tricopter",
     "department": "Department of Aerospace Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "Motor with a flywheel mounted at the center of gravity is introduced to mitigate inherent yaw imbalance, enabling stable hover without servo-based yaw actuation. The complete six-degree-of-freedom (6-DoF) dynamics of the tricopter are modeled using Newton\u2013Euler equations under rigid-body assumptions. A cascaded PID-based control architecture is implemented in MATLAB Simulink, consisting of attitude and ang The project focuses on the design, dynamic modeling, and stabilization of a tilt-free tricopter UAV, aiming to eliminate the mechanical complexity associated with conventional tilting or coaxial rotor mechanisms. The tricopter employs three fixed rotors arranged at 120\u00b0 and achieves attitude control purely through differential thrust and advanced control algorithms, making it an under-actuated yet mechanically simpler system. A dedicated counter-momentular-rate control loops for roll, pitch, and yaw. Simulation results demonstrate controllable hover behavior with manageable oscillations.",
+    "teamName": "Flying Shaw",
+    "stallNumber": "S21",
+    "facultyMentor": "Dr. Jinraj VP",
+    "description": "A rotor tilt-free trirotor UAV is presented that achieves propulsion and flight control using three brushless DC motors with fixed-pitch propellers. The project designs a PID-based control strategy to stabilize attitude by manipulating only propeller speeds. Simulation results demonstrate stable hover with acceptable pitch–yaw cross-coupling and reduced system complexity compared to existing configurations.",
     "trl": "4",
-    "mrl": "3",
-    "irl": "4",
+    "mrl": "4",
+    "irl": "3",
     "sdgs": [
-      "6",
-      "7",
-      "9"
+      "8",
+      "9",
+      "12"
     ],
     "teamMembers": [
       {
+        "name": "Aditya Vinod",
+        "rollNumber": "CB.EN.U4AEE23007",
+        "linkedin": "https://www.linkedin.com/in/aditya-vinod-179326331?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
         "name": "Anerudh K",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.EN.U4AEE23008",
+        "linkedin": "https://www.linkedin.com/in/anerudh-krishnaswamy-176212346?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Bandaru Lohith Sai",
+        "rollNumber": "CB.EN.U4AEE23009",
+        "linkedin": "https://www.linkedin.com/in/lohith-sai-7b66472a9"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Avanthika S Nair",
+        "rollNumber": "CB.EN.U4AEE23006",
+        "linkedin": "https://www.linkedin.com/in/avanthika-s-nair-276583290/"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Arun Ganesan",
+        "rollNumber": "CB.EN.U4AEE23005",
+        "linkedin": "https://www.linkedin.com/in/arun-ganesan-s-gs446?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ],
     "githubLink": ""
@@ -2176,82 +2164,69 @@
   },
   "ATFE26-ST06": {
     "id": "ATFE26-ST06",
-    "title": "Energy harvestor using vibrations of a bridge",
-    "department": "Department of Aerospace and Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "LS8",
-    "facultyMentor": "NAN",
-    "description": "This project focuses on the design and analysis of a piezoelectric energy harvesting system that captures electrical energy from vibrations induced by vehicular traffic on a simple beam bridge. The system is modeled and simulated using MATLAB, incorporating classical structural vibration theory to evaluate dynamic response. Multiple harvester placement locations along the bridge span are analyzed to identify the optimal position for maximum energy output. By integrating vibration modeling with performance optimization, the project demonstrates an effective approach to sustainable energy generation from existing infrastructure. The MATLAB-based methodology enables repeatable analysis, quantitative comparison, and clear performance evaluation, highlighting the potential of smart energy harvesting solutions for real-world civil and transportation engineering applications.",
-    "trl": "4",
+    "title": "Harvesting Energy from Bridge Vibrations",
+    "department": "Department of Aerospace Engineering",
+    "teamName": "Energy Harvester",
+    "stallNumber": "S25",
+    "facultyMentor": "Dr. Sakthivel Thangavel",
+    "description": "This project investigates energy harvesting from bridge vibrations using a piezoelectric energy harvester integrated with a simplified beam bridge model. The governing equations of the bridge are solved to obtain natural frequencies and mode shapes. The electromechanical behavior of the piezoelectric harvester is coupled with the structural response to evaluate harvested voltage and energy.",
+    "trl": "5",
     "mrl": "4",
-    "irl": "5",
+    "irl": "3",
     "sdgs": [
-      "4",
-      "6",
       "7",
       "9",
-      "11"
+      "12",
+      "13"
     ],
     "teamMembers": [
       {
-        "name": "Sanjay.S",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vasanthakumar S",
+        "rollNumber": "CB.EN.U4AEE23057",
+        "linkedin": "https://www.linkedin.com/in/vasanthakumar~vk?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Mukuntha V",
+        "rollNumber": "CB.EN.U4AEE23031",
+        "linkedin": "https://www.linkedin.com/in/v-mukuntha-7896a1299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ],
     "githubLink": ""
   },
   "ATFE26-ST07": {
     "id": "ATFE26-ST07",
-    "title": "Airfoil Recommendation system",
-    "department": "Department of Aerospace and Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "LS9",
-    "facultyMentor": "NAN",
-    "description": "\"This project focuses on the development of an airfoil recommendation system aimed at supporting students and beginner aircraft designers in glider design. The system accepts user-defined performance objectives and recommends suitable airfoils from a curated aerodynamic database by integrating aerodynamic coefficients with computational selection methods. The primary objective is to provide a reliable starting point for airfoil selection, significantly reducing reliance on trial-and-error approaches during early-stage design. Although the initial implementation utilizes a relatively small dataset, the model was successfully trained to produce consistent and meaningful recommendations. The project establishes a functional baseline framework, with future enhancements planned through dataset expansion and improved prediction accuracy and robustness.\"",
-    "trl": "4",
-    "mrl": "3",
-    "irl": "4",
+    "title": "Airfoil Recommendation System",
+    "department": "Department of Aerospace Engineering (AEE)",
+    "teamName": "Glide Through Aero (GTA)",
+    "stallNumber": "S29",
+    "facultyMentor": "",
+    "description": "Selecting an appropriate airfoil is a critical step in glider design, directly affecting performance, stability, and safety. This project develops a fully functioning airfoil recommendation algorithm for gliders that takes user-defined specifications and recommends suitable airfoils from an existing database. By combining aerodynamic data with computational and machine-learning-based methods, the system provides informed and practical recommendations, assisting students and early-stage designers by reducing trial-and-error and helping prevent design-related failures.",
+    "trl": "3",
+    "mrl": "2",
+    "irl": "0",
     "sdgs": [
-      "6",
-      "7",
       "9"
     ],
     "teamMembers": [
       {
         "name": "Manasa J",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.EN.U4AEE23029",
+        "linkedin": "http://linkedin.com/in/manasa-jayasankar-44a264371"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Subashini S",
+        "rollNumber": "CB.EN.U4AEE23045",
+        "linkedin": "https://www.linkedin.com/in/subashini-satyanarayanan-8a3444219"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Tanya Kumar",
+        "rollNumber": "CB.EN.U4AEE23055",
+        "linkedin": "https://www.linkedin.com/in/tanya-kumar-188976344"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vinjamuri Dheeraj",
+        "rollNumber": "CB.EN.U4AEE23060",
+        "linkedin": "https://www.linkedin.com/in/dheeraj-vinjamuri-440233281"
       }
     ],
     "githubLink": ""
@@ -2261,9 +2236,9 @@
     "title": "High-Fidelity Missile-Target Engagement Simulation with Wind-Aware Guidance and Dual-Pulse Propulsion",
     "department": "Department of Aerospace Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "S30",
     "facultyMentor": "Dr. ABC XYZ",
-    "description": "\"This project presents a high-fidelity six-degree-of-freedom (6-DoF) missile\u2013target engagement simulation developed in MATLAB, incorporating realistic atmospheric, aerodynamic, propulsion, and guidance dynamics. The model integrates altitude-dependent wind profiles derived from real radiosonde data and simulates a dual-pulse solid rocket motor with time-varying mass and thrust characteristics. Guidance is implemented using proportional navigation enhanced with adaptive gain scheduling to improve performance across engagement phases. Key engagement phenomena, including trajectory evolution, miss distance, and control response, are explicitly analyzed through comprehensive visualization tools. The project demonstrates strong proficiency in missile flight dynamics and system-level modeling, reflecting a deep understanding of practical engagement behavior under realistic environmental and propulsion constraints.\"",
+    "description": "\"This project presents a high-fidelity three-degree-of-freedom (3-DoF) missile\u2013target engagement simulation developed in MATLAB, incorporating realistic atmospheric, aerodynamic, propulsion, and guidance dynamics. The model integrates altitude-dependent wind profiles derived from real radiosonde data and simulates a dual-pulse solid rocket motor with time-varying mass and thrust characteristics. Guidance is implemented using proportional navigation enhanced with adaptive gain scheduling to improve performance across engagement phases. Key engagement phenomena, including trajectory evolution, miss distance, and control response, are explicitly analyzed through comprehensive visualization tools. The project demonstrates strong proficiency in missile flight dynamics and system-level modeling, reflecting a deep understanding of practical engagement behavior under realistic environmental and propulsion constraints.\"",
     "trl": "4",
     "mrl": "3",
     "irl": "4",
@@ -2275,22 +2250,7 @@
     "teamMembers": [
       {
         "name": "Adithyan Lalu",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "rollNumber": "CB.EN.U4AEE23072",
         "linkedin": ""
       }
     ],
@@ -2301,7 +2261,7 @@
     "title": "Start Smart",
     "department": "COMPUTER AND COMMUNICATION ENGINEERING",
     "teamName": "404NotFound",
-    "stallNumber": "S01",
+    "stallNumber": "LS01",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "StartSmart is an AI-driven platform that helps early-stage entrepreneurs validate and refine startup ideas, request funding, and participate in innovation challenges. It leverages advanced AI models to provide automated idea evaluation reports, SWOT analyses, and personalized growth roadmaps while enabling seamless interaction between founders, investors, and administrators. The system includes multi-role dashboards, funding request management, Ideathon organization, and real-time notifications, simplifying and democratizing idea assessment and early startup decision-making. Additionally, the platform offers structured scoring rubrics, transparent review workflows, and investor-friendly insights to enhance decision accuracy. Its scalable cloud-based architecture ensures reliable performance, while its intuitive UI empowers users of all backgrounds. StartSmart ultimately bridges the gap between idea-stage innovators and funding opportunities.",
     "trl": "7",
@@ -2309,7 +2269,8 @@
     "irl": "7",
     "sdgs": [
       "8",
-      "9","10"
+      "9",
+      "10"
     ],
     "teamMembers": [
       {
@@ -2332,11 +2293,11 @@
   },
   "ATFE26-ST10": {
     "id": "ATFE26-ST10",
-    "title": "Circuit Crafter – Discover, Design & Deploy",
+    "title": "Circuit Crafter - Discover, Design & Deploy",
     "department": "Department of Electronics and Communication Engineering",
     "teamName": "Circuit Crafters",
-    "stallNumber": "S01",
-    "facultyMentor": "NAN",
+    "stallNumber": "S07",
+    "facultyMentor": "-",
     "description": "Circuit Crafter is a web-based collaborative platform for exploring standard electronic circuit models, entering design parameters, and instantly generating simulation-ready LTSpice files. Users can publish and share their own circuit models, integrate custom components, and collaborate through an admin-verified community system. The platform also features an AI corner that provides formula suggestions and a guided chatbot to assist users during circuit design and exploration. By reducing manual effort and enabling collaboration, Circuit Crafter enhances learning, prototyping, and productivity for students and electronics enthusiasts.",
     "trl": "7",
     "mrl": "7",
@@ -2359,15 +2320,14 @@
       }
     ],
     "githubLink": "https://github.com/SriCharan9876/CircuitCrafter",
-    "posterLink": "https://amritavishwavidyapeetham-my.sharepoint.com/personal/cb_sc_u4cse24249_cb_students_amrita_edu/Documents/Apps/Microsoft%20Forms/Anokha%20TFE%2026%20-%20Final%20Team%20Details/Question/Circuit%20Crafter_A%20BALA%20SUBRAHMANYA%20S.pdf",
-    "canvaLink": "https://www.canva.com/design/DAG9nKArFS4/hGEzi3TsTDIKRUyjx7U8GQ/edit"
+    "posterLink": "https://amritavishwavidyapeetham-my.sharepoint.com/personal/cb_sc_u4cse24249_cb_students_amrita_edu/Documents/Apps/Microsoft%20Forms/Anokha%20TFE%2026%20-%20Final%20Team%20Details/Question/Circuit%20Crafter_A%20BALA%20SUBRAHMANYA%20S.pdf"
   },
   "ATFE26-ST11": {
     "id": "ATFE26-ST11",
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "S11",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -2406,8 +2366,8 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. Deepthi P (ECE)",
+    "stallNumber": "S42",
+    "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
     "mrl": "3",
@@ -2445,7 +2405,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "S13",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -2481,14 +2441,14 @@
   },
   "ATFE26-ST14": {
     "id": "ATFE26-ST14",
-    "title": "IRIS: Intelligent Real-World Interaction System",
-    "department": "Department of Electrical and Electronics Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "IRIS is an AI system unifying safety and navigation for the visually impaired. Three-Brain Architecture: Safety (Edge AI): Instant, offline obstacle alerts. Understanding (Cloud AI): Natural scene descriptions. Memory (ARCore): Guided return-path navigation",
+    "title": "IRIS - An AI-powered Assistive Product for Independent Mobility of the Visually Impaired People",
+    "department": "Electrical and Computer Engineering",
+    "teamName": "IRIS",
+    "stallNumber": "S02",
+    "facultyMentor": "",
+    "description": "IRIS (Intelligent Real-World Interaction System) is a comprehensive AI-powered assistive platform designed to enable complete independence for visually impaired individuals by unifying physical mobility and digital accessibility into a single solution. Built on a Three-Brain Architecture—Safety (Edge AI for offline obstacle detection), Understanding (Cloud AI for context-aware scene descriptions), and Memory (ARCore for spatial anchoring and return-path navigation)—the system has been validated in real-world environments, including field trials at the Lotus Blind School, Chennai. A fourth module, Web Intelligence, is under active development to enable voice-controlled automation of complex digital tasks using GROQ APIs and Android Accessibility Services, extending independence into the digital domain.",
     "trl": "6",
-    "mrl": "4",
+    "mrl": "5",
     "irl": "6",
     "sdgs": [
       "3",
@@ -2498,35 +2458,30 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "V Shri Monesh",
+        "rollNumber": "CB.EN.U4ELC23054",
+        "linkedin": "https://www.linkedin.com/in/shrimonesh2212"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Sanggit Saaran K C S",
+        "rollNumber": "CB.SC.U4AIE23247",
+        "linkedin": "https://www.linkedin.com/in/sanggit-saaran-k-c-s"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Arulmozhivarman Velusamy",
+        "rollNumber": "CB.EN.U4CCE23005",
+        "linkedin": "https://www.linkedin.com/in/arul-mozhi-varman"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/sanggitsaaran/IRIS_D-EYE"
   },
   "ATFE26-ST15": {
     "id": "ATFE26-ST15",
     "title": "SISYPHUS-VULN – Extending SCA to Python Notebooks",
     "department": "TIFAC-CORE in Cyber Security",
     "teamName": "Avalokita",
-    "stallNumber": "S01",
-    "facultyMentor": "NAN",
+    "stallNumber": "S03",
+    "facultyMentor": "-",
     "description": "Sisyphus-vuln is a security analysis tool that extends Software Composition Analysis (SCA) to Python notebooks by natively parsing their JSON structure using AST to identify direct dependencies. From these, it resolves the complete dependency tree, including indirect dependencies, and queries the OSV database for up-to-date vulnerability information. For regular projects, the tool uses Syft to generate an SBOM before querying OSV, while for manifest files it directly parses and analyzes dependencies. The tool supports outputs via CLI, JSON, Python API, and a web dashboard, and can generate CycloneDX-format SBOMs on request.",
     "trl": "4",
     "mrl": "4",
@@ -2546,39 +2501,29 @@
   },
   "ATFE26-ST16": {
     "id": "ATFE26-ST16",
-    "title": "VMarket: Volatility Predictor",
-    "department": "TIFAC-CORE in Cyber Security",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "u2022 VMarket is an interactive educational platform bridging the gap between theory and real-world application.u2022 It integrates GARCH (Statistical), LSTM (Deep Learning), and FinBERT (NLP) to forecast stock volatility.u2022 Enables students to train models on live data from 7 major tech stocks using a complete, GPU- accelerated pipeline  .",
+    "title": "VMarket",
+    "department": "Department of Cyber Security",
+    "teamName": "Apex",
+    "stallNumber": "LS01",
+    "facultyMentor": "",
+    "description": "VMarket is an interactive educational platform designed to bridge the gap between theoretical concepts and real-world application, enabling learners to gain practical insights through hands-on, scenario-driven experiences.",
     "trl": "6",
-    "mrl": "6",
-    "irl": "7",
+    "mrl": "7",
+    "irl": "6",
     "sdgs": [
       "9",
       "10"
     ],
     "teamMembers": [
       {
+        "name": "Sivaa S Hari Charan",
+        "rollNumber": "CB.SC.U4CYS24055",
+        "linkedin": "https://www.linkedin.com/in/sivaa-s-hari-charan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
         "name": "Krithikk T",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.SC.U4CYS24035",
+        "linkedin": "https://www.linkedin.com/in/krithikk-thilak-364786270/?originalSubdomain=in"
       }
     ],
     "githubLink": ""
@@ -2586,37 +2531,22 @@
   "ATFE26-ST17": {
     "id": "ATFE26-ST17",
     "title": "Catalogue AI Agent",
-    "department": "TIFAC-CORE in Cyber Security",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "Catalogue AI Agent automates enrichment of electronie product catalogs, transforming incomplete data into insurance-ready information for faster policy creation",
+    "department": "Department of Cyber Security",
+    "teamName": "Catalogue AI Agent",
+    "stallNumber": "S05",
+    "facultyMentor": "",
+    "description": "Electronic insurance companies struggle to keep pace with the rapid launch of electronic products due to missing or incomplete specifications, making it difficult to create accurate insurance plans. Catalogue AI Agent automates the enrichment of electronics catalogs to ensure data is always insurance-ready, improving speed, accuracy, and reliability in policy creation.",
     "trl": "5",
     "mrl": "5",
     "irl": "5",
     "sdgs": [
-      "9"
+      "0"
     ],
     "teamMembers": [
       {
-        "name": "Kavya Sri Koduru",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Koduru Kavya Sri",
+        "rollNumber": "CB.SC.U4CYS23024",
+        "linkedin": "https://www.linkedin.com/in/kavya-sri-koduru"
       }
     ],
     "githubLink": ""
@@ -2626,7 +2556,7 @@
     "title": "QR Tunnel",
     "department": "CSE",
     "teamName": "QR Tunnel",
-    "stallNumber": "S01",
+    "stallNumber": "S10",
     "facultyMentor": "",
     "description": "QRTunnel is a privacy-first file-sharing system built for simplicity and control. It enables instant, direct transfers— using LAN nearby and secure tunnels remotely —without clouds, external servers, or data logging. With one-command sharing, zero logins, no installation for receivers, anonymous exchange, and full host control, QRTunnel stays lightweight and open-source while prioritizing privacy, reliability, and real-world usability.",
     "trl": "7",
@@ -2643,7 +2573,7 @@
       }
     ],
     "githubLink": "https://github.com/AniruthKarthik/qrtunnel"
-  },  
+  },
   "ATFE26-ST19": {
     "id": "ATFE26-ST19",
     "title": "Smart Traffic Control System",
@@ -2685,81 +2615,68 @@
   },
   "ATFE26-ST20": {
     "id": "ATFE26-ST20",
-    "title": "Smart Traffic Control System",
+    "title": "Delos - A Programming Language",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "teamName": "compilerz",
+    "stallNumber": "S08",
+    "facultyMentor": "Ramaguru Radhakrishnan",
+    "description": "DELOS is a minimal compiler built entirely from scratch that translates a custom programming language into native x86-64 assembly for Linux. Despite minimal optimizations, it significantly outperforms Python and Java and achieves performance within 2× of GCC, demonstrating the efficiency of low-level compilation techniques.",
+    "trl": "6",
+    "mrl": "4",
+    "irl": "3",
     "sdgs": [
+      "4",
       "9",
       "11"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "S. C. Danvanth",
+        "rollNumber": "CB.SC.U4CSE23241",
+        "linkedin": "https://www.linkedin.com/in/realdanvanth/"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/realdanvanth/compiler"
   },
   "ATFE26-ST21": {
     "id": "ATFE26-ST21",
-    "title": "Smart Traffic Control System",
+    "title": "PPMS",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
+    "teamName": "Varun Raj V",
+    "stallNumber": "S12",
+    "facultyMentor": "",
+    "description": "Managing parent vehicles during peak hours is chaotic due to manual logbooks that cause traffic bottlenecks and security loopholes. PPMS (Parent Pass Management System) addresses this with a web-based Entry-to-Exit security loop. By replacing paper logs with digital E-IDs, the system synchronizes Security and Wardens in real time, ensuring that no vehicle exits the campus without digital validation from the Warden.",
+    "trl": "6",
     "mrl": "3",
     "irl": "4",
     "sdgs": [
       "9",
-      "11"
+      "11",
+      "12"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Varun Raj V",
+        "rollNumber": "CB.SC.U4CSE23556",
+        "linkedin": "https://www.linkedin.com/in/varunraj2005/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Narain BK",
+        "rollNumber": "CB.SC.U4CSE23536",
+        "linkedin": "https://www.linkedin.com/in/narain-bk"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Venkatesh K",
+        "rollNumber": "CB.SC.U4CSE23519",
+        "linkedin": "https://www.linkedin.com/in/venkatesh-k-187448287/"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aashiq",
+        "rollNumber": "CB.SC.U4CSE23560",
+        "linkedin": "https://www.linkedin.com/in/aashiq-edavalapati/"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/venkatesh21bit/PPMS-Parent_Pass_Management_System"
   },
   "ATFE26-ST22": {
     "id": "ATFE26-ST22",
@@ -2802,40 +2719,36 @@
   },
   "ATFE26-ST23": {
     "id": "ATFE26-ST23",
-    "title": "Mindpal",
-    "department": "School of AI",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "MindPal is an AI-powered companion that bridges the gap between journaling and therapy. By combining Hugging Face and Google Gemini, the app analyzes daily thoughts to create a \"digital twin\" pet that visually mirrors the user's emotional state. The platform gamifies mental self-care while providing a safety net through real-time crisis detection and seamless professional therapist integration.",
+    "title": "MindPal",
+    "department": "Artificial Intelligence & Engineering",
+    "teamName": "operators",
+    "stallNumber": "S06",
+    "facultyMentor": "",
+    "description": "MindPal is an AI-powered mental health companion app that combines emotional wellness tracking with gamified virtual pet care. Users journal daily thoughts and feelings, which are analyzed using advanced sentiment analysis through Hugging Face APIs and Google Gemini to detect mood patterns. Virtual pet companions reflect the user’s emotional state, creating an engaging and intuitive way to track mental health. The platform also includes therapist connections, premium features, mood analytics, and interactive games designed to promote emotional well-being.",
     "trl": "7",
     "mrl": "6",
     "irl": "6",
     "sdgs": [
       "3",
-      "9",
+      "4",
+      "10",
       "17"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Waibhav Jha",
+        "rollNumber": "CB.SC.U4AIE23162",
+        "linkedin": "https://www.linkedin.com/in/waibhav-jha-195051308?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Naksh Singh",
+        "rollNumber": "CB.SC.U4AIE23361",
+        "linkedin": "https://www.linkedin.com/in/naksh-singh-ai-ml?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Deep Amit Lodaya",
+        "rollNumber": "CB.AI.U4AID23004",
+        "linkedin": "https://www.linkedin.com/in/deep-amit-lodaya-ba0195358?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ],
     "githubLink": ""
@@ -2845,7 +2758,7 @@
     "title": "Trescend app",
     "department": "School of AI",
     "teamName": "Trescend",
-    "stallNumber": "S01",
+    "stallNumber": "S32",
     "facultyMentor": "Not Applicable",
     "description": "Trescend is a web-based idea expression platform that enables people, to share their ideas in a safe and confidential environment. The platform uses AI to evaluate ideas instead of human judges, ensuring unbiased and scalable assessment. Users can submit ideas anonymously, preventing plagiarism and fear of judgment. Trescend also includes a confidential competition system and provides monetary rewards to encourage creativity and innovation.",
     "trl": "7",
@@ -2866,14 +2779,14 @@
   "ATFE26-ST25": {
     "id": "ATFE26-ST25",
     "title": "Auction Bidding Simulator",
-    "department": "School of AI",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This real-time web application simulates high-stakes auctions to combat unfair bidding practices. Built with Vanilla JavaScript, Tailwind CSS, and Firebase, it features single-player AI challenges and low-latency multiplayer. Key innovations include an \"Anti-Sniping Protocol\" that extends timers for fair price discovery and a \"Fairness Engine\" for validating bids, promoting a transparent digital economy.",
+    "department": "School of Artificial Intelligence",
+    "teamName": "Synergy",
+    "stallNumber": "LS01",
+    "facultyMentor": "Dr. Sandhya S Pai",
+    "description": "This real-time web application simulates high-stakes auctions to combat unfair bidding practices. Built using Vanilla JavaScript, Tailwind CSS, and Firebase, it supports single-player AI challenges and low-latency multiplayer auctions. Key innovations include an Anti-Sniping Protocol that extends timers for fair price discovery and a Fairness Engine that validates bids, promoting transparency and integrity in digital auction systems.",
     "trl": "7",
-    "mrl": "5",
-    "irl": "4",
+    "mrl": "4",
+    "irl": "5",
     "sdgs": [
       "4",
       "9",
@@ -2881,35 +2794,35 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aryan Bhupathi",
+        "rollNumber": "CB.SC.U4AIE25107",
+        "linkedin": "https://www.linkedin.com/in/aryan-bhupathi-4235433a3"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "M. Rikhitha Reddy",
+        "rollNumber": "CB.SC.U4AIE25143",
+        "linkedin": "https://www.linkedin.com/in/rikhitha-reddy-22bbb336b"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "G. Puran Reddy",
+        "rollNumber": "CB.SC.U4AIE25118",
+        "linkedin": "https://www.linkedin.com/in/puran-reddy-gundala-61060236b"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "P. Sai Chandana",
+        "rollNumber": "CB.SC.U4AIE25140",
+        "linkedin": "https://www.linkedin.com/in/saichandana-paturu-a45ab937b"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://aryanthecuber.github.io/Auction-Bidding-Simulator/"
   },
   "ATFE26-ST26": {
     "id": "ATFE26-ST26",
     "title": "HealthConnect - Transforming Healthcare",
     "department": "School of AI",
     "teamName": "HealthConnect",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
+    "stallNumber": "S04",
+    "facultyMentor": "-",
     "description": "AI telehealth platform for underserved patients. Multi-agent system processes text/voice/images in Hindi/English. Biosignal processing toolkit, Smart appointments, queue management. Doctor-in-loop learning improves AI. Features: auto SOAP notes, SMS access. 13 microservices.",
     "trl": "6",
     "mrl": "5",
@@ -2930,50 +2843,45 @@
   },
   "ATFE26-ST27": {
     "id": "ATFE26-ST27",
-    "title": "Smart Traffic Control System",
+    "title": "Amrita Retriever - A Campus Lost and Found Platform",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "teamName": "Amrita Retriever",
+    "stallNumber": "S41",
+    "facultyMentor": "-",
+    "description": "Amrita Retriever is a real-time, privacy-first Lost & Found application designed for campus environments. Built using Flutter, Supabase, and a Next.js admin dashboard, the platform allows users to post lost and found items, announce rewards, interact via live comments, and receive GPS-based proximity alerts. To prevent false claims and misuse, contact details are revealed only after answering a security question. The system enables efficient recovery through real-time notifications, location intelligence, and controlled communication, creating a trusted digital ecosystem for lost item recovery.",
+    "trl": "7",
+    "mrl": "6",
+    "irl": "3",
     "sdgs": [
-      "9",
-      "11"
+      "11",
+      "12"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Arun Pravin A P",
+        "rollNumber": "CB.SC.U4CSE24710",
+        "linkedin": "https://www.linkedin.com/in/arun-pravin-ap-630833372/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Chittesh D P",
+        "rollNumber": "CB.SC.U4CSE24112",
+        "linkedin": "https://www.linkedin.com/in/chitteshdp"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Abhijith M I",
+        "rollNumber": "CB.SC.U4CSE24102",
+        "linkedin": "www.linkedin.com/in/abhijith-m-i-a21042315"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Chittesh249/Lost-and-found"
   },
   "ATFE26-ST28": {
     "id": "ATFE26-ST28",
-    "title": "AmritaFind – Lost and Found Platform for Amrita University",
+    "title": "AmritaFind - Lost and Found Platform for Amrita University",
     "department": "Department of Computer Science & Engineering",
     "teamName": "Lethal",
-    "stallNumber": "S01",
-    "facultyMentor": "NAN",
+    "stallNumber": "S44",
+    "facultyMentor": "-",
     "description": "AmritaFind is a mobile application designed to simplify the lost and found process for students within Amrita University. The platform allows users to post details of lost or found items along with images and location information. Using AI-based matching, the app suggests possible item matches and includes a secure in-app chat feature to enable safe communication between users. AmritaFind helps students recover belongings faster, reduces stress, and promotes responsible resource usage on campus.",
     "trl": "6",
     "mrl": "6",
@@ -3009,77 +2917,74 @@
   },
   "ATFE26-ST29": {
     "id": "ATFE26-ST29",
-    "title": "Smart Traffic Control System",
+    "title": "Cognitive Freight Network",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "teamName": "Cognitive Freight Network",
+    "stallNumber": "S14",
+    "facultyMentor": "",
+    "description": "The Cognitive Freight Network is a hybrid AI platform that fuses Operations Research with Machine Learning to transform static logistics into dynamic, predictive intelligence. Delivered via a service-first ERP to overcome data scarcity, the system automates multi-modal routing while harvesting real-time data to forecast delays and costs. This approach shifts supply chain management from reactive tracking to proactive optimization, enabling improved efficiency, accuracy, and decision-making.",
+    "trl": "8",
+    "mrl": "6",
+    "irl": "5",
     "sdgs": [
-      "9",
-      "11"
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "K Venkatesh",
+        "rollNumber": "CB.SC.U4CSE23519",
+        "linkedin": "https://www.linkedin.com/in/venkatesh-k-187448287"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "A Joshua Karthik",
+        "rollNumber": "CB.SC.U4CSE23501",
+        "linkedin": "https://www.linkedin.com/in/joshua-karthik-ashok-00881a290"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Vendor-Innovate-Solutions/CognitiveFreightNetwork"
   },
   "ATFE26-ST30": {
     "id": "ATFE26-ST30",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "title": "GNN-Based Sensory Substitution & Employability Operating System",
+    "department": "Artificial Intelligence & Data Science",
+    "teamName": "NOVA",
+    "stallNumber": "S37",
+    "facultyMentor": "",
+    "description": "This submission comprises two complementary AI-driven projects. Project 1 presents a GNN-based sensory substitution framework that enables bidirectional translation between visual art and music, preserving structural and emotional semantics to improve accessibility for the visually and hearing impaired. Project 2, Ekalavya, is a phygital employability operating system inspired by the Gurukul model, replacing static textbooks with AI-generated project architectures, gated learning via an AI mentor, and offline-first capabilities to bridge the digital divide in low-connectivity regions.",
+    "trl": "Project 1: 6, Project 2: 4",
+    "mrl": "Project 1: 6, Project 2: 5",
+    "irl": "Project 1: 7, Project 2: 4",
     "sdgs": [
+      "3",
+      "6",
+      "7",
       "9",
       "11"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
+        "name": "Prajith S",
+        "rollNumber": "CB.AI.U4AID24039",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
+        "name": "Raghavendra Singh Jagawat",
+        "rollNumber": "CB.AI.U4AID24043",
         "linkedin": ""
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
+        "name": "Sakthi Charukesh S",
+        "rollNumber": "CB.AI.U4AID24049",
         "linkedin": ""
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Sangeeth S",
+        "rollNumber": "CB.AI.U4AID24050",
+        "linkedin": ""
+      },
+      {
+        "name": "Pranav Kumar Reddy",
+        "rollNumber": "CB.AI.U4AID24069",
         "linkedin": ""
       }
     ],
@@ -3087,38 +2992,46 @@
   },
   "ATFE26-ST31": {
     "id": "ATFE26-ST31",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "title": "EKALAVYA: The Employability Operating System Bridging the Digital Divide via AI-Driven Phygital Gurukuls",
+    "department": "Artificial Intelligence & Data Science",
+    "teamName": "NOVA",
+    "stallNumber": "S09",
+    "facultyMentor": "",
+    "description": "This submission comprises two AI-driven initiatives. Project 1 presents a GNN-based sensory substitution framework enabling bidirectional translation between visual art and music, preserving relational, structural, and emotional semantics to improve accessibility for the visually and hearing impaired. Project 2, Ekalavya, is a phygital employability operating system inspired by the Gurukul model, replacing static textbooks with AI-generated project architectures, gated learning via an AI mentor, and offline-first capabilities to bridge the digital divide for rural and low-connectivity regions.",
+    "trl": "Project 1: 6, Project 2: 4",
+    "mrl": "Project 1: 6, Project 2: 5",
+    "irl": "Project 1: 7, Project 2: 4",
     "sdgs": [
+      "3",
+      "6",
+      "7",
       "9",
       "11"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
+        "name": "Prajith S",
+        "rollNumber": "CB.AI.U4AID24039",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
+        "name": "Raghavendra Singh Jagawat",
+        "rollNumber": "CB.AI.U4AID24043",
         "linkedin": ""
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
+        "name": "Sakthi Charukesh S",
+        "rollNumber": "CB.AI.U4AID24049",
         "linkedin": ""
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Sangeeth S",
+        "rollNumber": "CB.AI.U4AID24050",
+        "linkedin": ""
+      },
+      {
+        "name": "Pranav Kumar Reddy",
+        "rollNumber": "CB.AI.U4AID24069",
         "linkedin": ""
       }
     ],
@@ -3126,88 +3039,75 @@
   },
   "ATFE26-ST32": {
     "id": "ATFE26-ST32",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "title": "OCR Based Drug Name Extraction System",
+    "department": "Artificial Intelligence & Machine Learning",
+    "teamName": "Med Wizards",
+    "stallNumber": "S43",
+    "facultyMentor": "",
+    "description": "The OCR Based Drug Name Extraction System converts prescription images into accurate drug names along with readable explanations. OCR outputs are refined using a fine-tuned ByT5 model trained on synthetic noise, significantly improving text reliability before database matching and explanation generation.",
     "trl": "5",
-    "mrl": "3",
+    "mrl": "4",
     "irl": "4",
     "sdgs": [
-      "9",
-      "11"
+      "6",
+      "7",
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
+        "name": "Harshath A",
+        "rollNumber": "CB.AI.U4AIM24015",
+        "linkedin": "https://www.linkedin.com/in/harshath-a-ai/"
+      },
+      {
+        "name": "Kishore S",
+        "rollNumber": "CB.AI.U4AIM24020",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Pranesh Kishor Kumar",
+        "rollNumber": "CB.AI.U4AIM24056",
         "linkedin": ""
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Harsha123456-gitty/OCR-Based-Medical-Drug-Explainer.git"
   },
   "ATFE26-ST33": {
     "id": "ATFE26-ST33",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "title": "PINNs-Infused 3D Nanobot Path Planning for In-Silico Cardiovascular Disease Detection",
+    "department": "Department of Artificial Intelligence",
+    "teamName": "NeuralFlux",
+    "stallNumber": "S45",
+    "facultyMentor": "Reshma Sanal",
+    "description": "NeuralFlux is a physics-informed framework that integrates Physics-Informed Neural Networks (PINNs) with 3D nanobot path planning to detect disease-specific hemodynamic signatures in an in-silico cardiovascular environment. By modeling blood flow dynamics using governing physical equations, the system enables intelligent nanobot navigation to identify abnormalities associated with atherosclerosis, aneurysm, stenosis, and turbulence. The simulation-based approach is interpretable, computationally efficient, and demonstrates strong potential for future digital healthcare applications.",
+    "trl": "6",
+    "mrl": "4",
+    "irl": "3",
     "sdgs": [
-      "9",
-      "11"
+      "6",
+      "7",
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Susanth Mohan Kamala",
+        "rollNumber": "CB.AI.U4AIM24148",
+        "linkedin": "https://www.linkedin.com/in/susanth-m-k-781260371"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Sakthikailash",
+        "rollNumber": "CB.AI.U4AIM24140",
+        "linkedin": "https://www.linkedin.com/in/sakthikailash-s-v-a28075325"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/SusanthMK/PINN-Nanobot-Path-Planning"
   },
   "ATFE26-ST34": {
     "id": "ATFE26-ST34",
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "S47",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -3271,7 +3171,7 @@
     "title": "GESTRIX – Gesture-Based Touchless File Transfer System",
     "department": "Artificial Intelligence Engineering (AIE)",
     "teamName": "Team PVHS",
-    "stallNumber": "S01",
+    "stallNumber": "S51",
     "facultyMentor": "Jaisooraj J",
     "description": "GESTRIX is a gesture-based, touchless file transfer system designed for environments where traditional device interaction is impractical or unsafe. It enables image transfer between nearby devices using intuitive Pull and Push hand gestures over a local network. By combining computer vision–based gesture recognition with peer-to-peer communication, the system minimizes physical interaction, cloud dependency, and repetitive UI navigation. This makes it highly suitable for sterile environments, industrial setups, and hands-occupied scenarios.",
     "trl": "5",
@@ -3307,39 +3207,41 @@
   },
   "ATFE26-ST37": {
     "id": "ATFE26-ST37",
-    "title": "Smart Traffic Control System",
+    "title": "Presense360",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "teamName": "Presense360",
+    "stallNumber": "S38",
+    "facultyMentor": "Dr. Vishnuvarthan R",
+    "description": "Presense360 is a mobile, edge-based facial attendance system that replaces manual registers and centralized biometric terminals. It uses smartphone-based, on-device facial recognition with geolocation verification to ensure physical presence, eliminating centralized biometric storage while enabling faster, scalable, and energy-efficient attendance.",
+    "trl": "6",
+    "mrl": "4",
+    "irl": "7",
     "sdgs": [
+      "3",
       "9",
-      "11"
+      "13",
+      "16"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "S Ajeth",
+        "rollNumber": "CB.SC.U4CSE23142",
+        "linkedin": "https://www.linkedin.com/in/ajeth-sakthivel-5b60b2244/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aadhithya Bharathi",
+        "rollNumber": "CB.SC.U4CSE23269",
+        "linkedin": "https://www.linkedin.com/in/aadhithya-bharathi-86a9aa290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Muppidi Chandana",
+        "rollNumber": "CB.SC.U4CSE23228",
+        "linkedin": "https://www.linkedin.com/in/chandana-muppidi-b9aab5290/"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vishnu Vardhan Theegela",
+        "rollNumber": "CB.SC.U4CSE23056",
+        "linkedin": "https://www.linkedin.com/in/vishnu-vardhan-theegela-486710290"
       }
     ],
     "githubLink": ""
@@ -3385,127 +3287,93 @@
   },
   "ATFE26-ST39": {
     "id": "ATFE26-ST39",
-    "title": "Smart Traffic Control System",
+    "title": "Synapse-Docs",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "teamName": "Sooravali",
+    "stallNumber": "S46",
+    "facultyMentor": "",
+    "description": "Synapse-Docs transforms a static library of PDFs into a dynamic, queryable knowledge base by deeply understanding the semantic context of each document. The system enables users to surface hidden connections, generate contextual AI-driven analysis, and interact with their entire document library as a unified intelligence rather than isolated files.",
+    "trl": "7",
+    "mrl": "5",
+    "irl": "5",
     "sdgs": [
+      "4",
       "9",
-      "11"
+      "10"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Midhunan Vijendra Prabhaharan",
+        "rollNumber": "CB.SC.U4CSE23532",
+        "linkedin": "https://www.linkedin.com/in/midhunan-vijendra-prabhaharan/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aadesh N",
+        "rollNumber": "CB.SC.U4CSE23535",
+        "linkedin": "https://www.linkedin.com/in/aadesh-n-392132335/"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Varun Hirthik",
+        "rollNumber": "CB.SC.U4CSE23567",
+        "linkedin": "https://www.linkedin.com/in/varun-hirthik-v-3a488031b/"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/sooravali/synapse-docs"
   },
   "ATFE26-ST40": {
     "id": "ATFE26-ST40",
-    "title": "Smart Traffic Control System",
+    "title": "Stencil",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "teamName": "Krishanth K",
+    "stallNumber": "S48",
+    "facultyMentor": "",
+    "description": "Stencil enables developers to define a single UI configuration and generate production-ready interfaces across multiple rendering targets including React, HTML, Flutter, Tkinter, ImGui, and Curses. By eliminating the need for framework-specific expertise, it streamlines UI development across web, mobile, desktop, game tools, and terminal applications from one declarative source.",
     "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "mrl": "5",
+    "irl": "5",
     "sdgs": [
-      "9",
-      "11"
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Krishanth K",
+        "rollNumber": "CB.SC.U4CSE24521",
+        "linkedin": "http://linkedin.com/in/krishanth-k"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Krishanth-K/stencil"
   },
   "ATFE26-ST41": {
     "id": "ATFE26-ST41",
-    "title": "Smart Traffic Control System",
+    "title": "SprintPilot: AI-Orchestrated Agile Product Management Workspace",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "teamName": "SolorForge",
+    "stallNumber": "S50",
+    "facultyMentor": "",
+    "description": "SprintPilot is an AI-powered Agile workspace that transforms raw product ideas into ready-to-build blueprints. Built using Google Gemini 2.0 Flash with a React and Supabase stack, it automates the discovery-to-backlog workflow by generating PRDs, technical architectures, and database schemas within a premium glassmorphic dashboard, enabling faster and clearer product planning and delivery.",
+    "trl": "8",
+    "mrl": "4",
+    "irl": "6",
     "sdgs": [
-      "9",
-      "11"
+      "4",
+      "8",
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Priyansh AvtarSingh Narang",
+        "rollNumber": "CB.SC.U4CSE23642",
+        "linkedin": "https://www.linkedin.com/in/priyansh-narang-a9a743307"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/priyansh-narang2308/SprintPilot-Sprintfour"
   },
   "ATFE26-ST42": {
     "id": "ATFE26-ST42",
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "S49",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -3544,7 +3412,7 @@
     "title": "Open-Source Crypto Forensics Framework",
     "department": "Department of Mathematics (Data Science)",
     "teamName": "Team Kernels",
-    "stallNumber": "S01",
+    "stallNumber": "S18",
     "facultyMentor": "Dr. Ramaguru Radha Krishnan",
     "description": "This project presents a web-based cryptocurrency address classification and risk analysis system aimed at combating fraud and scam transactions in blockchain ecosystems. By analyzing transaction behavior patterns, the system identifies suspicious wallet addresses and assigns risk scores to help users quickly assess wallet safety. Interactive visualizations of transaction flows further enhance understanding, enabling informed decision-making. The solution improves security, transparency, and trust in cryptocurrency transactions through data-driven forensics.",
     "trl": "5",
@@ -3580,7 +3448,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "S58",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -3619,7 +3487,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -3697,7 +3565,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -3736,7 +3604,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -3775,7 +3643,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
@@ -3814,7 +3682,7 @@
     "title": "Smart Traffic Control System",
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
-    "stallNumber": "S01",
+    "stallNumber": "",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
