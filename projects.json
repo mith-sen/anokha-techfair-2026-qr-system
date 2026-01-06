@@ -439,7 +439,7 @@
     "id": "ATFE26-HT12",
     "title": "Integration of Digitauyiytin with MPPT for solar pv operations under partial shading conditions",
     "department": "Department of Electronics and Communication Engineering",
-    "teamName": "IntelliFlow",
+    "teamName": "VOLTVANGUARD",
     "stallNumber": "S31",
     "facultyMentor": "NAN",
     "description": "This project presents the integration of a digital twin with a DC\u2013DC boost converter for intelligent Maximum Power Point Tracking (MPPT) in solar photovoltaic systems. The digital twin accurately models the boost converter\u2019s electrical behaviour in real time, enabling effective monitoring and control of the power conversion process. By synchronizing the virtual model with the physical system, the approach improves MPPT performance, enhances system reliability, and supports faster algorithm validation. The work demonstrates how digital twin technology can aid efficient power electronics design and control in renewable energy applications.",
@@ -448,40 +448,24 @@
     "irl": "4",
     "sdgs": [
       "7",
-      "9",
-      "10"
+      "9"
     ],
     "teamMembers": [
       {
         "name": "SAI KARTHIK RAJAN",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.EN.U4ECE22051",
+        "linkedin": "karthik-rajan-1b4a44216?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/saikarthikrajan/Integration-of-Digital-twin-with-MPPT-for-solar-pv-operations-under-partial-shading-conditions"
   },
   "ATFE26-HT13": {
     "id": "ATFE26-HT13",
-    "title": "SETU 5.0 - A Rapid Deployment System for Emergency Response",
-    "department": "Department of Electronics and Communication Engineering",
+    "title": "SETU 5.0: A Rapid Deployment System for Emergency Response",
+    "department": "ECE",
     "teamName": "IntelliFlow",
     "stallNumber": "LS11",
-    "facultyMentor": "NAN",
+    "facultyMentor": "Dr. Ganesan M. (ECE)",
     "description": "During disasters such as floods and landslides, damaged infrastructure and inaccessible terrain delay the delivery of critical supplies. Conventional solutions, including ground vehicles and aerial systems, are limited by terrain constraints, weather dependence, and high operational costs. This project presents SETU 5.0, a low-cost, semi-autonomous cable-based rapid deployment system to address last-mile logistics challenges. The system transports essential payloads along a suspended cable, integrating obstacle awareness, payload monitoring, and controlled delivery. A real-time monitoring interface enables remote supervision, supporting reliable, energy-efficient, and scalable deployment in disaster-prone environments.",
     "trl": "4",
     "mrl": "4",
@@ -493,24 +477,19 @@
     ],
     "teamMembers": [
       {
+        "name": "Roshni Rangarajan",
+        "rollNumber": "CB.EN.U4ECE23136",
+        "linkedin": "https://www.linkedin.com/in/roshni-r-753142317/"
+      },
+      {
         "name": "Deepthika S",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.EN.U4ECE23116",
+        "linkedin": "https://www.linkedin.com/in/deepthika365/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Jelena Cathy J",
+        "rollNumber": "CB.EN.U4ECE23122",
+        "linkedin": "https://www.linkedin.com/in/jelena-cathy-j-a64490372/"
       }
     ],
     "githubLink": ""
@@ -532,24 +511,19 @@
     ],
     "teamMembers": [
       {
-        "name": "Gurudev R N",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vishnu",
+        "rollNumber": "CB.EN.U4ECE22056",
+        "linkedin": "//www.linkedin.com/in/v-vishnu-835649341/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Gurudev R",
+        "rollNumber": "CB.EN.U4ECE22222",
+        "linkedin": "https://www.linkedin.com/in/guru-dev-2a6610287/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B80aakIHtTeqXUTtw0peNLQ"
       },
       {
-        "name": "Student 3",
+        "name": "Ajay U",
         "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "linkedin": "CB.EN.U4ECE22202"
       }
     ],
     "githubLink": ""
@@ -874,35 +848,36 @@
     "id": "ATFE26-HT23",
     "title": "Solar Panel Maintenance",
     "department": "Department of Electrical and Electronics Engineering",
-    "teamName": "IntelliFlow",
+    "teamName": "Clean Grid Robotics",
     "stallNumber": "S01",
     "facultyMentor": "NAN",
-    "description": "The proposed system employs real-time performance monitoring to initiate cleaning only when a reduction in output is detected. An autonomous rover travels horizontally along a guided path on the solar panel surface and removes accumulated dust using a mechanical eleaning mechanism. Controlled low-speed motion ensures uniform and safe cleaning, while wireless communication enables reliable coordination between system components",
+    "description": "Dust accumulation on solar panels can reduce power output by 15–30%, and frequent manual cleaning is inefficient and unsafe for large installations. Existing automated systems often operate on fixed schedules, leading to unnecessary cleaning and energy loss. A compact, condition-based cleaning solution is therefore required to maintain panel efficiency with minimal intervention. The proposed system employs real-time performance monitoring to initiate cleaning only when a reduction in output is detected. An autonomous rover travels horizontally along a guided path on the solar panel surface and removes accumulated dust using a mechanical cleaning mechanism. Controlled low-speed motion ensures uniform and safe cleaning, while wireless communication enables reliable coordination between system components.",
     "trl": "4",
     "mrl": "3",
     "irl": "3",
     "sdgs": [
-      "7"
+      "7",
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Chinna Gundam Harsha Vardhan Reddy",
+        "rollNumber": "CB.EN.U4ELC24011",
+        "linkedin": "www.linkedin.com/in/harsha-chinna-gundam-930813358"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Jethin MS",
+        "rollNumber": "CB.EN.U4ELC24050",
+        "linkedin": "https://www.linkedin.com/in/jethin-ms-15797031a"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vijaya Prem",
+        "rollNumber": "CB.EN.U4ELC24048",
+        "linkedin": "https://www.linkedin.com/in/vijay-prem-88a5ba329"
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "L. Mukundhan",
+        "rollNumber": "CB.EN.U4EEE24124",
         "linkedin": ""
       }
     ],
@@ -2172,7 +2147,7 @@
     "teamName": "IntelliFlow",
     "stallNumber": "LS8",
     "facultyMentor": "NAN",
-    "description": "<<<<<<< HEAD This project presents a gesture-controlled drone interface that replaces conventional radio control transmitters with intuitive hand motion input. A wearable glove equipped with an MPU6050 inertial measurement unit and an ESP32 captures human hand movements and translates them into real-time flight commands for throttle, roll, pitch, and yaw. Sensor fusion is achieved using a complementary filter to ensure stable and smooth control signals. Low-latency wireless communication is implemented through an ESP32-based ESP-NOW protocol, enabling reliable data transmission to an APM 2.8.1 flight controller. The system emphasizes human\u2013machine interaction by offering a natural and immersive control experience. Despite hardware and computational constraints, the project demonstrates effective engineering trade-offs, iterative design refinement, and robust system integration for real-time aerial control. ======= \"This project focuses on the design and analysis of a piezoelectric energy harvesting system that captures electrical energy from vibrations induced by vehicular traffic on a simple beam bridge. The system is modeled and simulated using MATLAB, incorporating classical structural vibration theory to evaluate dynamic response. Multiple harvester placement locations along the bridge span are analyzed to identify the optimal position for maximum energy output. By integrating vibration modeling with performance optimization, the project demonstrates an effective approach to sustainable energy generation from existing infrastructure. The MATLAB-based methodology enables repeatable analysis, quantitative comparison, and clear performance evaluation, highlighting the potential of smart energy harvesting solutions for real-world civil and transportation engineering applications.\" >>>>>>> 8bcf329750cb6d9c4e04c4e63ad38701fa0424bb",
+    "description": "This project focuses on the design and analysis of a piezoelectric energy harvesting system that captures electrical energy from vibrations induced by vehicular traffic on a simple beam bridge. The system is modeled and simulated using MATLAB, incorporating classical structural vibration theory to evaluate dynamic response. Multiple harvester placement locations along the bridge span are analyzed to identify the optimal position for maximum energy output. By integrating vibration modeling with performance optimization, the project demonstrates an effective approach to sustainable energy generation from existing infrastructure. The MATLAB-based methodology enables repeatable analysis, quantitative comparison, and clear performance evaluation, highlighting the potential of smart energy harvesting solutions for real-world civil and transportation engineering applications.",
     "trl": "4",
     "mrl": "4",
     "irl": "5",
@@ -2185,7 +2160,7 @@
     ],
     "teamMembers": [
       {
-        "name": "<<<<<<< HEAD\n            Sanjay.S",
+        "name": "Sanjay.S",
         "rollNumber": "Roll No",
         "linkedin": ""
       },
@@ -2290,41 +2265,36 @@
   "ATFE26-ST09": {
     "id": "ATFE26-ST09",
     "title": "Start Smart",
-    "department": "Department of Electronics and Communication Engineering",
-    "teamName": "IntelliFlow",
+    "department": "COMPUTER AND COMMUNICATION ENGINEERING",
+    "teamName": "404NotFound",
     "stallNumber": "S01",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "StartSmart is an AI-driven platform that helps early-stage entrepreneurs validate and refine startup ideas, request funding, and participate in innovation challenges. It leverages advanced AI models to provide automated idea evaluation reports, SWOT analyses, and personalized growth roadmaps while enabling seamless interaction between founders, investors, and administrators. The system includes multi-role dashboards, funding request management, Ideathon organization, and real-time notifications, simplifying and democratizing idea assessment and early startup decision-making. Additionally, the platform offers structured scoring rubrics, transparent review workflows, and investor-friendly insights to enhance decision accuracy. Its scalable cloud-based architecture ensures reliable performance, while its intuitive UI empowers users of all backgrounds. StartSmart ultimately bridges the gap between idea-stage innovators and funding opportunities.",
     "trl": "7",
-    "mrl": "7",
-    "irl": "4",
+    "mrl": "4",
+    "irl": "7",
     "sdgs": [
       "8",
-      "9"
+      "9","10"
     ],
     "teamMembers": [
       {
         "name": "Lithigesh P G",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.EN.U4CCE23025",
+        "linkedin": "https://www.linkedin.com/in/lithigesh "
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Nanthana S V",
+        "rollNumber": " CB.EN.U4CCE23031",
+        "linkedin": "https://www.linkedin.com/in/nanthana-s-v-667b30294/"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": " Kavin Balaji S",
+        "rollNumber": "CB.EN.U4CCE23023",
+        "linkedin": "https://www.linkedin.com/in/kavinbalaji2005"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/lithigesh/StartSmart"
   },
   "ATFE26-ST10": {
     "id": "ATFE26-ST10",
@@ -2411,7 +2381,7 @@
     "department": "Department of Computer Science & Engineering",
     "teamName": "IntelliFlow",
     "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
+    "facultyMentor": "Dr. Deepthi P (ECE)",
     "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
     "trl": "5",
     "mrl": "3",
@@ -2642,43 +2612,27 @@
   },
   "ATFE26-ST18": {
     "id": "ATFE26-ST18",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
+    "title": "QR Tunnel",
+    "department": "CSE",
+    "teamName": "QR Tunnel",
     "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "facultyMentor": "",
+    "description": "QRTunnel is a privacy-first file-sharing system built for simplicity and control. It enables instant, direct transfers— using LAN nearby and secure tunnels remotely —without clouds, external servers, or data logging. With one-command sharing, zero logins, no installation for receivers, anonymous exchange, and full host control, QRTunnel stays lightweight and open-source while prioritizing privacy, reliability, and real-world usability.",
+    "trl": "7",
+    "mrl": "6",
+    "irl": "5",
     "sdgs": [
-      "9",
-      "11"
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aniruth Karthik",
+        "rollNumber": "CB.SC.U4CSE24502",
+        "linkedin": "https://www.linkedin.com/in/aniruthkarthik"
       }
     ],
-    "githubLink": ""
-  },
+    "githubLink": "https://github.com/AniruthKarthik/qrtunnel"
+  },  
   "ATFE26-ST19": {
     "id": "ATFE26-ST19",
     "title": "Smart Traffic Control System",
@@ -2877,9 +2831,9 @@
   },
   "ATFE26-ST24": {
     "id": "ATFE26-ST24",
-    "title": "Trescend",
+    "title": "Trescend app",
     "department": "School of AI",
-    "teamName": "IntelliFlow",
+    "teamName": "Trescend",
     "stallNumber": "S01",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "Trescend is a web-based idea expression platform that enables people, to share their ideas in a safe and confidential environment. The platform uses AI to evaluate ideas instead of human judges, ensuring unbiased and scalable assessment. Users can submit ideas anonymously, preventing plagiarism and fear of judgment. Trescend also includes a confidential competition system and provides monetary rewards to encourage creativity and innovation.",
@@ -2891,27 +2845,12 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Sathya.K ",
+        "rollNumber": "CB.SC.U4AIE25154",
+        "linkedin": "https://www.linkedin.com/me?trk=p_mwlite_feed-secondary_nav"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Trescend-Corporation/Trescend-Corporation.git"
   },
   "ATFE26-ST25": {
     "id": "ATFE26-ST25",
@@ -2955,9 +2894,9 @@
   },
   "ATFE26-ST26": {
     "id": "ATFE26-ST26",
-    "title": "Health Connect",
+    "title": "HealthConnect - Transforming Healthcare",
     "department": "School of AI",
-    "teamName": "IntelliFlow",
+    "teamName": "HealthConnect",
     "stallNumber": "S01",
     "facultyMentor": "Dr. ABC XYZ",
     "description": "AI telehealth platform for underserved patients. Multi-agent system processes text/voice/images in Hindi/English. Biosignal processing toolkit, Smart appointments, queue management. Doctor-in-loop learning improves AI. Features: auto SOAP notes, SMS access. 13 microservices.",
@@ -2971,27 +2910,12 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vedant Maheshwari ",
+        "rollNumber": " CB.SC.U4AIE23346",
+        "linkedin": "https://www.linkedin.com/in/vedant-maheshwari-328a652a9/"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/vedant-maheshwari/health_connect"
   },
   "ATFE26-ST27": {
     "id": "ATFE26-ST27",
