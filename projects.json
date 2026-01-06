@@ -4,35 +4,23 @@
     "title": "AGE- Autonomous Ground Explorer",
     "department": "Department of Aerospace and Engineering",
     "teamName": "IntelliFlow",
-    "facultyMentor": "NAN",
-    "description": "The project is an ESP32-based 4WD autonomous rover that intelligently explores indoor environments. Its key innovation lies in the integration of a servo-mounted TF-Mini LiDAR with the classic Vector Field Histogram (VFH) algorithm for dynamic obstacle avoidance, fully implemented on a low-cost microcontroller without reliance on resource-heavy frameworks such as ROS. This enables the rover to perform wide-angle scans, analyze surrounding obstacles in real time, and select the safest direction to proceed.",
+    "facultyMentor": "Dr. Jinraj V pushpangathan (Aerospace)",
+    "description": "This project features a smart autonomous rover designed for reliable navigation in complex environments. By utilizing a LiDAR-based VFH (Vector Field Histogram) algorithm, the rover can identify clear “valleys” or paths through obstacles in real-time. This system ensures smooth movement and intelligent pathfinding, making it suitable for indoor exploration or delivery tasks where human intervention is limited.",
     "trl": "6",
-    "mrl": "3",
-    "irl": "4",
+    "mrl": "4",
+    "irl": "5",
     "sdgs": [
-      "6",
-      "7",
-      "9"
+      "9","11"
     ],
     "teamMembers": [
       {
         "name": "Saishreya Nair",
-        "rollNumber": "Roll No",
+        "rollNumber": "CB.EN.U4AEE23070",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Ajay Kumar Mahato",
+        "rollNumber": "CB.EN.U4AEE23071",
         "linkedin": ""
       }
     ],
@@ -989,38 +977,28 @@
   },
   "ATFE26-HT26": {
     "id": "ATFE26-HT26",
-    "title": "Omni-directional Multi-Morphing Robot",
+    "title": "Bioinspired Multi-morphing Omnidirectional Robot",
     "department": "Department of Mechanical Engineering",
-    "teamName": "IntelliFlow",
+    "teamName": "Multi-morphing Omnidirectional Robot",
     "stallNumber": "S01",
-    "facultyMentor": "NAN",
-    "description": "\"This project presents the design and analysis of a bioinspired multi-morphing omnidirectional mobile robot capable of seamless motion in multiple directions.A simplified kinematic model is developed, and optimal parameters such as wheel radius, wheel offset, and steering angle are identified using Jacobian condition number analysis.The robot enables smooth omnidirectional motion with minimal control complexity, allowing intuitive operation through a high-level API. The proposed system improves maneuverability, adaptability, and usability for service and research applications.\"",
+    "facultyMentor": "Dr.Rammohan S",
+    "description": "This project presents the design and analysis of a bioinspired multi-morphing omnidirectional mobile robot capable of seamless motion in multiple directions. A simplified kinematic model is developed, and optimal parameters such as wheel radius, wheel offset, and steering angle are identified using Jacobian condition number analysis. The robot enables smooth omnidirectional motion with minimal control complexity, allowing intuitive operation through a high-level API. The proposed system improves maneuverability, adaptability, and usability for service and research applications.",
     "trl": "9",
     "mrl": "3",
     "irl": "4",
     "sdgs": [
-      "3",
-      "9"
+      "9",
+      "11","12"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "RITHIKSWARAN R",
+        "rollNumber": "CB.EN.U4ARE23040",
+        "linkedin": "https://www.linkedin.com/in/rithik-radhakrishnan-7159b5329/ "
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "SAI SUNANDHA JK",
+        "rollNumber": "CB.EN.U4ARE23043",
         "linkedin": ""
       }
     ],
@@ -1381,12 +1359,12 @@
   },
   "ATFE26-HT36": {
     "id": "ATFE26-HT36",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
+    "title": "QUADRATIC BOOST CONVERTER",
+    "department": "Department of Electrical and Electronics Engineering",
+    "teamName": "QuadraVolt",
     "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "facultyMentor": "Dr. S. Sampath Kumar Assistant Professor (Sr. Gr.), Department of Electrical and Electronics Engineering, School of Engineering, Coimbatore",
+    "description": "The Quadratic Boost Converter (QBC) is a non-isolated high-gain DC–DC converter capable of achieving quadratic voltage gain without operating at extreme duty cycles. By cascading energy storage stages within a single topology, the converter provides enhanced voltage amplification with improved efficiency and reduced component stress. This work presents the design, simulation, and hardware implementation of a QBC for low-voltage to high-voltage applications, with performance validated through experimental testing.",
     "trl": "5",
     "mrl": "3",
     "irl": "4",
@@ -1396,23 +1374,13 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
+        "name": "Sai Kamal Mudiganti",
+        "rollNumber": "CB.EN.U4EEE23030",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Rajaram Rao",
+        "rollNumber": "CB.EN.U4EEE24035",
         "linkedin": ""
       }
     ],
@@ -1580,31 +1548,33 @@
     "department": "Department of Chemical Engineering and Material Science",
     "teamName": "-",
     "stallNumber": "-",
-    "facultyMentor": "-",
-    "description": "DESCRIPTION",
+    "facultyMentor": "Dr.Duraisamy Kumaresan and Dr. R Krishna Prasad / Department of Chemical engineering and material science ",
+    "description": "Flexible dye-sensitized solar cells (FDSSCs) are well suited for powering low-power electronic devices, including sensors, Internet of Things (IoT) components, and wearable electronics. The integration of nanostructured layers within FDSSCs enables tunable transparency and color, allowing seamless incorporation into building-integrated photovoltaics (BIPV) and decorative display applications. These features make FDSSCs attractive for next-generation flexible and aesthetic energy-harvesting systems.",
+    "trl": "4",
+    "mrl": "3",
+    "irl": "4",
     "sdgs": [
-      "9",
-      "11"
+      "7"
     ],
     "teamMembers": [
       {
         "name": "Tamil R",
-        "rollNumber": "Roll No",
+        "rollNumber": "",
         "linkedin": ""
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
+        "name": " Bhatt Tejas Ketanbhai",
+        "rollNumber": "",
         "linkedin": ""
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
+        "name": " Jakul Chanthini MSR",
+        "rollNumber": "",
         "linkedin": ""
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Geetha N",
+        "rollNumber": "",
         "linkedin": ""
       }
     ],
@@ -2211,38 +2181,36 @@
     "id": "ATFE26-ST07",
     "title": "Airfoil Recommendation system",
     "department": "Department of Aerospace and Engineering",
-    "teamName": "IntelliFlow",
+    "teamName": "Glide Through Aero (GTA)",
     "stallNumber": "LS9",
-    "facultyMentor": "NAN",
-    "description": "\"This project focuses on the development of an airfoil recommendation system aimed at supporting students and beginner aircraft designers in glider design. The system accepts user-defined performance objectives and recommends suitable airfoils from a curated aerodynamic database by integrating aerodynamic coefficients with computational selection methods. The primary objective is to provide a reliable starting point for airfoil selection, significantly reducing reliance on trial-and-error approaches during early-stage design. Although the initial implementation utilizes a relatively small dataset, the model was successfully trained to produce consistent and meaningful recommendations. The project establishes a functional baseline framework, with future enhancements planned through dataset expansion and improved prediction accuracy and robustness.\"",
-    "trl": "4",
-    "mrl": "3",
-    "irl": "4",
+    "facultyMentor": "-",
+    "description": "Selecting an appropriate airfoil is a critical step in glider design, as it directly affects performance, stability, and safety. However, students and beginner designers often lack access to a reliable and systematic method to choose an airfoil based on their specific design requirements. Most existing resources are scattered, theoretical, or require advanced expertise, making the selection process confusing and prone to errors.This project aimed to develop a fully functioning airfoil recommendation algorithm for gliders. The system takes user-defined specifications like performance objectives and recommends suitable airfoils from an existing database. By combining aerodynamic data with computational and machine-learning-based methods, the algorithm provides informed and practical recommendations.The primary goal of this project was to assist students and early-stage designers by offering a reliable starting point for glider design, reducing trial-and-error approaches, and helping prevent design-related failures or accidents.",
+    "trl": "3",
+    "mrl": "0",
+    "irl": "2",
     "sdgs": [
-      "6",
-      "7",
       "9"
     ],
     "teamMembers": [
       {
         "name": "Manasa J",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.EN.U4AEE23029",
+        "linkedin": "http://linkedin.com/in/manasa-jayasankar-44a264371 "
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Subashini S ",
+        "rollNumber": "CB.EN.U4AEE23045",
+        "linkedin": "https://www.linkedin.com/in/subashini-satyanarayanan-8a3444219"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Tanya Kumar",
+        "rollNumber": "CB.EN.U4AEE23055",
+        "linkedin": "https://www.linkedin.com/in/tanya-kumar-188976344 Vinjamuri Dheeraj "
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vinjamuri Dheeraj",
+        "rollNumber": "CB.EN.U4AEE23060",
+        "linkedin": "https://www.linkedin.com/in/dheeraj-vinjamuri-440233281"
       }
     ],
     "githubLink": ""
@@ -2485,14 +2453,14 @@
   },
   "ATFE26-ST14": {
     "id": "ATFE26-ST14",
-    "title": "IRIS: Intelligent Real-World Interaction System",
+    "title": "IRIS - An AI-powered Assistive Product for Independent Mobility of the Visually Impaired people",
     "department": "Department of Electrical and Electronics Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "IRIS is an AI system unifying safety and navigation for the visually impaired. Three-Brain Architecture: Safety (Edge AI): Instant, offline obstacle alerts. Understanding (Cloud AI): Natural scene descriptions. Memory (ARCore): Guided return-path navigation",
+    "teamName": "IRIS",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "IRIS (Intelligent Real-World Interaction System) is a comprehensive AI-powered assistive platform designed to foster complete independence for visually impaired individuals. Addressing the fragmentation in current assistive technologies, IRIS unifies physical mobility and digital accessibility into a single, human-centered solution. The core system, currently validated in real-world environments, operates on a Three-Brain Architecture: Safety (Edge AI): Provides instant, offline obstacle detection for immediate physical safety. Understanding (Cloud AI): Delivers context-aware, natural language scene descriptions. Memory (ARCore): Utilizes spatial anchoring to provide reliable return-path navigation—a first-of-its-kind feature in assistive tech. Validated through field trials at the Lotus Blind School (Chennai), the system has demonstrated significant improvements in user confidence and reduced cognitive load through multilingual, spatial audio guidance.Current Development (Work in Progress): To extend independence from the physical to the digital realm, a Brain 4 (Web Intelligence) is currently in the active development phase. This module utilizes GROQ api and Android Accessibility Services to facilitate voice-controlled automation of complex digital tasks. By acting as an autonomous agent, this feature aims to execute multi-step workflows—such as online shopping or messaging—allowing users to interact with third-party apps (e.g., Amazon, WhatsApp) solely through voice. While the physical navigation system is TRL-6 ready, the Web Intelligence module represents the next frontier in making IRIS a holistic life assistant.",
     "trl": "6",
-    "mrl": "4",
+    "mrl": "5",
     "irl": "6",
     "sdgs": [
       "3",
@@ -2502,27 +2470,22 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "SHRI MONESH V",
+        "rollNumber": "CB.EN.U4ELC23054",
+        "linkedin": "https://www.linkedin.com/in/shrimonesh2212"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Sanggit Saaran K C S",
+        "rollNumber": "CB.SC.U4AIE23247",
+        "linkedin": "https://www.linkedin.com/in/sanggit-saaran-k-c-s"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Arulmozhivarman Velusamy",
+        "rollNumber": "CB.EN.U4CCE23005",
         "linkedin": ""
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/sanggitsaaran/IRIS_D-EYE"
   },
   "ATFE26-ST15": {
     "id": "ATFE26-ST15",
@@ -2567,10 +2530,10 @@
     "id": "ATFE26-ST16",
     "title": "VMarket: Volatility Predictor",
     "department": "TIFAC-CORE in Cyber Security",
-    "teamName": "IntelliFlow",
+    "teamName": "Apex",
     "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "\u2022 VMarket is an interactive educational platform bridging the gap between theory and real-world application. <br>\u2022 It integrates GARCH (Statistical), LSTM (Deep Learning), and FinBERT (NLP) to forecast stock volatility. <br>\u2022 Enables students to train models on live data from 7 major tech stocks using a complete, GPU- accelerated pipeline.",
+    "facultyMentor": "-",
+    "description": "VMarket is an interactive educational platform bridging the gap between theory and real-world application.",
     "trl": "6",
     "mrl": "6",
     "irl": "7",
@@ -2581,23 +2544,13 @@
     "teamMembers": [
       {
         "name": "Krithikk T",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.SC.U4CYS24035",
+        "linkedin": "https://www.linkedin.com/in/krithikk-thilak-364786270/?originalSubdomain=in"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Sivaa S Hari Charan",
+        "rollNumber": "CB.SC.U4CYS24055",
+        "linkedin": "https://www.linkedin.com/in/sivaa-s-hari-charan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       }
     ],
     "githubLink": ""
@@ -2606,10 +2559,10 @@
     "id": "ATFE26-ST17",
     "title": "Catalogue AI Agent",
     "department": "TIFAC-CORE in Cyber Security",
-    "teamName": "IntelliFlow",
+    "teamName": "Catalogue AI Agent",
     "stallNumber": "S01",
     "facultyMentor": "Dr. ABC XYZ",
-    "description": "Catalogue AI Agent automates enrichment of electronie product catalogs, transforming incomplete data into insurance-ready information for faster policy creation",
+    "description": "Electronic Insurance companies struggle to keep pace with the rapid launch of electronic products. Missing or incomplete product specifications make it nearly impossible to create accurate insurance plans quickly. Catalogue AI Agent was created to automate the enrichment of these catalogs, specifically for the electronics sector, ensuring the data is always insurance-ready.",
     "trl": "5",
     "mrl": "5",
     "irl": "5",
@@ -2619,23 +2572,8 @@
     "teamMembers": [
       {
         "name": "Kavya Sri Koduru",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.SC.U4CYS23024",
+        "linkedin": "www.linkedin.com/in/kavya-sri-koduru"
       }
     ],
     "githubLink": ""
@@ -3073,42 +3011,31 @@
   },
   "ATFE26-ST29": {
     "id": "ATFE26-ST29",
-    "title": "Smart Traffic Control System",
+    "title": "Cognitive Freight Network",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "teamName": "Cognitive Freight Network",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "This project presents the Cognitive Freight Network, a hybrid AI platform that fuses Operations Research with Machine Learning to transform static logistics into dynamic, predictive intelligence. Delivered via a service-first ERP to overcome data scarcity, the system automates multi-modal routing while harvesting real-time data to forecast delays and costs. This approach evolves supply chain management from reactive tracking to proactive optimization, ensuring superior efficiency and precision.",
+    "trl": "8",
+    "mrl": "5",
+    "irl": "6",
     "sdgs": [
-      "9",
-      "11"
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "K Venkatesh",
+        "rollNumber": "CB.SC.U4CSE23519",
+        "linkedin": " https://www.linkedin.com/in/venkatesh-k-187448287"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "A Joshua Karthik",
+        "rollNumber": "CB.SC.U4CSE23501",
+        "linkedin": "https://www.linkedin.com/in/joshua-karthik-ashok-00881a290"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Vendor-Innovate-Solutions/CognitiveFreightNetwork"
   },
   "ATFE26-ST30": {
     "id": "ATFE26-ST30",
@@ -3463,12 +3390,12 @@
   },
   "ATFE26-ST39": {
     "id": "ATFE26-ST39",
-    "title": "Smart Traffic Control System",
+    "title": "Synapse-Docs",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
+    "teamName": "Sooravali",
+    "stallNumber": "-",
+    "facultyMentor": "-",
+    "description": "Synapse-Docs transforms a static library of PDFs into a dynamic and queryable knowledge base. By deeply understanding the semantic context of each document, it empowers users to instantly surface hidden connections, generate contextual AI analysis, and interact with their entire library as a single, unified intelligence.",
     "trl": "5",
     "mrl": "3",
     "irl": "4",
@@ -3478,27 +3405,22 @@
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Midhunan Vijendra Prabhaharan",
+        "rollNumber": "CB.SC.U4CSE23532",
+        "linkedin": "https://www.linkedin.com/in/midhunan-vijendra-prabhaharan/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Aadesh N",
+        "rollNumber": "CB.SC.U4CSE23535",
+        "linkedin": "https://www.linkedin.com/in/aadesh-n-392132335/"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Varun Hirthik",
+        "rollNumber": "CB.SC.U4CSE23567",
+        "linkedin": "https://www.linkedin.com/in/varun-hirthik-v-3a488031b/"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/sooravali/synapse-docs"
   },
   "ATFE26-ST40": {
     "id": "ATFE26-ST40",
