@@ -2090,37 +2090,25 @@
     "id": "ATFE26-ST04",
     "title": "Multi-Agent Reinforcement Learning for Autonomous Rover Formation Navigation in Constrained Corridors",
     "department": "Department of Aerospace Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
+    "teamName": "Neurons",
+    "stallNumber": "S23",
+    "facultyMentor": "Dr. Jinraj V Pushpangathan",
     "description": "This project presents a multi-agent reinforcement learning framework for coordinating three autonomous differential-drive rovers navigating through curved corridors with varying widths. The system is trained using Proximal Policy Optimization (PPO) in a PyBullet simulation environment. The rovers learn collaborative forward motion while maintaining formation cohesion and avoiding inter-agent and environmental collisions. A dense reward-shaping strategy is employed, incorporating directional velocity incentives and collision penalties to stabilize learning. To enhance robustness and generalization, procedurally generated corridor layouts are used during training, along with a curriculum learning strategy that progressively increases environmental complexity. Key contributions include a novel reward architecture and an effective multi-agent coordination approach. This work demonstrates the integration of classical robotic motion control with scalable artificial intelligence techniques and has practical relevance in warehouse automation, cooperative robotics, and planetary exploration missions.",
-    "trl": "4",
-    "mrl": "3",
+    "trl": "3",
+    "mrl": "1",
     "irl": "4",
     "sdgs": [
-      "6",
-      "7",
       "9"
     ],
     "teamMembers": [
       {
         "name": "Adithyan Lalu",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "rollNumber": "CB.EN.U4AEE23072",
+        "linkedin": "https://www.linkedin.com/in/adithyan-lalu-2974052b1/"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "Adwaith Pittan",
+        "rollNumber": "CB.EN.U4AEE23072",
         "linkedin": ""
       }
     ],
@@ -3288,38 +3276,24 @@
   },
   "ATFE26-ST35": {
     "id": "ATFE26-ST35",
-    "title": "Smart Traffic Control System",
-    "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "title": "EulerLM v. 01",
+    "department": "School of AI",
+    "teamName": "Indxai",
+    "stallNumber": "S39",
+    "facultyMentor": "",
+    "description": "We present Eulerlm a hybrid Transformer architecture replacing Feed-Forward Networks with Bi-directional Pseudoinverse Learners (Bi-PIL). Instead of iterative backpropagation, FFN weights are solved algebraically in one-shot.",
+    "trl": "7",
+    "mrl": "8",
+    "irl": "7",
     "sdgs": [
-      "9",
-      "11"
+      "13",
+      "7",
+      "9"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
-      },
-      {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
+        "name": "SANJAY R",
+        "rollNumber": "CB.AI.U4AIM24143",
         "linkedin": ""
       }
     ],
@@ -3405,42 +3379,42 @@
   },
   "ATFE26-ST38": {
     "id": "ATFE26-ST38",
-    "title": "Smart Traffic Control System",
+    "title": "Growgle - AI-Powered Career Advisor",
     "department": "Department of Computer Science & Engineering",
-    "teamName": "IntelliFlow",
-    "stallNumber": "S01",
-    "facultyMentor": "Dr. ABC XYZ",
-    "description": "This project proposes an AI-driven smart traffic control system that dynamically adjusts traffic signals based on real-time congestion data using computer vision and IoT sensors to reduce waiting time and emissions.",
-    "trl": "5",
-    "mrl": "3",
-    "irl": "4",
+    "teamName": "Growgle",
+    "stallNumber": "S40",
+    "facultyMentor": "",
+    "description": "Growgle is a pan-industrial, India-centric, agentic AI career intelligence platform that supports career growth and startup development. Built on Google Cloud Run, it leverages a well-planned hierarchy of long- and short-term RAG systems, agent-automated services, and dynamic career portfolios to deliver personalised, structured and geopolitically aware guidance. The platform empowers users with real-world-compatible skill-sets, learning journeys, and career opportunities.",
+    "trl": "7",
+    "mrl": "6",
+    "irl": "7",
     "sdgs": [
       "9",
       "11"
     ],
     "teamMembers": [
       {
-        "name": "Student 1",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Akshay KS",
+        "rollNumber": " CB.SC.U4CSE23104 ",
+        "linkedin": "https://www.linkedin.com/in/akshay-ks-312133292/ Raam Prathap RV"
       },
       {
-        "name": "Student 2",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Raam Prathap RV ",
+        "rollNumber": "CB.SC.U4CSE23046",
+        "linkedin": "https://www.linkedin.com/in/raamprathap-rajarathinam/"
       },
       {
-        "name": "Student 3",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Santhosh AS",
+        "rollNumber": "CB.SC.U4CSE23047",
+        "linkedin": "https://www.linkedin.com/in/santhosh292k/ "
       },
       {
-        "name": "Student 4",
-        "rollNumber": "Roll No",
-        "linkedin": ""
+        "name": "Vinaayak Kanagaraj",
+        "rollNumber": "CB.SC.U4CSE23152",
+        "linkedin": "https://www.linkedin.com/in/vinaayak-kanagaraj-451691291/"
       }
     ],
-    "githubLink": ""
+    "githubLink": "https://github.com/Growgle"
   },
   "ATFE26-ST39": {
     "id": "ATFE26-ST39",
