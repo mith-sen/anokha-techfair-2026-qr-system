@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         // 1. Get Project ID
@@ -10,7 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         // we might rely on the text content if it looks like a valid ID.
         // However, the JSON was generated using filenames. So filename is the safest key.
         const path = window.location.pathname;
-        const filename = path.split('/').pop().replace('.html', '');
+        const filename = path.split('/').pop().replace(/\.html$/i, '');
         projectId = filename;
 
         console.log(`Loading project data for ID: ${projectId}`);
