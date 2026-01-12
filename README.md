@@ -1,6 +1,4 @@
-# Anokha Techfair 2026 – QR System
-
-Just HTML files :)
+# Just HTML files :)
 
 ---
 
