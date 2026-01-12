@@ -1,5 +1,6 @@
 # Just HTML files :)
 
+Anokha Techfair 2026 – QR System
 ---
 
 This repository contains the source code for the **Anokha Techfair 2026 QR-based stall management system**.  
